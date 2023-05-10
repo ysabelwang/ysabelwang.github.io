@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gulf of Mexico | Ysabel Wang</title>
+    <link>https://ysabelwang.github.io/tag/gulf-of-mexico/</link>
+      <atom:link href="https://ysabelwang.github.io/tag/gulf-of-mexico/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gulf of Mexico</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ysabelwang.github.io/media/icon_hu973c332dfd4f2c649c849fd5a486bdbc_15962_512x512_fill_lanczos_center_3.png</url>
+      <title>Gulf of Mexico</title>
+      <link>https://ysabelwang.github.io/tag/gulf-of-mexico/</link>
+    </image>
+    
+    <item>
+      <title>Gulf of Mexico SST</title>
+      <link>https://ysabelwang.github.io/project/example/</link>
+      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://ysabelwang.github.io/project/example/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
