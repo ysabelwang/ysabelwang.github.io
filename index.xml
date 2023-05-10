@@ -34,10 +34,11 @@
     
     <item>
       <title>Gulf of Mexico SST</title>
-      <link>https://ysabelwang.github.io/project/example/</link>
+      <link>https://ysabelwang.github.io/project/gom_sst/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://ysabelwang.github.io/project/example/</guid>
-      <description></description>
+      <guid>https://ysabelwang.github.io/project/gom_sst/</guid>
+      <description>&lt;p&gt;Data obtained from &lt;a href=&#34;doi.org/10.5067/GHOST-4FK01&#34;&gt;GHRSST OSTIA L4 SST Analysis&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -232,7 +233,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-275368419&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-712568493&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -242,7 +243,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-275368419&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-712568493&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
