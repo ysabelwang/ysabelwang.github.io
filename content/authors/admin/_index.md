@@ -1,50 +1,50 @@
 ---
 # Display name
-title: TEST3
+title: Ysabel Wang
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+#name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Ysabel
+last_name: Wang
 
 # Status emoji
-status:
-  icon: ☕️
+#status:
+#  icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: PhD student in Physical Oceanography
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: MIT-WHOI Joint Program
+    #url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I'm a first-year PhD student studying physical oceanography in the MIT-WHOI Joint Program. I'm interested in studying ocean phenomena using various instruments, especially unmanned and autonomous ones.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Sub- and mesoscale physical processes
+  - Autonomous instrumentation
+  - Climate change
 
 # Education to show in About widget
 education:
-  courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+   courses:
+   - course: PhD Physical Oceanography
+     institution: MIT-WHOI Joint Program
+     year: 2023-present
+   - course: MS Oceanography
+     institution: Texas A&M University
+     year: 2023
+   - course: BS Physics
+     institution: University of the Philippines Diliman
+     year: 2018
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -91,34 +91,41 @@ skills:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+- display:
+    header: true
+  icon: envelope
+  icon_pack: fas
+  link: mailto:ysabel@mit.edu
+- display:
+    header: true
+  icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=UfLz5uEAAAAJ&hl=en
+- display:
+    header: false
+  icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/ysabelwang
+- display:
+    header: false
+  icon: orcid
+  icon_pack: ai
+  label: ORCID
+  link: https://orcid.org/0000-0001-5862-5204
+# - icon: github
+#   icon_pack: fab
+#   link: https://ysabelwang.github.io/
+- icon: cv
+  icon_pack: ai
+  link: uploads/wang_cv_2023_09.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+My name is Ysabel Wang. I'm a first-year PhD student studying physical oceanography in the MIT-WHOI Joint Program, advised by Magdalena Andres and Glen Gawarkiewicz. 
+
+I'm interested in studying ocean phenomena using various instruments, especially unmanned and autonomous ones, and in the societal impact of an evolving ocean under climate change.
+
+On this website, you'll find more information on my [research](#research), my [conference presentations](#projects), and my [most recent CV](https://ysabelwang.github.io/uploads/wang_cv_2023_09.pdf). 
 {style="text-align: justify;"}
