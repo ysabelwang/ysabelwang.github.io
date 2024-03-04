@@ -255,15 +255,15 @@ sections:
       # coordinates:
       #   latitude: '37.4275'
       #   longitude: '-122.1697'  
-      contact_links:
-      - icon: envelope
-          icon_pack: fas
-          link: mailto:ysabel@mit.edu
-          name: E-mail me
-      - icon: linkedin
-          icon_pack: fab
-          link: https://www.linkedin.com/in/ysabelwang
-          name: Connect with me on LinkedIn
+      # contact_links:
+      # - icon: envelope
+      #     icon_pack: fas
+      #     link: mailto:ysabel@mit.edu
+      #     name: E-mail me
+      # - icon: linkedin
+      #     icon_pack: fab
+      #     link: https://www.linkedin.com/in/ysabelwang
+      #     name: Connect with me on LinkedIn
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
