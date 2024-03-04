@@ -235,9 +235,10 @@ sections:
       title: Gallery
       subtitle: ''
       text: |-
-        {{< gallery album="demo" >}}
+        {{< gallery album="pictures" >}}
     design:
       columns: '1'
+      view: compact
   - block: contact
     id: contact
     content:
