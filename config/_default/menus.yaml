@@ -24,11 +24,11 @@ main:
   - name: About
     weight: 15
     url: '#about'
-  - name: Background
+  - name: Education
     url: '#education'
     parent: "About"
     weight: 20
-  - name: Skills
+  - name: Technical Skills
     url: '#skills'
     parent: "About"
     weight: 30
