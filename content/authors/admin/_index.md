@@ -27,24 +27,24 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: I'm a first-year PhD student studying physical oceanography in the MIT-WHOI Joint Program. I'm interested in studying ocean phenomena using various instruments, especially unmanned and autonomous ones.
 
-# Interests to show in About widget
-interests:
-  - Sub- and mesoscale physical processes
-  - Autonomous instrumentation
-  - Climate change
+# # Interests to show in About widget
+# interests:
+#   - Sub- and mesoscale physical processes
+#   - Autonomous instrumentation
+#   - Climate change
 
-# Education to show in About widget
-education:
-   courses:
-   - course: PhD Physical Oceanography
-     institution: MIT-WHOI Joint Program
-     year: 2023-present
-   - course: MS Oceanography
-     institution: Texas A&M University
-     year: 2023
-   - course: BS Physics
-     institution: University of the Philippines Diliman
-     year: 2018
+# # Education to show in About widget
+# education:
+#    courses:
+#    - course: PhD Physical Oceanography
+#      institution: MIT-WHOI Joint Program
+#      year: 2023-present
+#    - course: MS Oceanography
+#      institution: Texas A&M University
+#      year: 2023
+#    - course: BS Physics
+#      institution: University of the Philippines Diliman
+#      year: 2018
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

@@ -39,7 +39,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: ''
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
   # - block: skills
@@ -50,41 +50,49 @@ sections:
   #     username: admin
   #   design:
   #     columns: '1'
-  # - block: experience
-  #   content:
-  #     title: Experience
-  #     # Date format for experience
-  #     #   Refer to https://docs.hugoblox.com/customization/#date-format
-  #     date_format: Jan 2006
-  #     # Experiences.
-  #     #   Add/remove as many `experience` items below as you like.
-  #     #   Required fields are `title`, `company`, and `date_start`.
-  #     #   Leave `date_end` empty if it's your current employer.
-  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-  #     items:
-  #       - title: Graduate Researcher
-  #         company: MIT-WHOI Joint Program
-  #         company_url: ''
-  #         company_logo: org-gc
-  #         location: California
-  #         date_start: '2021-01-01'
-  #         date_end: ''
-  #         description: |2-
-  #             Responsibilities include:
+  - block: experience
+    content:
+      title: Education
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: PhD in Physical Oceanography
+          company: Massachusetts Institute of Technology, Woods Hole Oceanographic Institution
+          company_url: ''
+          company_logo: org-gc
+          location: Cambridge, MA and Woods Hole, MA
+          date_start: '2023-09-01'
+          date_end: ''
+          # description: |2-
+          #     Responsibilities include:
 
-  #             * Analysing
-  #             * Modelling
-  #             * Deploying
-  #       - title: Professor of Semiconductor Physics
-  #         company: University X
-  #         company_url: ''
-  #         company_logo: org-x
-  #         location: California
-  #         date_start: '2016-01-01'
-  #         date_end: '2020-12-31'
-  #         description: Taught electronic engineering and researched semiconductor physics.
-  #   design:
-  #     columns: '2'
+          #     * Analysing
+          #     * Modelling
+          #     * Deploying
+        - title: MS in Oceanography
+          company: Texas A&M University
+          company_url: ''
+          company_logo: org-x
+          location: College Station, Texas
+          date_start: '2021-08-31'
+          date_end: '2023-08-10'
+          # description: Taught electronic engineering and researched semiconductor physics.
+        - title: BS in Physics
+          company: University of the Philippines Diliman
+          company_url: ''
+          company_logo: org-x
+          location: Quezon City, Philippines
+          date_start: '2013-06-01'
+          date_end: '2018-06-30'
+          # description: Taught electronic engineering and researched semiconductor physics.
+    design:
+      columns: '2'
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -239,10 +247,10 @@ sections:
       # # Contact (add or remove contact options as necessary)
       email: ysabel@mit.edu
       contact_links:
-        - icon: envelope
-          icon_pack: fas
-          name: E-mail me
-          link: mailto:ysabel@mit.edu
+        # - icon: envelope
+        #   icon_pack: fas
+        #   name: E-mail me
+        #   link: mailto:ysabel@mit.edu
         - icon: linkedin
           icon_pack: fab
           link: https://www.linkedin.com/in/ysabelwang
