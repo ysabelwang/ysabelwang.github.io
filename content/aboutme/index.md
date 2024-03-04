@@ -11,6 +11,3 @@ In the fall of 2023, I started my PhD in Physical Oceanography at the MIT-WHOI J
 Outside of school and research, I enjoy playing the guitar, powerlifting, reading, video games, and the occasional pro-wrestling show. I also enjoy elaborate methods of preparing my coffee. 
 
 
-![Me and the love of my life, Spamwise Hamgee, a.k.a. Amanda P. Anderson](spamela.jpg){width=250px}
-
-

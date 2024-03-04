@@ -128,4 +128,4 @@ My name is Ysabel Wang. I'm a first-year PhD student studying physical oceanogra
 I'm interested in studying ocean phenomena using various instruments, especially unmanned and autonomous ones, and in the societal impact of an evolving ocean under climate change.
 
 On this website, you'll find more information on my [research](#research), my [conference presentations](#projects), and my [most recent CV](https://ysabelwang.github.io/uploads/wang_cv_2023_09.pdf). 
-{style="text-align: justify;"}
+{style="text-align: justify;font-size: 12pt;"}
