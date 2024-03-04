@@ -49,7 +49,7 @@ bio: I'm a first-year PhD student studying physical oceanography in the MIT-WHOI
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
-  - name: Coding Languages and Ocean Modeling
+  - name: Coding Languages and Ocean Modeling Software
     items:
       - name: MATLAB
         description: ''
@@ -70,7 +70,7 @@ skills:
         description: 'test'
         #percent: 50
         icon: r-project
-        icon_pack: fas
+        icon_pack: fab
       - name: Delft3D-Flow
         description: 'test2'
         #percent: 50
