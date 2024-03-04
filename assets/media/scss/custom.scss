@@ -1,0 +1,13 @@
+$font-main: Avernir;
+$font-bold: 800;
+$dark-grey: #343434;
+$light-grey: #E3E3E5;
+$sta-primary-dark: black;
+$sta-primary-light: grey;
+
+/* top level font and styling*/
+h1 {
+    font-family: $font-main;
+    font-weight: $font-bold;
+    color: $sta-primary-dark;
+  }
