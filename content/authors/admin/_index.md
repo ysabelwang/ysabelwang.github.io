@@ -49,42 +49,52 @@ bio: I'm a first-year PhD student studying physical oceanography in the MIT-WHOI
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
-  - name: Technical
+  - name: Coding Languages and Ocean Modeling
     items:
+      - name: MATLAB
+        description: ''
+        percent: 100
+        icon: laptop-code
+        icon_pack: fas
       - name: Python
         description: ''
-        #percent: 80
+        percent: 70
         icon: python
         icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
+      - name: Julia
         description: ''
         percent: 60
-        icon: person-hiking
+        icon: terminal
         icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
+      - name: R
+        description: 'test'
+        #percent: 50
+        icon: r-project
         icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
+      - name: Delft3D-Flow
+        description: 'test2'
+        #percent: 50
+        icon: water
         icon_pack: fas
+  # - name: Hobbies
+  #   color: '#eeac02'
+  #   color_border: '#f0bf23'
+  #   items:
+  #     - name: Hiking
+  #       description: ''
+  #       percent: 60
+  #       icon: person-hiking
+  #       icon_pack: fas
+  #     - name: Cats
+  #       description: ''
+  #       percent: 100
+  #       icon: cat
+  #       icon_pack: fas
+  #     - name: Photography
+  #       description: ''
+  #       percent: 80
+  #       icon: camera-retro
+  #       icon_pack: fas
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

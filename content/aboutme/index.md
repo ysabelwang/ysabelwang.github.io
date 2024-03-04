@@ -7,7 +7,7 @@ share: false
 
 ---
 
-### About me###
+### About me ###
  (will update)
  
  I was born and raised in the Philippines. In 2018, I graduated from the National Institute of Physics of the University of the Philippines Diliman with a BS in Physics. After this, I worked for 3 years at the Marine Science Institute as a research associate in the Physical Oceanography Laboratory, led by Cesar Villanoy.
