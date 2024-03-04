@@ -7,8 +7,9 @@ authors:
 - Cesar L Villanoy
 - Aletta T Yñiguez
 date: '2022-01-01'
-publishDate: '2024-03-04T04:35:26.198900Z'
+publishDate: "2022-01-01T00:00:00Z"
+doi: "10.1016/j.hal.2021.102147"
 publication_types:
 - article-journal
-publication: '*Harmful algae*'
+publication: '*Harmful algae* 111'
 ---
