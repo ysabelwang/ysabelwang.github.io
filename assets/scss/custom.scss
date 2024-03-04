@@ -2,7 +2,7 @@ $font-main: Avenir;
 $font-bold: 800;
 $dark-grey: #343434;
 $light-grey: #E3E3E5;
-$sta-primary-dark: black;
+$sta-primary-dark: rgb(11, 10, 60);
 $sta-primary-light: grey;
 
 /* top level font and styling*/
@@ -13,12 +13,25 @@ h1 {
   }
 h2 {
   font-family: $font-main;
-  font-weight: $font-bold;
   color: $sta-primary-dark;
 }
 
 h3 {
   font-family: $font-main;
-  font-weight: $font-bold;
+  color: $sta-primary-dark;
+}
+
+h4 {
+  font-family: $font-main;
+  color: $sta-primary-dark;
+}
+
+h5 {
+  font-family: $font-main;
+  color: $sta-primary-dark;
+}
+
+h6 {
+  font-family: $font-main;
   color: $sta-primary-dark;
 }
