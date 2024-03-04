@@ -24,9 +24,12 @@ url_slides: ""
 url_video: ""
 ---
 **Oral presentation:** Dense Water Mass Formation and Fate in the Northwestern Gulf of Mexico during the February 2021 Winter Storm Event
+{style="text-align: justify;font-size: 15pt;"}
 
 **Authors:**  Ysabel Wang$^{1*}$, Steven Francis DiMarco$^{1}$, Jaison Kurian$^{1}$, Anthony Knap$^{1}$, Linwood L Lee$^{1}$
+{style="text-align: justify;font-size: 14pt;"}
 
 $^{1}$Texas A&M University  
 $^*$ now at Massachusetts Institute of Technology, Cambridge, MA, United States and Woods Hole Oceanographic Institution, Woods Hole, United States  
+{style="text-align: justify;font-size: 12pt;"}
 

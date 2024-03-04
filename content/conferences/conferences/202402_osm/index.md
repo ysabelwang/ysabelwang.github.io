@@ -23,18 +23,16 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-**Poster presentation:** Characteristics and Environmental Effects of a Warm Core Ring Crossing the New England Seamount Chain  
+**Poster presentation:** Characteristics and Environmental Effects of a Warm Core Ring Crossing the New England Seamount Chain
+{style="text-align: justify;font-size: 15pt;"} 
   
-  
-
-
-
-
 **Authors:**  Ysabel Wang$^{1,2}$, Magdalena Andres$^2$, Frank Bahr$^2$, Glen Gawarkiewicz$^2$, Avijit Gangopadhyay$^3$, Nicholas Porter$^3$, Grace G Jensen$^3$, Robert E Todd$^2$ and Ying-Tsong Lin$^4$
+{style="text-align: justify;font-size: 14pt;"}
 
 $^1$Massachusetts Institute of Technology, Cambridge, MA, United States  
 $^2$Woods Hole Oceanographic Institution, Woods Hole, United States  
 $^3$University of Massachusetts Dartmouth, New Bedford, United States  
 $^4$Scripps Institution of Oceanography, La Jolla, United States
+{style="text-align: justify;font-size: 12pt;"}
 
 

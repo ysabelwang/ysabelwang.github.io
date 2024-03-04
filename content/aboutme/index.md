@@ -1,9 +1,9 @@
-## About Me ##
+### About Me ###
 
 (will update)
 
 I was born and raised in the Philippines. In 2018, I graduated from the National Institute of Physics of the University of the Philippines Diliman with a BS in Physics. After this, I worked for 3 years at the Marine Science Institute as a research associate in the Physical Oceanography Laboratory, led by Cesar Villanoy.
-{style="text-align: justify;font-size: 15pt;"}
+{style="text-align: justify;font-size: 12pt;"}
 
 In 2021, I moved to the US to start my MS Oceanography program at Texas A&M University with Steve DiMarco as my adviser. I graduated in August of 2023.
 {style="text-align: justify;font-size: 12pt;"}
