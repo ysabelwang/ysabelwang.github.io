@@ -58,12 +58,12 @@ sections:
   - block: skills
     id: skills
     content:
-      title: Skills
-      text: ''
+      title: Technical expertise
+      text: 'Almost all of the work I have done'
       # Choose a user to display skills from (a folder name within `content/authors/`)
       username: admin
     design:
-      columns: '3'
+      columns: '1'
       # spacing:
       #   # Customize the section spacing. Order is top, right, bottom, left.
       #   padding: ['40px', '80px', '20px', '0']
