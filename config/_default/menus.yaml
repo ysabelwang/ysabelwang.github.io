@@ -24,22 +24,26 @@ main:
   - name: About
     weight: 15
     url: '#about'
-  - name: About Me
-    url: '/aboutme/'
-    parent: "About"
-    weight: 10
   - name: Background
     url: '#education'
     parent: "About"
     weight: 20
-    # - name: Skills
-    #   url: '#skills'
-    #   parent: " "
-    #   weight: 30
+  - name: Skills
+    url: '#skills'
+    parent: "About"
+    weight: 30
   - name: CV
     url: uploads/wang_cv_2023_09.pdf
     parent: "About"
     weight: 40
+  - name: About Me
+    url: '/aboutme/'
+    parent: "About"
+    weight: 50
+  - name: Pictures of my dog
+    url: '/spamwise/'
+    parent: "About"
+    weight: 50
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
 #  - name: CV
