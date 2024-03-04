@@ -59,7 +59,7 @@ sections:
     id: skills
     content:
       title: Technical expertise
-      text: 'Almost all of the work I have done'
+      text: 'Percentages represent my familiarity/comfortability with each item.'
       # Choose a user to display skills from (a folder name within `content/authors/`)
       username: admin
     design:
