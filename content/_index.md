@@ -237,7 +237,16 @@ sections:
       # text: |-
       #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # # Contact (add or remove contact options as necessary)
-      email: test@example.org
+      email: ysabel@mit.edu
+      contact_links:
+        - icon: envelope
+          icon_pack: fas
+          name: E-mail me
+          link: mailto:ysabel@mit.edu
+        - icon: linkedin
+          icon_pack: fab
+          link: https://www.linkedin.com/in/ysabelwang
+          name: Connect with me on LinkedIn
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       # address:
@@ -255,15 +264,8 @@ sections:
       # coordinates:
       #   latitude: '37.4275'
       #   longitude: '-122.1697'  
-      contact_links:
-        - icon: envelope
-            icon_pack: fas
-            link: mailto:ysabel@mit.edu
-            name: E-mail me
-        - icon: linkedin
-            icon_pack: fab
-            link: https://www.linkedin.com/in/ysabelwang
-            name: Connect with me on LinkedIn
+    
+        
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
