@@ -17,8 +17,11 @@ sections:
   #     text: ''
   #     # Choose a user to display skills from (a folder name within `content/authors/`)
   #     username: admin
-  #   design:
-  #     columns: '1'
+    design:
+      columns: '1'
+      pacing:
+        # Customize the section spacing. Order is top, right, bottom, left.
+        padding: ['20px', '0', '20px', '0']
   - block: experience
     id: education
     content:
@@ -208,6 +211,7 @@ sections:
     design:
       columns: '1'
       view: compact
+      
   - block: contact
     id: contact
     content:
