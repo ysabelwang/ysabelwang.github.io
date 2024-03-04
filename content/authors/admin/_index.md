@@ -134,8 +134,8 @@ highlight_name: true
 
 ---
 
-<p style="font-family: avenir;text-align: left;font-seize: 18pt">My name is Ysabel Wang. I'm a first-year PhD student studying physical oceanography in the MIT-WHOI Joint Program, advised by Magdalena Andres and Glen Gawarkiewicz.</p>
+<p style="font-family: avenir;text-align: left;font-size: 18pt">My name is Ysabel Wang. I'm a first-year PhD student studying physical oceanography in the MIT-WHOI Joint Program, advised by Magdalena Andres and Glen Gawarkiewicz.</p>
 
-<p style="font-family: avenir;text-align: left;font-seize: 18pt">I'm interested in studying ocean phenomena using various instruments, especially unmanned and autonomous ones, and in the societal impact of an evolving ocean under climate change.</p>
+<p style="font-family: avenir;text-align: left;font-size: 18pt">I'm interested in studying ocean phenomena using various instruments, especially unmanned and autonomous ones, and in the societal impact of an evolving ocean under climate change.</p>
 
-<p style="font-family: avenir;text-align: left;font-seize: 18pt">On this website, you'll find more information on my [research](#research), my past and upcoming [conference presentations](#conferences), and my [most recent CV](https://ysabelwang.github.io/uploads/wang_cv_2023_09.pdf).</p>
+<p style="font-family: avenir;text-align: left;font-size: 18pt">On this website, you'll find more information on my <a href="#research">research</a>, my past and upcoming [conference presentations](#conferences), and my [most recent CV](https://ysabelwang.github.io/uploads/wang_cv_2023_09.pdf).</p>
