@@ -19,7 +19,7 @@ sections:
   #     username: admin
     design:
       columns: '1'
-      pacing:
+      spacing:
         # Customize the section spacing. Order is top, right, bottom, left.
         padding: ['20px', '80px', '20px', '0']
   - block: experience

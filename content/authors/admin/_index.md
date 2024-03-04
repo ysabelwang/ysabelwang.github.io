@@ -121,12 +121,6 @@ social:
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
-
-design:
-      columns: '1'
-      pacing:
-        # Customize the section spacing. Order is top, right, bottom, left.
-        padding: ['20px', '80px', '20px', '0']
 ---
 
 My name is Ysabel Wang. I'm a first-year PhD student studying physical oceanography in the MIT-WHOI Joint Program, advised by Magdalena Andres and Glen Gawarkiewicz.
