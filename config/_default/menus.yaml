@@ -40,10 +40,10 @@ main:
     url: '/aboutme/'
     parent: "About"
     weight: 50
-  - name: Pictures of my dog
-    url: '/spamwise/'
-    parent: "About"
-    weight: 50
+  # - name: Pictures of my dog
+  #   url: '/spamwise/'
+  #   parent: "About"
+  #   weight: 50
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
 #  - name: CV
