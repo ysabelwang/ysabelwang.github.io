@@ -21,7 +21,7 @@ sections:
       columns: '1'
       pacing:
         # Customize the section spacing. Order is top, right, bottom, left.
-        padding: ['20px', '0', '20px', '0']
+        padding: ['20px', '80px', '20px', '0']
   - block: experience
     id: education
     content:
