@@ -23,8 +23,7 @@ main:
 # Sub-home menu
   - name: About
     weight: 15
-    url: " "
-    parent: " "
+    url: "#about"
     - name: About Me
       url: '/aboutme/'
       parent: "About"
