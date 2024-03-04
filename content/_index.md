@@ -78,7 +78,7 @@ sections:
         - title: MS in Oceanography
           company: Texas A&M University
           company_url: ''
-          company_logo: org-x
+          company_logo: tamu-logo
           location: College Station, Texas
           date_start: '2021-08-31'
           date_end: '2023-08-10'
