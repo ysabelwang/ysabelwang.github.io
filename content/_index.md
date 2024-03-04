@@ -11,18 +11,6 @@ sections:
       title: ''
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: skills
-    id: skills
-    content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
-    design:
-      columns: '1'
-      # spacing:
-      #   # Customize the section spacing. Order is top, right, bottom, left.
-      #   padding: ['40px', '80px', '20px', '0']
   - block: experience
     id: education
     content:
@@ -67,6 +55,18 @@ sections:
           # description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '1'
+  - block: skills
+    id: skills
+    content:
+      title: Skills
+      text: ''
+      # Choose a user to display skills from (a folder name within `content/authors/`)
+      username: admin
+    design:
+      columns: '1'
+      # spacing:
+      #   # Customize the section spacing. Order is top, right, bottom, left.
+      #   padding: ['40px', '80px', '20px', '0']
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.

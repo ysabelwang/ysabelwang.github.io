@@ -67,13 +67,13 @@ skills:
         icon: terminal
         icon_pack: fas
       - name: R
-        description: 'test'
-        #percent: 50
+        description: ''
+        percent: 50
         icon: r-project
         icon_pack: fab
       - name: Delft3D-Flow
-        description: 'test2'
-        #percent: 50
+        description: ''
+        percent: 50
         icon: water
         icon_pack: fas
   # - name: Hobbies
