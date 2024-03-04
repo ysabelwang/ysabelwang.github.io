@@ -22,7 +22,7 @@ main:
 
 # Sub-home menu
   - name: About Me
-    url: 'authors/aboutme/'
+    url: '/aboutme/'
     parent: " "
     weight: 10
   - name: Background

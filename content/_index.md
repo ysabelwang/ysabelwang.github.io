@@ -65,7 +65,7 @@ sections:
         - title: PhD in Physical Oceanography
           company: Massachusetts Institute of Technology, Woods Hole Oceanographic Institution
           company_url: ''
-          company_logo: org-gc
+          company_logo: mit-logo
           location: Cambridge, MA and Woods Hole, MA
           date_start: '2023-09-01'
           date_end: ''
@@ -86,7 +86,7 @@ sections:
         - title: BS in Physics
           company: University of the Philippines Diliman
           company_url: ''
-          company_logo: org-x
+          company_logo: up-logo
           location: Quezon City, Philippines
           date_start: '2013-06-01'
           date_end: '2018-06-30'
