@@ -76,6 +76,8 @@ skills:
         percent: 50
         icon: water
         icon_pack: fas
+    design:
+      columns: '2'
   # - name: Hobbies
   #   color: '#eeac02'
   #   color_border: '#f0bf23'

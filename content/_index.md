@@ -59,7 +59,7 @@ sections:
     id: skills
     content:
       title: Technical expertise
-      text: 'Percentages represent my familiarity/comfortability with each item.'
+      text: 'All of the work that I do requires different programming languages and methods. These represent the level of familiarity and comfortability I have with each item.'
       # Choose a user to display skills from (a folder name within `content/authors/`)
       username: admin
       design:
