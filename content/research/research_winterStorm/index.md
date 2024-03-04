@@ -23,7 +23,11 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 
+# Show the page's date?
 show_date: false
+
+# Show social sharing links?
+share: true
 ---
 This was the topic for my MS Oceanography thesis. In February of 2021, a series of winter storms brough unprecedented low temperatures to the southern continental United States. In coastal Texas, record-low sea surface temperatures were recorded by the [Texas Automated Buoy System (TABS)](https://https://tabs.gerg.tamu.edu) since its 1995 inception. Data from TABS and from a research cruise conducted in April 2021 under the NOAA Ocean Acidification Program pointed to the formation of an anomalous dense water mass that had formed south of Galveston Bay as a result of coastal cooling during the winter storms. Along with research cruises in the succeeding months, these data reveal the impact that the dense water mass had on the local hydrography as it flowed down the continental slope as a gravity current, eventually spilling over the shelf break.
 {style="text-align: justify;font-size: 14pt;"}

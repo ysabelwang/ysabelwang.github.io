@@ -23,7 +23,11 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 
+# Show the page's date?
 show_date: false
+
+# Show social sharing links?
+share: true
 ---
 My current research is on warm core rings (WCRs) in the North Atlantic$:$ warm, salty, anticyclonic eddies that pinch off from the Gulf Stream into the Slope Sea. Since the year 2000, there has been a [recorded jump in the average number of annual WCR births](https://www.nature.com/articles/s41598-019-48661-9) evidenced by observational data. My research is looking into the drivers behind this jump, how WCR properties and processes have responded to them, and how these responses might be impacting the surrounding environment. I presented a poster of my progress at the recent [2024 Ocean Sciences Meeting](/content/conferences/202402_osm/index.md) in New Orleans.
 {style="text-align: justify;font-size: 14pt;"}

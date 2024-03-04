@@ -25,6 +25,12 @@ url_video: ""
 features:
   math:
     enable: true
+
+# Show the page's date?
+show_date: false
+
+# Show social sharing links?
+share: true
 ---
 **Poster presentation:** Impact of the 2021 North American winter storms on coastal circulation and hydrographic properties of the northern Gulf of Mexico
 {style="text-align: justify;font-size: 15pt;"}

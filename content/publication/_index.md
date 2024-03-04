@@ -13,4 +13,10 @@ view: 4
 banner:
   caption: ''
   image: ''
+
+# Show the page's date?
+show_date: false
+
+# Show social sharing links?
+share: true
 ---
