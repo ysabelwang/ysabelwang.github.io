@@ -55,20 +55,20 @@ sections:
           # description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '1'
-  - block: skills
-    id: skills
-    content:
-      title: Technical expertise
-      text: '<p style="font-family: avenir;text-align: left;font-size: 15pt">All of the work that I do requires different programming languages and methods. These represent the level of familiarity and comfortability I have with each item.</p>'
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
-      design:
-        columns: '1'
-    design:
-      columns: '1'
-      # spacing:
-      #   # Customize the section spacing. Order is top, right, bottom, left.
-      #   padding: ['40px', '80px', '20px', '0']
+  # - block: skills
+  #   id: skills
+  #   content:
+  #     title: Technical expertise
+  #     text: '<p style="font-family: avenir;text-align: left;font-size: 15pt">All of the work that I do requires different programming languages and methods. These represent the level of familiarity and comfortability I have with each item.</p>'
+  #     # Choose a user to display skills from (a folder name within `content/authors/`)
+  #     username: admin
+  #     design:
+  #       columns: '1'
+  #   design:
+  #     columns: '1'
+  #     # spacing:
+  #     #   # Customize the section spacing. Order is top, right, bottom, left.
+  #     #   padding: ['40px', '80px', '20px', '0']
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.

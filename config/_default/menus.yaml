@@ -28,10 +28,10 @@ main:
     url: '#education'
     parent: "About"
     weight: 20
-  - name: Technical Skills
-    url: '#skills'
-    parent: "About"
-    weight: 30
+  # - name: Technical Skills
+  #   url: '#skills'
+  #   parent: "About"
+  #   weight: 30
   - name: CV
     url: uploads/wang_cv_2023_09.pdf
     parent: "About"
