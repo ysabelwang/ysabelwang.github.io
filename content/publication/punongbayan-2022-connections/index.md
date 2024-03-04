@@ -3,7 +3,7 @@ title: Connections and clustering of Paralytic Shellfish Toxin events among coas
   embayments in an archipelago partly mediated by advection
 authors:
 - Andalus T Punongbayan
-- Ysabel D Wang
+- admin
 - Cesar L Villanoy
 - Aletta T Yñiguez
 date: '2022-01-01'
