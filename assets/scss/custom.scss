@@ -5,6 +5,20 @@ $light-grey: #E3E3E5;
 $sta-primary-dark: rgb(11, 10, 60);
 $sta-primary-light: grey;
 
+body {
+  font-family: $font-main;
+}
+
+title {
+  font-family: $font-main;
+  font-weight: $font-bold;
+  color: $sta-primary-dark;
+}
+
+ul {
+  font-family: $font-main;
+}
+
 /* top level font and styling*/
 h1 {
     font-family: $font-main;
