@@ -3,7 +3,7 @@
 show_date: false
 
 # Show social sharing links?
-share: true
+share: false
 ---
 ### About Me ###
 

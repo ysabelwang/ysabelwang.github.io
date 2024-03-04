@@ -27,7 +27,7 @@ url_video: ""
 show_date: false
 
 # Show social sharing links?
-share: true
+share: false
 
 ---
 **Oral presentation:** Dense Water Mass Formation and Fate in the Northwestern Gulf of Mexico during the February 2021 Winter Storm Event

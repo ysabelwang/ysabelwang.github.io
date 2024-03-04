@@ -27,7 +27,7 @@ url_video: ""
 show_date: false
 
 # Show social sharing links?
-share: true
+share: false
 ---
 **Poster presentation:** Characteristics and Environmental Effects of a Warm Core Ring Crossing the New England Seamount Chain
 {style="text-align: justify;font-size: 15pt;"} 
