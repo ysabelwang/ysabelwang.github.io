@@ -243,6 +243,7 @@ sections:
         #   link: mailto:ysabel@mit.edu
         - icon: linkedin
           icon_pack: fab
+          color: "#0e2841"
           link: https://www.linkedin.com/in/ysabelwang
           name: Connect with me on LinkedIn
       # phone: 888 888 88 88

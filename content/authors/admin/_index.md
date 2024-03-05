@@ -17,11 +17,11 @@ last_name: Wang
 superuser: true
 
 # Role/position/tagline
-#role: PhD student in Physical Oceanography
+role: PhD student in Physical Oceanography
 
 # Organizations/Affiliations to show in About widget
-organizations:
-  - name: MIT-WHOI Joint Program
+#organizations:
+#  - name: MIT-WHOI Joint Program
     #url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
