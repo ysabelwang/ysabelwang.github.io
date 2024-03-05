@@ -13,6 +13,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
     design:
+      columns: '2'
       background:
         image:
           filename: footer2.png
@@ -141,7 +142,7 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: compact
+      #view: compact
       columns: '2'
       background:
         image:
@@ -207,7 +208,7 @@ sections:
           - conferences
     design:
       columns: '2'
-      view: compact
+      #view: compact
       background:
         image:
           filename: footer2.png
