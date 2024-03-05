@@ -105,10 +105,10 @@ skills:
 social:
 - display:
     header: true
+    color: '#0e2841'
   icon: envelope
   icon_pack: fas
   link: mailto:ysabel@mit.edu
-  color: '#0e2841'
 - display:
     header: true
   icon: google-scholar
