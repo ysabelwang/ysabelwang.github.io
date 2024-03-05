@@ -25,7 +25,7 @@ role: PhD student in Physical Oceanography
     #url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I'm a first-year PhD student studying physical oceanography in the MIT-WHOI Joint Program. I'm interested in studying ocean phenomena using various instruments, especially unmanned and autonomous ones.
+bio: I'm a first-year physical oceanography PhD student in the MIT-WHOI Joint Program. I'm interested in studying ocean phenomena using various instruments, especially unmanned and autonomous ones.
 
 # # Interests to show in About widget
 # interests:
