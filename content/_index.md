@@ -143,6 +143,9 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
+      background:
+        image:
+          filename: footer3.png
   # - block: portfolio
   #   id: projects
   #   content:
@@ -205,6 +208,9 @@ sections:
     design:
       columns: '2'
       view: compact
+      background:
+        image:
+          filename: footer3.png
   # - block: tag_cloud
   #   content:
   #     title: Popular Topics
@@ -269,4 +275,7 @@ sections:
       #     captcha: false
     design:
       columns: '2'
+      background:
+        image:
+          filename: footer2.png
 ---
