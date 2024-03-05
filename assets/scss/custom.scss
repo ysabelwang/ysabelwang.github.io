@@ -7,7 +7,7 @@ $sta-primary-light: grey;
 
 body {
   font-family: $font-main;
-  color: '#0e2841';
+  color: $sta-primary-dark;
 }
 
 title {
@@ -19,6 +19,7 @@ title {
 ul {
   font-family: $font-main;
   font-size: larger;
+  color: #0d3961;
 }
 
 /* top level font and styling*/
