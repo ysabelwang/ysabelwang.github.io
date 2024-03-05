@@ -8,8 +8,9 @@
 appearance:
   theme_day: minimal
   theme_night: minimal
+  mode: light
   font: minimal
-  font_size: M
+  font_size: L
 
 # SEO
 
@@ -35,10 +36,12 @@ header:
   navbar:
     enable: true
     align: r
-    show_logo: true
+    show_logo: false
     show_language: false
     show_day_night: true
     show_search: true
+    highlight_active_link: true
+    show_theme_chooser: false
     highlight_active_link: true
 
 # Site footer
