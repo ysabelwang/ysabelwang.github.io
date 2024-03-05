@@ -108,6 +108,7 @@ social:
   icon: envelope
   icon_pack: fas
   link: mailto:ysabel@mit.edu
+  color: '#0e2841'
 - display:
     header: true
   icon: google-scholar
