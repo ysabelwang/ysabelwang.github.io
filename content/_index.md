@@ -12,10 +12,10 @@ sections:
       title: ''
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-    # design:
-    #   background:
-    #     image:
-    #       filename: spamwise.jpg
+    design:
+      background:
+        image:
+          filename: footer.svg
   - block: experience
     id: education
     content:

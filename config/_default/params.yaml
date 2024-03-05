@@ -7,8 +7,8 @@
 
 appearance:
   theme_day: minimal
-  #theme_night: minimal
-  mode: light
+  theme_night: minimal
+  #mode: light
   font: minimal
   font_size: L
 
