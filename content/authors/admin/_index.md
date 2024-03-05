@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Ysabel Wang
+#title: Ysabel Wang
 
 # Name pronunciation (optional)
 #name_pronunciation: Chien Shiung Wu
@@ -136,7 +136,7 @@ highlight_name: true
 
 ---
 
-<p style="font-family: avenir;text-align: left;font-size: 18pt">Hello, my name is Ysabel Wang. I'm a first-year PhD student studying physical oceanography in the MIT-WHOI Joint Program, advised by Magdalena Andres and Glen Gawarkiewicz.</p>
+<p style="font-family: avenir;text-align: left;font-size: 18pt">Hello, my name is Ysabel Wang. I'm a first-year PhD student studying physical oceanography in the MIT-WHOI Joint Program, advised by <a href="https://www.whoi.edu/profile/mandres/">Magdalena Andres</a> and <a href="https://www.whoi.edu/science/PO/people/ggg/">Glen Gawarkiewicz</a>.</p>
 
 <p style="font-family: avenir;text-align: left;font-size: 18pt">I'm interested in studying ocean phenomena using various instruments, especially unmanned and autonomous ones, and in the societal impact of an evolving ocean under climate change.</p>
 
