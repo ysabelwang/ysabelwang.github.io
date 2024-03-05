@@ -17,7 +17,7 @@ last_name: Wang
 superuser: true
 
 # Role/position/tagline
-role: PhD student in Physical Oceanography
+#role: PhD student in Physical Oceanography
 
 # Organizations/Affiliations to show in About widget
 organizations:
