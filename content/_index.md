@@ -16,7 +16,7 @@ sections:
       columns: '2'
       background:
         image:
-          filename: footer_bio.png
+          filename: footer1.png
   - block: experience
     id: education
     content:
