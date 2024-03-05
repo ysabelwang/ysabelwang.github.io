@@ -15,7 +15,7 @@ sections:
     design:
       background:
         image:
-          filename: footer.svg
+          filename: footer2.svg
   - block: experience
     id: education
     content:
