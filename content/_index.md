@@ -16,7 +16,7 @@ sections:
       columns: '2'
       background:
         image:
-          filename: footer2.png
+          filename: footer_new.png
   - block: experience
     id: education
     content:
@@ -146,7 +146,7 @@ sections:
       columns: '2'
       background:
         image:
-          filename: footer2.png
+          filename: footer_new.png
   # - block: portfolio
   #   id: projects
   #   content:
@@ -211,7 +211,7 @@ sections:
       view: compact
       background:
         image:
-          filename: footer2.png
+          filename: footer_new.png
   # - block: tag_cloud
   #   content:
   #     title: Popular Topics
@@ -278,5 +278,5 @@ sections:
       columns: '2'
       background:
         image:
-          filename: footer2.png
+          filename: footer_new.png
 ---
