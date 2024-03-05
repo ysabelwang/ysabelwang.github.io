@@ -3,6 +3,7 @@
 title: ''
 date: 2022-10-24
 type: landing
+  
 
 sections:
   - block: about.biography
@@ -11,6 +12,10 @@ sections:
       title: ''
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+    design:
+      background:
+        image:
+          filename: spamwise.jpg
   - block: experience
     id: education
     content:
