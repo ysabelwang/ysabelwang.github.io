@@ -1,6 +1,6 @@
 ---
 # Display name
-#title: Ysabel Wang
+title: Ysabel Wang
 
 # Name pronunciation (optional)
 #name_pronunciation: Chien Shiung Wu
