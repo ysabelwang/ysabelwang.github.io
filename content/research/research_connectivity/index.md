@@ -38,5 +38,5 @@ Working with a team from the Marine Science Institute in the Philippines, we sho
 Results from information theory applied on the historical record of shellfish bans at these sites showed that the areas were highly connected; a ban in one site would often be linked to bans in other sites. The model results supported this finding: advection of passive tracers showed that there is a circulation-based link between certain sites that could potentially explain the connectivity of shellfish bans within the region.
 {style="text-align: justify;font-size: 14pt;"}
 
-These results can be found in our <a href="/content/publication/punongbayan-2022-connections/">2021 publication</a>
+These results can be found in our <a href="/#publication/punongbayan-2022-connections/">2021 publication</a>
 
