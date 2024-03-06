@@ -50,6 +50,7 @@ sections:
           location: College Station, Texas
           date_start: '2021-08-31'
           date_end: '2023-08-10'
+          description: MS Thesis entitled "Formation and Fate of a Coastal Dense Water Mass$:$ The 2021 Texas Winter Storms" 
           # description: Taught electronic engineering and researched semiconductor physics.
         - title: BS in Physics
           company: University of the Philippines Diliman
@@ -58,6 +59,7 @@ sections:
           location: Quezon City, Philippines
           date_start: '2013-06-01'
           date_end: '2018-06-30'
+          description: BS Thesis entitled "Highly secure optical encryption using multiple diffuser phase retrieval and chaos phase masks"
           # description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '1'
