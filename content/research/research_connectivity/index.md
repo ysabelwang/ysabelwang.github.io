@@ -30,13 +30,14 @@ show_date: false
 share: true
 ---
 Harmful algal blooms (HABs) have become prevalent in the Philippines, especially in embayments. HABs-causing species, such as dinoflagellates, contain a toxin that, when ingested by humans, can result in paralytic shellfish poisoning. Thus, studying the evolving dynamics of HABs in the country is of great socioeconomic importance. Though the direct cause/s of HABs is/are not known, in many places around the world, advection of the cyst-based HAB species contributes to HAB progression.
-{style="text-align: justify;font-size: 14pt;"}
+{style="text-align: left;font-size: 14pt;"}
 
 Working with a team from the Marine Science Institute in the Philippines, we showed through connectivity analysis of numerical output that advection could play a role in the propagation of cysts linked to harmful algal blooms (HABs) between several sites in an embayment. My role was to create a Lagrangian particle tracking model on Delft3D-Flow of the Samar-Leyte region including Carigara Bay, collect in-situ hydrographic data around the region, and assimilate the data into the model to determine the connectivity between sites.
-{style="text-align: justify;font-size: 14pt;"}
+{style="text-align: left;font-size: 14pt;"}
 
 Results from information theory applied on the historical record of shellfish bans at these sites showed that the areas were highly connected; a ban in one site would often be linked to bans in other sites. The model results supported this finding: advection of passive tracers showed that there is a circulation-based link between certain sites that could potentially explain the connectivity of shellfish bans within the region.
-{style="text-align: justify;font-size: 14pt;"}
+{style="text-align: left;font-size: 14pt;"}
 
-These results can be found in our <a href="https://ysabelwang.github.io/publication/punongbayan-2022-connections/">2021 publication</a>
+These results can be found in our <a href="https://ysabelwang.github.io/publication/punongbayan-2022-connections/">2021 publication.</a>
+{style="text-align: left;font-size: 14pt;"}
 
