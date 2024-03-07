@@ -12,6 +12,13 @@ doi: "10.1016/j.hal.2021.102147"
 publication_types:
 - article-journal
 publication: '*Harmful algae* 111'
+
+
+# Show the page's date?
+show_date: false
+
+# Show social sharing links?
+share: false
 ---
 You can access this paper <a href="https://doi.org/10.1016/j.hal.2021.102147" target="_blank">here</a>.
 {style="text-align: left;font-size: 14pt;"}

@@ -27,7 +27,7 @@ url_video: ""
 show_date: false
 
 # Show social sharing links?
-share: true
+share: false
 ---
 Harmful algal blooms (HABs) have become prevalent in the Philippines, especially in embayments. HABs-causing species, such as dinoflagellates, contain a toxin that, when ingested by humans, can result in paralytic shellfish poisoning. Thus, studying the evolving dynamics of HABs in the country is of great socioeconomic importance. Though the direct cause/s of HABs is/are not known, in many places around the world, advection of the cyst-based HAB species contributes to HAB progression.
 {style="text-align: left;font-size: 14pt;"}
