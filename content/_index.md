@@ -123,7 +123,7 @@ sections:
     id: research
     content:
       title: Research
-      subtitle: ''
+      subtitle: 'This is a list of my current and some past research topics.'
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
       count: 5
@@ -288,7 +288,7 @@ sections:
       #     # Enable CAPTCHA challenge to reduce spam?
       #     captcha: false
     design:
-      columns: '3'
+      columns: '2'
       background:
         image:
           filename: footer_bio_new.png
