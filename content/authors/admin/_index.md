@@ -138,8 +138,8 @@ highlight_name: true
 
 ---
 
-<p style="font-family: avenir;text-align: left;font-size: 18pt">Hello, my name is Ysabel Wang. I'm a first-year PhD student studying physical oceanography in the MIT-WHOI Joint Program, advised by <a href="https://www.whoi.edu/profile/mandres/">Magdalena Andres</a> and <a href="https://www.whoi.edu/science/PO/people/ggg/">Glen Gawarkiewicz</a>.</p>
+<p style="font-family: avenir;text-align: left;font-size: 16pt">Hello, my name is Ysabel Wang. I'm a first-year PhD student studying physical oceanography in the MIT-WHOI Joint Program, advised by <a href="https://www.whoi.edu/profile/mandres/">Magdalena Andres</a> and <a href="https://www.whoi.edu/science/PO/people/ggg/">Glen Gawarkiewicz</a>.</p>
 
-<p style="font-family: avenir;text-align: left;font-size: 18pt">I'm interested in studying ocean phenomena using various instruments, especially unmanned and autonomous ones, and in the societal impact of an evolving ocean under climate change.</p>
+<p style="font-family: avenir;text-align: left;font-size: 16pt">I'm interested in studying ocean phenomena using various instruments, especially unmanned and autonomous ones, and in the societal impact of an evolving ocean under climate change.</p>
 
-<p style="font-family: avenir;text-align: left;font-size: 18pt">On this website, you'll find more information on my <a href="#research">research</a>, my past and upcoming <a href="#conferences">conference presentations</a>, and my <a href="https://ysabelwang.github.io/uploads/wang_cv_2023_09.pdf" target="_blank">most recent CV</a>.</p>
+<p style="font-family: avenir;text-align: left;font-size: 16pt">On this website, you'll find more information on my <a href="#research">research</a>, my past and upcoming <a href="#conferences">conference presentations</a>, my <a href="https://ysabelwang.github.io/uploads/wang_cv_2023_09.pdf" target="_blank">most recent CV</a>, and <a href="#contact">how to contact/connect with me</a>.</p>
