@@ -247,7 +247,16 @@ sections:
           icon_pack: fab
           color: '#0e2841'
           link: https://www.linkedin.com/in/ysabelwang
-          name: Connect with me on LinkedIn
+          name: LinkedIn
+        - icon: google-scholar
+          icon_pack: ai
+          color: '#0e2841'
+          link: https://scholar.google.com/citations?user=UfLz5uEAAAAJ&hl=en
+          name: Google Scholar
+        - icon: orcid
+          icon_pack: ai
+          label: ORCID
+          link: https://orcid.org/0000-0001-5862-5204
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       # address:

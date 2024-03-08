@@ -102,36 +102,36 @@ skills:
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
-social:
-- display:
-    header: true
-    color: '#0E2841'
-  icon: envelope
-  icon_pack: fas
-  link: mailto:ysabel@mit.edu
-  icon_color: '#0E2841'
-- display:
-    header: true
-  icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=UfLz5uEAAAAJ&hl=en
-- display:
-    header: false
-  icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/in/ysabelwang
-- display:
-    header: false
-  icon: orcid
-  icon_pack: ai
-  label: ORCID
-  link: https://orcid.org/0000-0001-5862-5204
-# - icon: github
+# social:
+# - display:
+#     header: true
+#     color: '#0E2841'
+#   icon: envelope
+#   icon_pack: fas
+#   link: mailto:ysabel@mit.edu
+#   icon_color: '#0E2841'
+# - display:
+#     header: true
+#   icon: google-scholar
+#   icon_pack: ai
+#   link: https://scholar.google.com/citations?user=UfLz5uEAAAAJ&hl=en
+# - display:
+#     header: false
+#   icon: linkedin
 #   icon_pack: fab
-#   link: https://ysabelwang.github.io/
-- icon: cv
-  icon_pack: ai
-  link: uploads/wang_cv_2023_09.pdf
+#   link: https://www.linkedin.com/in/ysabelwang
+# - display:
+#     header: false
+#   icon: orcid
+#   icon_pack: ai
+#   label: ORCID
+#   link: https://orcid.org/0000-0001-5862-5204
+# # - icon: github
+# #   icon_pack: fab
+# #   link: https://ysabelwang.github.io/
+# - icon: cv
+#   icon_pack: ai
+#   link: uploads/wang_cv_2023_09.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
