@@ -237,12 +237,12 @@ sections:
       # text: |-
       #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # # Contact (add or remove contact options as necessary)
-      email: ysabel@mit.edu
+      # email: ysabel@mit.edu
       contact_links:
-        # - icon: envelope
-        #   icon_pack: fas
-        #   name: E-mail me
-        #   link: mailto:ysabel@mit.edu
+        - icon: envelope
+          icon_pack: fas
+          name: E-mail me
+          link: mailto:ysabel@mit.edu
         - icon: linkedin
           icon_pack: fab
           color: '#0e2841'
@@ -257,6 +257,7 @@ sections:
           icon_pack: ai
           label: ORCID
           link: https://orcid.org/0000-0001-5862-5204
+          name: ORCID
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       # address:
@@ -277,7 +278,7 @@ sections:
     
         
       # Automatically link email and phone or display as text?
-      autolink: true
+      autolink: false
       # Email form provider
       # form:
       #   provider: netlify
@@ -287,7 +288,7 @@ sections:
       #     # Enable CAPTCHA challenge to reduce spam?
       #     captcha: false
     design:
-      columns: '2'
+      columns: '3'
       background:
         image:
           filename: footer_bio_new.png
