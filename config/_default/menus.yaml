@@ -54,7 +54,7 @@ main:
 #    weight: 70
 
 # Sub-home menu
-  - name: ROMS Compile
-    url: '/roms/'
+  - name: ROMS for Ultra Beginners
+    url: '/resources/roms/'
     parent: "Resources"
     weight: 20
