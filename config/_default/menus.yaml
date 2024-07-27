@@ -18,7 +18,7 @@ main:
     weight: 40
   - name: Resources
     url: '/resources/'
-    weight: 40
+    weight: 50
   - name: Contact
     url: '#contact'
     weight: 60
