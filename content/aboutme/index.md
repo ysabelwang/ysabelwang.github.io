@@ -24,7 +24,7 @@ share: false
 <p style="font-family: avenir;text-align: left;font-size: 14pt">Outside of school and research, I enjoy playing the guitar, powerlifting, reading, video games, and the occasional pro-wrestling show. I have a mini dachshund named Spamwise Hamgee.</p>
 
 <p style="font-family: avenir;text-align: left;font-size: 14pt">
-**Squat**: 105kg/231.5lbs | **Deadlift**: 130kg/286.6lbs | **Bench**: 68kg/150lbs :( </p>
+<b>Squat</b> 105kg/231.5lbs | <b>Deadlift</b> 130kg/286.6lbs | <b>Bench</b> 68kg/150lbs :( </p>
 
 
 
