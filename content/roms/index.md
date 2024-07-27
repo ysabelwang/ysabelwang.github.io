@@ -26,7 +26,8 @@ Prerequisites:
 *You do not need to create a ROMS account to download the source code
 {style="text-align: left;font-size: 14pt;"}
 
-## Step 2: Building the upwelling test case
+## Step 2: Build the executable
+In this example, we will use the <a href="https://www.myroms.org/wiki/UPWELLING_CASE">`upwelling` test case that you find on the ROMS Wiki</a>
 #### 1. Navigate to where the upwelling test case is located
 {style="text-align: left;font-size: 14pt;"}
 
@@ -45,12 +46,15 @@ I don't know how or why, but load ONLY these two.
 
 `module load stack/impi`
 {style="text-align: left;font-size: 14pt;"}
-
 `module load stack/intel`
 {style="text-align: left;font-size: 14pt;"}
 
 #### 4. Build the executable "romsG.exe"
 {style="text-align: left;font-size: 14pt;"}
-`./build_roms.sh` or `\build_roms.csh`
+This will produce a wall of text and run for a minute or two.
+`./build_roms.sh` or `./build_roms.csh`
+{style="text-align: left;font-size: 14pt;"}
+
+This will create a directory called `Build_romsG` in the `upwelling` directory, and it will contain a bunch of `.f90`, `.o`, and `.mod` files.
 {style="text-align: left;font-size: 14pt;"}
 
