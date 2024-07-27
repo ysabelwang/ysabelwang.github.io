@@ -17,7 +17,7 @@ main:
     url: '#conferences'
     weight: 40
   - name: Resources
-    url: '#resources'
+    url: '/resources/'
     weight: 40
   - name: Contact
     url: '#contact'
