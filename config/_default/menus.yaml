@@ -17,7 +17,7 @@ main:
     url: '#conferences'
     weight: 40
   - name: Resources
-    url: '/resources/'
+    url: '#resources'
     weight: 50
   - name: Contact
     url: '#contact'
@@ -55,6 +55,6 @@ main:
 
 # Sub-home menu
   - name: ROMS for Ultra Beginners
-    url: '/resources/roms/'
+    url: '/roms/'
     parent: "Resources"
     weight: 20
