@@ -16,6 +16,9 @@ main:
   - name: Conferences
     url: '#conferences'
     weight: 40
+  - name: Resources
+    url: '#resources'
+    weight: 40
   - name: Contact
     url: '#contact'
     weight: 60
@@ -49,3 +52,9 @@ main:
 #  - name: CV
 #    url: uploads/resume.pdf
 #    weight: 70
+
+# Sub-home menu
+  - name: ROMS Compile
+    url: '/roms/'
+    parent: "Resources"
+    weight: 20
