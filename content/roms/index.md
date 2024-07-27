@@ -8,14 +8,14 @@ share: false
 ---
 
 # How to get started on ROMS using Poseidon
-{style="text-align: left;font-size: 15pt;"}
+{style="text-align: left;font-size: 17pt;"}
 
 Currently updating this as I learn.
 {style="text-align: left;font-size: 14pt;"}
 Last updated: 2024-07-27
 {style="text-align: left;font-size: 14pt;"}
 
-## Step 1: Download the ROMS source code
+**## Step 1: Download the ROMS source code**
 {style="text-align: left;font-size: 16pt;"}
 
 ROMS will be phasing out its subversion (SVN) repository on 2025-01-01, which is what most people up to this point have used to download and compile the ROMS source code. The source code will be made available via Git, and this is what we'll be using here.
@@ -45,7 +45,7 @@ Similar to 1.1, type the following:
 **Now you should have downloaded two directories, `/roms/` and `/roms_test/`.**
 
 
-## Step 2: Build the executable
+**## Step 2: Build the executable**
 {style="text-align: left;font-size: 16pt;"}
 In this example, we will use the `upwelling` test case that <a href="https://www.myroms.org/wiki/UPWELLING_CASE">you find on the ROMS Wiki</a>
 #### 2.1. Navigate to where the upwelling test case is located
