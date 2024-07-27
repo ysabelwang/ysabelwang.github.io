@@ -10,6 +10,8 @@ share: false
 # How to get started on ROMS using Poseidon
 {style="text-align: left;font-size: 15pt;"}
 
+Currently updating this as I learn.
+{style="text-align: left;font-size: 14pt;"}
 Last updated: 2024-07-27
 {style="text-align: left;font-size: 14pt;"}
 
@@ -40,12 +42,12 @@ Similar to 1.1, type the following:
 `git clone https://github.com/myroms/roms_test.git <source_dir>`
 {style="text-align: left;font-size: 14pt;"}
 
-Now you should have downloaded two directories, `/roms/` and `/roms_test/`.
+**Now you should have downloaded two directories, `/roms/` and `/roms_test/`.**
 
 
 ## Step 2: Build the executable
 {style="text-align: left;font-size: 16pt;"}
-In this example, we will use the <a href="https://www.myroms.org/wiki/UPWELLING_CASE">`upwelling` test case that you find on the ROMS Wiki</a>
+In this example, we will use the `upwelling` test case that <a href="https://www.myroms.org/wiki/UPWELLING_CASE">you find on the ROMS Wiki</a>
 #### 2.1. Navigate to where the upwelling test case is located
 {style="text-align: left;font-size: 14pt;"}
 
@@ -59,7 +61,7 @@ I use `vi build_roms.sh` for this part.
 
 #### 2.3. Load the proper modules.
 {style="text-align: left;font-size: 15pt;"}
-I don't know how or why, but load ONLY these two.
+I don't know how or why, but load **ONLY** these two.
 {style="text-align: left;font-size: 14pt;"}
 
 `module load stack/impi`
@@ -73,6 +75,6 @@ This will produce a wall of text and run for a minute or two.
 `./build_roms.sh` or `./build_roms.csh`
 {style="text-align: left;font-size: 14pt;"}
 
-This will create a directory called `Build_romsG` in the `upwelling` directory, and it will contain a bunch of `.f90`, `.o`, and `.mod` files.
+This will create the executable `romsG` and a directory called `Build_romsG` which contains a bunch of `.f90`, `.o`, and `.mod` files.
 {style="text-align: left;font-size: 14pt;"}
 
