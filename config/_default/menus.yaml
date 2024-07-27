@@ -58,3 +58,7 @@ main:
     url: '/roms/'
     parent: "Resources"
     weight: 20
+  - name: Interested in applying to the MIT-WHOI Joint Program?
+    url: 'https://mit.whoi.edu/admissions/apply/jp-applicant-support-knowledgebase-jp-ask/'
+    parents: "Resources"
+    weight: 30
