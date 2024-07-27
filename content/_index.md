@@ -228,27 +228,6 @@ sections:
     design:
       columns: '1'
       view: compact
-   
-   - block: portfolio
-    id: resources
-    content:
-      title: Resources
-      subtitle: 'Here you will find some resources that have helped me with research.'
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - resources
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
       
   - block: contact
     id: contact
