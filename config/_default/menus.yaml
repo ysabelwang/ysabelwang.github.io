@@ -36,7 +36,7 @@ main:
   #   parent: "About"
   #   weight: 30
   - name: CV
-    url: uploads/wang_cv_2023_09.pdf
+    url: uploads/ywang_cv.pdf
     parent: "About"
     weight: 40
   - name: About Me

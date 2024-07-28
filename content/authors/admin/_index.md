@@ -131,7 +131,7 @@ skills:
 # #   link: https://ysabelwang.github.io/
 # - icon: cv
 #   icon_pack: ai
-#   link: uploads/wang_cv_2023_09.pdf
+#   link: uploads/ywang_cv.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -142,4 +142,4 @@ highlight_name: true
 
 <p style="font-family: avenir;text-align: left;font-size: 17pt">I'm interested in studying ocean phenomena using various instruments, especially unmanned and autonomous ones, and in the societal impact of an evolving ocean under climate change.</p>
 
-<p style="font-family: avenir;text-align: left;font-size: 17pt">On this website, you'll find more information on my <a href="#research">research</a>, my past and upcoming <a href="#conferences">conference presentations</a>, my <a href="https://ysabelwang.github.io/uploads/wang_cv_2023_09.pdf" target="_blank">most recent CV</a>, and <a href="#contact">how to contact/connect with me</a>.</p>
+<p style="font-family: avenir;text-align: left;font-size: 17pt">On this website, you'll find more information on my <a href="#research">research</a>, my past and upcoming <a href="#conferences">conference presentations</a>, my <a href="https://ysabelwang.github.io/uploads/ywang_cv.pdf" target="_blank">most recent CV</a>, and <a href="#contact">how to contact/connect with me</a>.</p>
