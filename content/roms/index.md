@@ -15,7 +15,7 @@ Currently updating this as I learn.
 Last updated: 2024-07-27
 {style="text-align: left;font-size: 14pt;"}
 
-**## Step 1: Download the ROMS source code**
+## Step 1: Download the ROMS source code
 {style="text-align: left;font-size: 16pt;"}
 
 ROMS will be phasing out its subversion (SVN) repository on 2025-01-01, which is what most people up to this point have used to download and compile the ROMS source code. The source code will be made available via Git, and this is what we'll be using here.
@@ -45,7 +45,7 @@ Similar to 1.1, type the following:
 **Now you should have downloaded two directories, `/roms/` and `/roms_test/`.**
 
 
-**## Step 2: Build the executable**
+## Step 2: Build the executable
 {style="text-align: left;font-size: 16pt;"}
 In this example, we will use the `upwelling` test case that <a href="https://www.myroms.org/wiki/UPWELLING_CASE">you find on the ROMS Wiki</a>
 #### 2.1. Navigate to where the upwelling test case is located
@@ -56,7 +56,7 @@ In this example, we will use the `upwelling` test case that <a href="https://www
 
 #### 2.2. Edit the build script (either `build_roms.sh` or `build_roms.csh`) to point to the proper locations of your source code.
 {style="text-align: left;font-size: 15pt;"}
-I use `vi build_roms.sh` for this part.
+I use `vi build_roms.sh` for this part. You can also determine which schemes you want to run. In playing around with these, I've found that you need at least 1 bottom drag scheme uncommented.
 {style="text-align: left;font-size: 14pt;"}
 
 #### 2.3. Load the proper modules.
@@ -78,3 +78,19 @@ This will produce a wall of text and run for a minute or two.
 This will create the executable `romsG` and a directory called `Build_romsG` which contains a bunch of `.f90`, `.o`, and `.mod` files.
 {style="text-align: left;font-size: 14pt;"}
 
+## Step 3: Run ROMS
+{style="text-align: left;font-size: 16pt;"}
+At this point you can run your executable `romsG`. On Poseidon, you do this by submitting a slurm job.
+
+#### 3.1. Create the job script
+{style="text-align: left;font-size: 14pt;"}
+More information on this can be found on the WHOI IS page on <a href="https://whoi-it.whoi.edu/creating-scripts/">creating scripts on Poseidon</a>.
+{style="text-align: left;font-size: 14pt;"}
+
+#### 3.2. Submit the job script
+{style="text-align: left;font-size: 14pt;"}
+On the command line, enter `sbatch <job_name>.mpi`
+{style="text-align: left;font-size: 14pt;"}
+
+`cd ~\roms_test\upwelling`
+{style="text-align: left;font-size: 14pt;"}
