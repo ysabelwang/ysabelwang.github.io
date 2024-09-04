@@ -78,7 +78,7 @@ This will produce a wall of text and run for a minute or two.
 This will create the executable `romsG` and a directory called `Build_romsG` which contains a bunch of `.f90`, `.o`, and `.mod` files.
 {style="text-align: left;font-size: 14pt;"}
 
-## Step 3: Run ROMS
+## ** Step 3: Run ROMS **
 {style="text-align: left;font-size: 16pt;"}
 At this point you can run your executable `romsG`. On Poseidon, you do this by submitting a slurm job.
 
@@ -87,10 +87,8 @@ At this point you can run your executable `romsG`. On Poseidon, you do this by s
 More information on this can be found on the WHOI IS page on <a href="https://whoi-it.whoi.edu/creating-scripts/">creating scripts on Poseidon</a>.
 {style="text-align: left;font-size: 14pt;"}
 
-#### 3.2. Submit the job script
+#### ** 3.2. Submit the job script **
 {style="text-align: left;font-size: 14pt;"}
 On the command line, enter `sbatch <job_name>.mpi`
 {style="text-align: left;font-size: 14pt;"}
 
-`cd ~\roms_test\upwelling`
-{style="text-align: left;font-size: 14pt;"}
