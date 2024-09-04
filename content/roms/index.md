@@ -78,7 +78,7 @@ This will produce a wall of text and run for a minute or two.
 This will create the executable `romsG` and a directory called `Build_romsG` which contains a bunch of `.f90`, `.o`, and `.mod` files.
 {style="text-align: left;font-size: 14pt;"}
 
-** ## Step 3: Run ROMS **
+## ** Step 3: Run ROMS **
 {style="text-align: left;font-size: 16pt;"}
 At this point you can run your executable `romsG`. On Poseidon, you do this by submitting a slurm job.
 
