@@ -54,10 +54,10 @@ main:
 #    weight: 70
 
 # Sub-home menu
-  - name: ROMS for Ultra Beginners
-    url: '/roms/'
-    parent: "Resources"
-    weight: 20
+  #- name: ROMS for Ultra Beginners
+    #url: '/roms/'
+    #parent: "Resources"
+    #weight: 20
   - name: Interested in applying to the MIT-WHOI Joint Program?
     #url: '/roms/'
     url: 'https://mit.whoi.edu/admissions/apply/jp-applicant-support-knowledgebase-jp-ask/'
