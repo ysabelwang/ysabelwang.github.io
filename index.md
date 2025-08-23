@@ -8,7 +8,7 @@ layout: page
 
 <img src="https://starryious.github.io/KamdenWang2003.github.io/xuankai.png" class="floatpic">
 
-My name is **Xuankai Wang**. I am now a fourth-year student at the [School of Mathematics](https://math.nwu.edu.cn/), [Northwest University](https://www.nwu.edu.cn/) majoring in applied statistics. I am born in [Zhoushan](https://en.wikipedia.org/wiki/Zhoushan), Zhejiang Province, People's Republic of China in 2003. <br>
+My name is **Xuankai Wang**. I am currently a first-year [Statistics](https://www.sfu.ca/stat-actsci.html) master student at [Simon Fraser University](https://www.sfu.ca/), advised by Professor [Donald Estep](https://canssi.ca/don-estep/). Previously, I earned my Bachelor's degree in Statistics from the [School of Mathematics](https://math.nwu.edu.cn/), [Northwest University](https://www.nwu.edu.cn/) in 2025. I was born in [Zhoushan](https://en.wikipedia.org/wiki/Zhoushan), Zhejiang Province, People's Republic of China in 2003. <br>
 
 My Email: shakechi [dot] wang [at] gmail [dot] com
 
@@ -16,13 +16,9 @@ My Email: shakechi [dot] wang [at] gmail [dot] com
 
 ****
 
-My interests primarily focus on applying solid mathematical knowledge, especially **probability theory and statistics** to develop stochastic and statistical models for addressing crucial real-world problems and interpreting real-world phenomena .
+My interests primarily focus on applying solid mathematical knowledge, especially **probability theory, stochastic processes, stochastic analysis and statistics** to develop stochastic and statistical models for addressing crucial real-world problems and interpreting real-world phenomena.
 
-- Applied Probability, Stochastic Processes and Stochastic analysis
-
-- Mathematical Statistics
-
-Note that when we talk about **applied probability**, we are still inclined to the theoretical part, e.g., mathematical statistics, statistical physics, control theory, telecommunications, reliability, queueing theory, risk theory, prediction, filtering, financial mathematics, etc. On the other hand, **the application of probability** could be a theorem or a practical use.
+Note that when we talk about **applied probability**, we are still inclined to the theoretical part, e.g., mathematical statistics, statistical physics, control theory, telecommunications, opinion dynamics, reliability, queueing theory, risk theory, game theory, prediction, filtering, financial mathematics, etc. On the other hand, **the application of probability** could just be a theorem or a practical use. Examples of applied probability that I find interesting include the Gambler’s Ruin, the Coupon Collector’s Problem, and the Secretary Problem.
 
 ## News and Updates
 

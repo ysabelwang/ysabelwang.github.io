@@ -12,7 +12,7 @@ title: Hobbies
 
 <br>
 
-In my perspective, anime constructs entirely new worlds filled with diverse characters. Within these alternate realities, authors convey unique ideas and concepts that capture the imagination. Exceptional anime has the power to create immersive and captivating environments, allowing me to feel as though I've embarked on the same adventures as the protagonists. This sensation, though virtual, significantly shapes my perception of the world.
+In my perspective, anime constructs entirely new worlds filled with diverse characters. Within these alternate realities, authors convey unique ideas and concepts that capture the imagination. Exceptional anime has the power to create immersive and captivating environments, allowing me to feel as though I've embarked on the same adventures as the protagonists. This sensation, though virtual, significantly shapes my perception of the world. see also my [Douban](https://movie.douban.com/people/226630102/)
 
 ## Teaching
 
@@ -30,7 +30,7 @@ Among the ball games, I like playing ping-pong, other ball games are at the elem
 
 <br>
 
-I am an omnivorous reader (physics, geography, history, novel). But currently finding time to read at noon and evening is difficult for me due to the increasingly tight schedule. I am interested in theoretical physics but getting bad score in high school.
+I am an omnivorous reader (physics, geography, history, novel). But currently finding time to read at noon and evening is difficult for me due to the increasingly tight schedule. I am interested in theoretical physics but getting bad score in high school. See also my [reading list](https://book.douban.com/people/226630102/)
 
 ## Miscellaneous
 
