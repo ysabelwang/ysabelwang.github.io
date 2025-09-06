@@ -17,7 +17,7 @@ last_name: Wang
 superuser: true
 
 # Role/position/tagline
-role: PhD student in Physical Oceanography
+role: PhD candidate in Physical Oceanography
 
 # Organizations/Affiliations to show in About widget
 #organizations:
@@ -25,7 +25,7 @@ role: PhD student in Physical Oceanography
     #url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I'm a second-year physical oceanography PhD student in the MIT-WHOI Joint Program. I'm interested in studying ocean phenomena using various instruments, especially unmanned and autonomous ones.
+bio: I'm a third-year physical oceanography PhD candidate in the MIT-WHOI Joint Program. I'm interested in studying ocean phenomena using various instruments, especially unmanned and autonomous ones.
 
 # # Interests to show in About widget
 # interests:
@@ -138,7 +138,7 @@ highlight_name: true
 
 ---
 
-<p style="font-family: avenir;text-align: left;font-size: 17pt">Hello, my name is Ysabel Wang. I'm a second-year PhD student studying physical oceanography in the MIT-WHOI Joint Program, advised by <a href="https://www.whoi.edu/profile/mandres/">Magdalena Andres</a> and <a href="https://www.whoi.edu/science/PO/people/ggg/">Glen Gawarkiewicz</a>.</p>
+<p style="font-family: avenir;text-align: left;font-size: 17pt">Hello, my name is Ysabel Wang. I'm a second-year PhD candidate studying physical oceanography in the MIT-WHOI Joint Program.</p>
 
 <p style="font-family: avenir;text-align: left;font-size: 17pt">I'm interested in studying ocean phenomena using various instruments, especially unmanned and autonomous ones, and in the societal impact of an evolving ocean under climate change.</p>
 
