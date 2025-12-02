@@ -1,6 +1,6 @@
 ---
 layout: page
-# permalink: conferences/index.html
+permalink: /conferences/index.html
 title: Upcoming and Recent Conferences
 ---
 under construction
