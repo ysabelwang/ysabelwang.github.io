@@ -31,11 +31,12 @@ bing_verify: ""
 # For external links add external: true
 links:
   - title: About
-    url: /aboutme/
+    url: ysabel.wang.github.io/aboutme
+    external: true
   - title: Research
     url: research/
   - title: Publications
-    url: publications
+    url: publications/
   - title: Conferences
     url: conferences/
   # - title: Blogs
