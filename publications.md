@@ -1,6 +1,8 @@
 ---
 layout: page
-permalink: /publications/index.html
-title: Publications
+permalink: publications/index.html
 ---
-test again
+<!-- *** -->
+<p style="font-family: quicksand;text-align: left;font-size: 14pt">test</p>
+
+***
