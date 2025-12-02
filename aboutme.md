@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: article
 permalink: aboutme/
 title: About me
 ---
