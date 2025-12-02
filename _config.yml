@@ -31,7 +31,7 @@ bing_verify: ""
 # For external links add external: true
 links:
   - title: About
-    url: aboutme
+    url: /aboutme/
   - title: Research
     url: research/
   - title: Publications
