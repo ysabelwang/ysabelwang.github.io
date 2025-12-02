@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /aboutme/
-title: About me
+# permalink: /aboutme/
+# title: About me
 ---
 <p style="font-family: avenir;text-align: left;font-size: 14pt">I am a third year PhD candidate studying Physical Oceanography in the MIT-WHOI Joint Program. I'm currently working on mesocale and submesoscale variability in the Northwestern Atlantic, specifically in the Mid-Atlantic Bight where Gulf Stream meanders play a huge role in the oceanography. I use various observations from the region, including hydrography from CTD casts and underway thermosalinographs, shipboard ADCP measurements, long-term CPIES records, and remote sensing datasets.</p>
 
