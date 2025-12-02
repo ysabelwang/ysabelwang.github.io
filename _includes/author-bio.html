@@ -1,8 +1,14 @@
-<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }} bio photo" width="100" height="100"></a>
+<img id="avatar" src="{{ site.url }}/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }} bio photo" width="200" height="200"></a>
+<style type="text/css">
+    #avatar {
+        display: block;
+        margin-left: auto;
+        margin-right: auto }
+</style>
 
 <!-- <h4>{{ site.owner.name }}</h4> -->
 
-<p style="font-family: avenir;text-align: center;font-size: 12pt">{{ site.owner.bio }}</p>
+<p style="font-family: quicksand;text-align: center;font-size: 12pt">{{ site.owner.bio }}</p>
 <!-- {% if site.owner.email %}<p style="text-indent:0;margin-top:1.5em;"><a href="mailto:{{ site.owner.email }}" target="_blank"><i class="icon-mail"></i> Email</a></p>{% endif %} -->
 <!-- {% if site.owner.linkedin %}<p style="text-indent:0;"><a href="https://linkedin.com/in/{{ site.owner.linkedin }}"><i class="icon-linkedin"></i> </a></p>{% endif %} -->
 <!-- {% if site.owner.github %}<p style="text-indent:0;"><a href="https://github.com/{{ site.owner.github }}"><i class="icon-github"></i> </a></p>{% endif %} -->
