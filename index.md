@@ -1,22 +1,23 @@
 ---
 layout: page
 ---
+***
 <p style="font-family: avenir;text-align: left;font-size: 17pt">Hello, my name is Ysabel Wang. I'm a third-year PhD candidate studying physical oceanography in the MIT-WHOI Joint Program.</p>
 
+</br>
 <p style="font-family: avenir;text-align: left;font-size: 17pt">My research involves making use of all available sources of information and data (in-situ measurements, satellite imagery, model output) to investigate the relationship between the well-studied large-scale, long-term, and surface-expressed physical processes and the more elusive fine-scale, short-term, and often subsurface ocean processes that have a cumulatively significant impact on heat, salt, and nutrient budgets in the Northwestern Atlantic ocean.</p>
 
 <!-- <p style="font-family: avenir;text-align: left;font-size: 17pt">On this website, you'll find more information on my <a href="#research">research</a>, my past and upcoming <a href="#conferences">conference presentations</a>, my <a href="https://ysabelwang.github.io/uploads/ywang_cv.pdf" target="_blank">most recent CV</a>, and <a href="#contact">how to contact/connect with me</a>.</p> -->
 
 <!-- # About Me -->
 
-***
 
 <!-- <img src="https://starryious.github.io/KamdenWang2003.github.io/xuankai.png" class="floatpic"> -->
 
-Hello, my name is Ysabel Wang.
+<!-- Hello, my name is Ysabel Wang. -->
 <!-- My name is **Xuankai Wang**. I am currently a first-year [Statistics](https://www.sfu.ca/stat-actsci.html) master student at [Simon Fraser University](https://www.sfu.ca/), advised by Professor [Donald Estep](https://canssi.ca/don-estep/). Previously, I earned my Bachelor's degree in Statistics from the [School of Mathematics](https://math.nwu.edu.cn/), [Northwest University](https://www.nwu.edu.cn/) in 2025. I was born in [Zhoushan](https://en.wikipedia.org/wiki/Zhoushan), Zhejiang Province, People's Republic of China in 2003. <br> -->
 
-My Email: shakechi [dot] wang [at] gmail [dot] com
+<!-- My Email: shakechi [dot] wang [at] gmail [dot] com -->
 
 <!-- ## Academic Interests
 
