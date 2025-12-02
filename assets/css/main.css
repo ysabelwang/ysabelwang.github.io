@@ -246,7 +246,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 .form-search .radio,.form-search .checkbox,.form-inline .radio{padding-left:0;margin-bottom:0;vertical-align:middle;}
 .form-search .radio input[type="radio"],.form-search .checkbox input[type="checkbox"]{float:left;margin-left:0;margin-right:3px;}
 html{background-color:#ffffff;font-family:'PT Serif',serif;font-color:#333332;font-size:90%;}
-.navigation-wrapper{margin:0 auto;width:100%;padding:2em 0 3em;font-family:'Quicksand',sans-serif;font-weight:500}
+.navigation-wrapper{margin:0 auto;width:100%;padding:2em 0 3em;font-family:'Quicksand'}
 .site-name{margin:0 auto;width:100%;display:inline;float:left;width:83.33333333333334%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:1em;}
 .top-navigation{margin:0 auto;width:100%;display:inline;float:left;width:83.33333333333334%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:1em;}
 .top-navigation ul{list-style:none;margin:0;padding:0;}
@@ -307,7 +307,7 @@ html{background-color:#ffffff;font-family:'PT Serif',serif;font-color:#333332;fo
 .footer-wrap footer{display:inline;float:left;width:83.33333333333334%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;}
 .related-articles{display:inline;float:left;width:83.33333333333334%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;}.related-articles h4{font-size:21px;font-size:1.1666666666666667rem;margin-bottom:1.4142857142857141rem;text-transform:uppercase;margin-bottom:0;}
 .related-articles li{margin-bottom:0;color:#ffffff;}
-.footer-icons li{display:inline-block;padding-right:5px;}.footer-icons li a{font-size:24px;font-size:1.3333333333333333rem;margin-bottom:1.2375rem;color:#9a9a9a;-webkit-transition:0.4s linear;-moz-transition:0.4s linear;-ms-transition:0.4s linear;-o-transition:0.4s linear;transition:0.4s linear;}.footer-icons li a:hover{text-decoration:none;border-bottom:none;}.footer-icons li a:hover .icon-twitter,.footer-icons li a:hover .icon-twitter-sign{color:#2aa9df;}
+.footer-icons li{display:inline-block;padding-right:5px;padding-left:5px}.footer-icons li a{font-size:24px;font-size:1.3333333333333333rem;margin-bottom:1.2375rem;color:#9a9a9a;-webkit-transition:0.4s linear;-moz-transition:0.4s linear;-ms-transition:0.4s linear;-o-transition:0.4s linear;transition:0.4s linear;}.footer-icons li a:hover{text-decoration:none;border-bottom:none;}.footer-icons li a:hover .icon-twitter,.footer-icons li a:hover .icon-twitter-sign{color:#2aa9df;}
 .footer-icons li a:hover .icon-facebook,.footer-icons li a:hover .icon-facebook-sign{color:#3a5a98;}
 .footer-icons li a:hover .icon-instagram,.footer-icons li a:hover .icon-instagram-sign{color:#306088;}
 .footer-icons li a:hover .icon-google-plus,.footer-icons li a:hover .icon-google-plus-sign{color:#b63324;}
