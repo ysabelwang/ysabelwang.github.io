@@ -13,9 +13,10 @@ owner:
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   # twitter: lancecai2002
   # facebook: caihanlin2002
-  github: ysabelwang
   linkedin: ysabelwang
-  #scholar: https://scholar.google.com/citations?user=8igSoWgAAAAJ
+  scholar: https://scholar.google.com/citations?user=UfLz5uEAAAAJ&hl=en
+  orcid: https://orcid.org/0000-0001-5862-5204
+  github: ysabelwang
   # instagram: lancecai2002
   # lastfm:
   # tumblr:
@@ -32,18 +33,16 @@ bing_verify: ""
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About Me
-    url: /
+  - title: About
+    url: /aboutme/
+  - title: Research
+    url: /research/
   - title: Publications
     url: /publications/
-  - title: Projects
-    url: /projects/
-  - title: Awards
-    url: /awards/
-  - title: Hobbies
-    url: /hobbies/
-  - title: Blogs
-    url: /blogs/
+  - title: Conferences
+    url: /conferences/
+  # - title: Blogs
+  #   url: /blogs/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # timezone: China/Beijing

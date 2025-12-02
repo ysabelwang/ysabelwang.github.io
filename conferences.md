@@ -1,14 +1,14 @@
 ---
 layout: page
-permalink: /hobbies/index.html
-title: Hobbies
+permalink: /conferences/index.html
+title: Upcoming and Recent Conferences
 ---
+under construction
+# Upcoming Conferences
 
-# Hobbies
+<!-- <br> -->
 
-<br>
-
-## Animes
+<!-- ## Animes
 
 <br>
 
@@ -36,4 +36,4 @@ I am an omnivorous reader (physics, geography, history, novel). But currently fi
 
 <br>
 
-I enjoy drinking coffee, and watching movies; [R](https://cran.r-project.org/) is the language I mainly use and previously I have learned MATLAB(forgotten), Python, C, C++, SQL and Wolfram (Mathematica); [R Markdown](https://rmarkdown.rstudio.com/) is the main tool I use for editing which combines Markdown, TeX, code chunks(like code cell in Jupyter Notebook and Mathematica Notebook) and using Pandoc to output different format.
+I enjoy drinking coffee, and watching movies; [R](https://cran.r-project.org/) is the language I mainly use and previously I have learned MATLAB(forgotten), Python, C, C++, SQL and Wolfram (Mathematica); [R Markdown](https://rmarkdown.rstudio.com/) is the main tool I use for editing which combines Markdown, TeX, code chunks(like code cell in Jupyter Notebook and Mathematica Notebook) and using Pandoc to output different format. -->
