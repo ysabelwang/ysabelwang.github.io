@@ -3,10 +3,43 @@ layout: page
 permalink: /aboutme/index.html
 # title: About me
 ---
-<ul style="list-style-type: none;">
-<li><a href="#education"><h5>Education</h5></a></li>
-<li><a href="#background"><h5>Background</h5></a></li>
-</ul>
+<!-- <ul style="list-style-type: none;">
+    <li><a href="#education"><h5>Education</h5></a></li>
+    <li><a href="#background"><h5>Background</h5></a></li>
+</ul> -->
+
+<div style="
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 2px solid #ddd;
+  padding: 10px 0;
+  font-family: Quicksand, sans-serif;
+">
+
+  <div style="
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 600;
+  ">
+
+    <a href="#education" style="text-decoration: none; color: #333;">
+      Education
+    </a>
+
+    <a href="#background" style="text-decoration: none; color: #333;">
+      Background
+    </a>
+
+    <a href="#cv" style="text-decoration: none; color: #333;">
+      CV
+    </a>
+
+  </div>
+</div>
 
 ***
 
@@ -24,7 +57,7 @@ Education
 <div style="margin-bottom: 20px; padding: 10px 15px; border-radius: 6px; background-color: #fafafa; border-left: 4px solid #333; overflow: auto;">
 
   <div style="float:left; margin-right:15px;">
-    <img src="/images/mit-logo.svg" alt="MIT Logo" style="height:50px; width:auto;" />
+    <img src="/images/mit-logo.svg" alt="MIT Logo" style="width:20px; height:auto;" />
   </div>
 
   <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px;">
@@ -45,7 +78,7 @@ Education
 <div style="margin-bottom: 20px; padding: 10px 15px; border-radius: 6px; background-color: #fafafa; border-left: 4px solid #333; overflow: auto;">
 
   <div style="float:left; margin-right:15px;">
-    <img src="/images/tamu-logo.svg.png" alt="TAMU Logo" style="height:50px; width:auto;" />
+    <img src="/images/tamu-logo.svg" alt="TAMU Logo" style="width:20px; height:auto;" />
   </div>
 
   <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px;">
@@ -62,11 +95,11 @@ Education
 
 </div>
 
-<!-- Entry 3 -->
+<!-- BS -->
 <div style="margin-bottom: 20px; padding: 10px 15px; border-radius: 6px; background-color: #fafafa; border-left: 4px solid #333; overflow: auto;">
 
   <div style="float:left; margin-right:15px;">
-    <img src="/images/up-logo.svg" alt="UPD Logo" style="height:50px; width:auto;" />
+    <img src="/images/up-logo.svg" alt="UPD Logo" style="width:20px; height:auto;" />
   </div>
 
   <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px;">
