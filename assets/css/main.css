@@ -384,15 +384,14 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 
 .icon-container {
   display: flex;
-  justify-content: space-evenly; /* or space-evenly */
-  align-items: center; /* Aligns icons vertically in the middle */
-  width: 100%; /* Ensure the container spans the desired width */
+  justify-content: flex-start;   /* Align all icons to the left */
+  align-items: center;            /* Keep them vertically centered */
+  gap: 20px;                      /* Equal spacing between each icon */
+  width: 100%;
   margin-right: 10px;
   margin-left: 0px;
-  /* padding: 40px; */
-  /* height: 100px;           Set a height for the container */
-  /* border: 1px solid #ccc;  Optional: visualize the container area */
 }
+
 
 .icon-container a i {
   /* Add styling for your icons (e.g., color, size, padding) */
