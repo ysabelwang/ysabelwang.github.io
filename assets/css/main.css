@@ -386,7 +386,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   display: flex;
   justify-content: space-between; /* or space-evenly */
   align-items: center; /* Aligns icons vertically in the middle */
-  width: 100%; /* Ensure the container spans the desired width */
+  width: 85%; /* Ensure the container spans the desired width */
   /* padding: 40px; */
   /* height: 100px;           Set a height for the container */
   /* border: 1px solid #ccc;  Optional: visualize the container area */
@@ -397,8 +397,14 @@ icon-container a i {
   color: #4b5bc0;
 }
 
-.container-image-text {
-            display: grid;
-            grid-template-columns: auto 1fr;
-            gap: 15px;
-        }
+.icon-container-footer {
+  display: flex;
+  justify-content: space-between; /* or space-evenly */
+  align-items: center; /* Aligns icons vertically in the middle */
+  width: 60%; /* Ensure the container spans the desired width */
+}
+
+icon-container-footer a i {
+  /* Add styling for your icons (e.g., color, size, padding) */
+  color: #4b5bc0;
+}
