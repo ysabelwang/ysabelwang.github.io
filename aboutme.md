@@ -58,7 +58,7 @@ permalink: /aboutme/index.html
   </div>
 
   <!-- <div style="margin-left:95px; font-size: 13px; margin-bottom: 3px;"> -->
-  <div style="font-size: 13px; margin-bottom: 3px;margin-left:85px">
+  <div style="font-size: 13px; margin-bottom: 3px;margin-left:10px">
     Massachussetts Institute of Technology &<br>
     Woods Hole Oceanographic Institution
   </div>
