@@ -386,7 +386,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   display: flex;
   justify-content: space-between; /* or space-evenly */
   align-items: center; /* Aligns icons vertically in the middle */
-  width: 60%; /* Ensure the container spans the desired width */
+  width: 100%; /* Ensure the container spans the desired width */
   /* padding: 40px; */
   /* height: 100px;           Set a height for the container */
   /* border: 1px solid #ccc;  Optional: visualize the container area */
@@ -399,14 +399,10 @@ icon-container a i {
 
 .icon-container-footer {
   display: flex;
-  justify-content: space-between; /* or space-evenly */
+  justify-content: space-evenly; /* or space-evenly */
   align-items: center; /* Aligns icons vertically in the middle */
   width: 100%; /* Ensure the container spans the desired width */
-  margin-right: 40px;
-  margin-left: 40px;
+  /* margin-right: 40px;
+  margin-left: 40px; */
 }
 
-icon-container-footer a i {
-  /* Add styling for your icons (e.g., color, size, padding) */
-  color: #4b5bc0;
-}
