@@ -4,7 +4,7 @@ permalink: /aboutme/index.html
 title: About me
 ---
 ##### About me
-<p style="font-size: 14pt">Here you will find some of my background information. Use the menu below to navigate through this page.</p>
+<p style="font-size: 14pt">Here you will find some of my background information. Use the menu below to navigate.</p>
 
 ***
 <style>
