@@ -392,7 +392,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   /* border: 1px solid #ccc;  Optional: visualize the container area */
 }
 
-icon-container a i {
+.icon-container a i {
   /* Add styling for your icons (e.g., color, size, padding) */
   color: #30313a;
 }
