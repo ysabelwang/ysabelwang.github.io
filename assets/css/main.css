@@ -406,3 +406,16 @@ icon-container a i {
   margin-left: 40px; */
 }
 
+.image-wrapper {
+  width: 150px;        /* Set a fixed square dimension for the wrapper */
+  height: 150px;
+  border-radius: 4px;  /* Makes the wrapper circular */
+  overflow: hidden;    /* Hides any part of the image that extends beyond the wrapper */
+}
+
+.image-wrapper img {
+  /* The image inside will adjust naturally within the circular container */
+  width: 100%;
+  height: auto;
+}
+
