@@ -2,7 +2,7 @@
 layout: page
 ---
 <!-- *** -->
-<img src="{{ site.url }}/images/avatar.png" class="floatpic" width=150 height=150>
+<!-- <img src="{{ site.url }}/images/avatar.png" class="floatpic" width=150 height=150> -->
 <!-- <p style="font-size: 14pt"> -->
 
  <p style="font-size: 14pt;text-align: left; text-indent: 48px;">

@@ -10,7 +10,7 @@ permalink: /aboutme/index.html
 </ul> -->
 
 <style>
-  .navlink { text-decoration:none; color:#333; font-size:16px; font-weight:400; }
+  .navlink { text-decoration:none; color:#333; font-size:21px; font-weight:400; }
   .navlink:hover { font-weight:700; }
   .navlink.active { font-weight:700; }
 </style>
@@ -24,20 +24,20 @@ permalink: /aboutme/index.html
     align-items: center; 
     max-width: 800px; 
     margin: 0 auto; 
-    font-size: 18px; 
+    font-size: 21px; 
     font-family: Quicksand;
   ">
     
     <a href="#background" class="navlink" style="flex:1; text-align:center; text-decoration:none; color:#333;">
-      Background
+      <h2>Background</h2>
     </a>
 
     <a href="#education" class="navlink" style="flex:1; text-align:center; text-decoration:none; color:#333;">
-      Education
+      <h2>Education</h2>
     </a>
 
     <a href="#cv" class="navlink" style="flex:1; text-align:center; text-decoration:none; color:#333;">
-      CV
+      <h2>CV</h2>
     </a>
 
   </div>
