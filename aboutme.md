@@ -61,11 +61,11 @@ permalink: /aboutme/index.html
   </div>
 
   <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px;">
-    <div style="font-weight: bold; font-size: 16px;">PhD in Physical Oceanography</div>
-    <div style="font-size: 14px; color: #666;">2023</div>
+    <div style="font-weight: bold; font-size: 14px;">PhD in Physical Oceanography</div>
+    <div style="font-size: 12px; color: #666;">2023</div>
   </div>
 
-  <div style="font-size: 15px; margin-bottom: 3px;">Massachussetts Institute of Technology & Woods Hole Oceanographic Institution</div>
+  <div style="font-size: 13px; margin-bottom: 3px;">Massachussetts Institute of Technology<br>Woods Hole Oceanographic Institution</div>
 
   <!-- <div style="font-size: 14px; color: #555; margin-left: 95px;">
     • GPA: 3.8/4.0<br />
@@ -82,11 +82,11 @@ permalink: /aboutme/index.html
   </div>
 
   <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px;">
-    <div style="font-weight: bold; font-size: 16px;">MS Oceanography</div>
-    <div style="font-size: 14px; color: #666;">2021 – 2023</div>
+    <div style="font-weight: bold; font-size: 14px;">MS Oceanography</div>
+    <div style="font-size: 12px; color: #666;">2021 – 2023</div>
   </div>
 
-  <div style="font-size: 15px; margin-bottom: 3px;">Texas A&M University</div>
+  <div style="font-size: 13px; margin-bottom: 3px;">Texas A&M University</div>
 
   <!-- <div style="font-size: 14px; color: #555; margin-left: 95px;">
     • Honors Program<br />
@@ -103,14 +103,14 @@ permalink: /aboutme/index.html
   </div>
 
   <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px;">
-    <div style="font-weight: bold; font-size: 16px;">BS in Physics</div>
-    <div style="font-size: 14px; color: #666;">2013 - 2018</div>
+    <div style="font-weight: 300; font-size: 14px;">BS in Physics</div>
+    <div style="font-size: 12px; color: #666;">2013 - 2018</div>
   </div>
 
-  <div style="font-size: 15px; margin-bottom: 3px;">University of the Philippines Diliman</div>
+  <div style="font-size: 13px; margin-bottom: 3px;">University of the Philippines Diliman</div>
 
-  <div style="font-size: 14px; color: #555;>
-    Thesis: title<br />
+  <div style="font-size: 14px; color: #555;">
+    Thesis: title: text<br />
   </div>
 
 </div>
