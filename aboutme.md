@@ -3,13 +3,10 @@ layout: page
 permalink: /aboutme/index.html
 title: About me
 ---
-***
 ##### About me
-<!-- <ul style="list-style-type: none;">
-    <li><a href="#education"><h5>Education</h5></a></li>
-    <li><a href="#background"><h5>Background</h5></a></li>
-</ul> -->
 
+
+***
 <style>
   .navlink { text-decoration:none; color:#333; font-size:21px; font-weight:400; }
   .navlink:hover { font-weight:700; }
