@@ -388,7 +388,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   align-items: center; /* Aligns icons vertically in the middle */
   width: 100%; /* Ensure the container spans the desired width */
   margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
   /* padding: 40px; */
   /* height: 100px;           Set a height for the container */
   /* border: 1px solid #ccc;  Optional: visualize the container area */

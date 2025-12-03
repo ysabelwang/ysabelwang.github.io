@@ -18,12 +18,31 @@ permalink: /aboutme/index.html
 <div style="font-family: Quicksand, sans-serif; margin: 0; padding: 0;">
 
 <div style="width: 100%; background-color: #ffffff; border-bottom: 2px solid #ddd; padding: 10px 0;">
-  <div style="display: flex; justify-content: space-around; align-items: center; max-width: 800px; margin: 0 auto; font-size: 18px;">
-    <a href="#background" class="navlink"><h6>Background</h6></a>
-    <a href="#education" class="navlink"><h6>Education</h6></a>
-    <a href="#cv" class="navlink"><h6>CV</h6></a>
+  <div style="
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    font-size: 18px; 
+    font-family: Quicksand;
+  ">
+    
+    <a href="#background" class="navlink" style="flex:1; text-align:center; text-decoration:none; color:#333;">
+      Background
+    </a>
+
+    <a href="#education" class="navlink" style="flex:1; text-align:center; text-decoration:none; color:#333;">
+      Education
+    </a>
+
+    <a href="#cv" class="navlink" style="flex:1; text-align:center; text-decoration:none; color:#333;">
+      CV
+    </a>
+
   </div>
 </div>
+
 
 <!-- Background -->
 
