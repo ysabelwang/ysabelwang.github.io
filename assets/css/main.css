@@ -463,5 +463,5 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 .top-navigation li a:hover {
   color: #ffffff !important;
   font-weight: 400 !important; /* prevent bold jump */
-  border-bot
+  border-bot;
 }
