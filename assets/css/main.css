@@ -408,25 +408,38 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 }
 
 @media (max-width: 767px) {
-  /* Center the whole author block on mobile */
+
+  /* Center the whole container */
   .article-author-top {
-    float: none;
-    display: block;
-    width: 100%;
-    margin: 1.5em auto 1em auto;
-    text-align: center;
+    float: none !important;
+    display: block !important;
+    width: 100% !important;
+    margin: 1.5em auto 1em auto !important;
+    text-align: center !important;
   }
 
-  /* Center the bio image and remove any float */
+  /* Center the image */
   .article-author-top img.bio-photo {
-    float: none;
-    display: block;
-    margin: 0 auto 0.75em auto;
+    float: none !important;
+    display: block !important;
+    margin: 0 auto 1em auto !important;
   }
 
-  /* Optional: center and slightly enlarge the text on mobile */
+  /* Center the bio text */
   .article-author-top p {
-    text-align: center;
-    font-size: 90%;
+    text-align: center !important;
+    padding: 0 10px !important;
+    font-size: 11pt !important;   /* optional: more readable on phones */
+  }
+
+  /* Center the icons */
+  .article-author-top .icon-container {
+    justify-content: center !important;
+    gap: 15px !important;     /* evenly spaced icons */
+    margin-top: 0.5em !important;
+  }
+
+  .article-author-top .icon-container a i {
+    font-size: 1.2em !important;   /* optional: slightly larger icons */
   }
 }
