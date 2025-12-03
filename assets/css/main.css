@@ -49,7 +49,7 @@ table{border-collapse:collapse;border-spacing:0;margin-bottom:1.5em;}
 .inherit-wrap{word-wrap:auto;}
 .drop-cap:first-letter{float:left;margin:inherit;padding:inherit;font-size:4em;font-family:inherit;line-height:1;text-indent:0;background:transparent;color:inherit;}
 html{font:normal 112.5%/1.65 serif;}
-body{word-wrap:normal;color:#061b77;}
+body{word-wrap:normal;color:#3b3c44;}
 .tera{font-size:117px;font-size:6.5rem;margin-bottom:0.25384615384615383rem;}
 .giga{font-size:90px;font-size:5rem;margin-bottom:0.33rem;}
 .mega{font-size:72px;font-size:4rem;margin-bottom:0.4125rem;}
