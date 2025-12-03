@@ -4,7 +4,7 @@ permalink: /aboutme/index.html
 title: About me
 ---
 ***
-Contents of this page: <br>
+##### About me
 <!-- <ul style="list-style-type: none;">
     <li><a href="#education"><h5>Education</h5></a></li>
     <li><a href="#background"><h5>Background</h5></a></li>
