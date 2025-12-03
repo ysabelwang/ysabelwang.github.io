@@ -6,10 +6,10 @@ layout: page
 <!-- <p style="font-size: 14pt"> -->
 
  <p style="font-size: 14pt;text-align: left; text-indent: 48px;">
-    Hello, my name is Ysabel Wang. I'm currently a PhD candidate studying physical oceanography in the MIT-WHOI Joint Program. I am advised by Magdalena Andres. 
+    Hello, my name is <b>Ysabel Wang</b>. I'm currently a PhD candidate studying physical oceanography in the MIT-WHOI Joint Program. I am advised by Magdalena Andres. 
 </p>
 <p style="font-size: 14pt;text-align: left; text-indent: 48px;">
-    My research involves making use of all available sources of information and data (in-situ measurements, satellite imagery, model output) to investigate the relationship between the well-studied large-scale, long-term, and surface-expressed physical processes and the more elusive fine-scale, short-term, and often subsurface ocean processes that have a cumulatively significant impact on heat, salt, and nutrient budgets in the Northwestern Atlantic ocean.
+    My research involves investigating the links between cross-scale ocean processes in the Northaestern Atlantic <b>by making use of all available sources of information</b> (in-situ measurements, satellite imagery, model output). In particular, I'm interested in investigating the relationship between the well-studied large-scale, long-term, and surface-expressed physical processes and the more elusive fine-scale, short-term, and often subsurface ocean processes that have a cumulatively significant impact on the environment.
  </p>
 <!-- </p> -->
 
