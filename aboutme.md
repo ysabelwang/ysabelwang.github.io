@@ -3,10 +3,10 @@ layout: page
 permalink: /aboutme/index.html
 # title: About me
 ---
-<p style="text-align: justify;">
-<a href="#education">Education</a>
-<a href="#background">Background</a>
-</p>
+<div style="inline-block">
+<a href="#education"><h5>Education</h5></a>
+<a href="#background"><h5>Background</h5></a>
+</div>
 
 ***
 
