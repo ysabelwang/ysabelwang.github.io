@@ -407,3 +407,23 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   margin-left: 40px; */
 }
 
+/* Override sidebar layout for article-author-top */
+.article-author-top{
+  float: none !important;
+  display: block !important;
+  width: 100% !important;
+  margin: 2em auto 1em auto !important;
+  text-align: center;
+}
+
+/* Center the image nicely */
+.article-author-top img.bio-photo{
+  display: block !important;
+  margin: 0 auto 0.75em auto !important;
+}
+
+/* Optional: make the text a bit larger again */
+.article-author-top p{
+  font-size: 90% !important;
+  text-align: center;
+}
