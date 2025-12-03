@@ -2,10 +2,10 @@
 layout: page
 ---
 <!-- *** -->
-<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="floatpic">
+<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="image-wrap">
 <!-- <p style="font-size: 14pt"> -->
 
- <p style="font-size: 14pt">
+ <p style="font-size: 14pt;text-align: justify;">
  Hello, my name is Ysabel Wang. I'm a third-year PhD candidate studying physical oceanography in the MIT-WHOI Joint Program. 
  <br><br>
  My research involves making use of all available sources of information and data (in-situ measurements, satellite imagery, model output) to investigate the relationship between the well-studied large-scale, long-term, and surface-expressed physical processes and the more elusive fine-scale, short-term, and often subsurface ocean processes that have a cumulatively significant impact on heat, salt, and nutrient budgets in the Northwestern Atlantic ocean.

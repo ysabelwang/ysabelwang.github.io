@@ -8,7 +8,7 @@ url: https://ysabelwang.github.io
 owner:
   name: Ysabel <br> Wang
   avatar: avatar.jpeg
-  bio: I am a third-year PhD candidate in Physical Oceanography in the MIT-WHOI Joint Program
+  # bio: I am a third-year PhD candidate in Physical Oceanography in the MIT-WHOI Joint Program
   email: ysabel@mit.edu
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   # twitter: lancecai2002
@@ -38,8 +38,8 @@ links:
     url: /publications/
   - title: Conferences
     url: /conferences/
-  - title: Contact
-    url: /contact/
+  # - title: Contact
+  #   url: /contact/
   # - title: Blogs
   #   url: /blogs/
 
