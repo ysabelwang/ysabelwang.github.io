@@ -4,7 +4,7 @@ layout: page
 <!-- *** -->
 
 <div id="container">
-    <div id="image" style="display:inline;white-space:nowrap;"">
+    <div id="image" style="display:inline;white-space:nowrap;">
         <img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }} bio photo" width="200" height="200">
     </div>
     <div id="texts" style="display:inline; > 
