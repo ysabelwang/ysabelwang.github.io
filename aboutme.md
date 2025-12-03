@@ -8,54 +8,30 @@ permalink: /aboutme/index.html
     <li><a href="#background"><h5>Background</h5></a></li>
 </ul> -->
 
-<div style="
-  width: 100%;
-  background-color: #ffffff;
-  border-bottom: 2px solid #ddd;
-  padding: 10px 0;
-  font-family: Quicksand, sans-serif;
-">
+<style>
+  .navlink { text-decoration:none; color:#333; font-size:16px; font-weight:400; }
+  .navlink:hover { font-weight:700; }
+  .navlink.active { font-weight:700; }
+</style>
 
-  <div style="
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 800px;
-    margin: 0 auto;
-    font-size: 16px;
-    font-weight: 600;
-  ">
+<div style="font-family: Quicksand, sans-serif; margin: 0; padding: 0;">
 
-    <a href="#education" style="text-decoration: none; color: #333;">
-      Education
-    </a>
-
-    <a href="#background" style="text-decoration: none; color: #333;">
-      Background
-    </a>
-
-    <a href="#cv" style="text-decoration: none; color: #333;">
-      CV
-    </a>
-
+<div style="width: 100%; background-color: #ffffff; border-bottom: 2px solid #ddd; padding: 10px 0;">
+  <div style="display: flex; justify-content: space-around; align-items: center; max-width: 800px; margin: 0 auto; font-size: 16px;">
+    <a href="#education" class="navlink">Education</a>
+    <a href="#background" class="navlink">Background</a>
+    <a href="#cv" class="navlink">CV</a>
   </div>
 </div>
 
-
-
-<!-- <h5 id="education">Education</h5> -->
-<!-- Page container background -->
-<div style="font-family: Quicksand, sans-serif; padding: 40px 0;">
+<div style="padding: 40px 0;">
 
 <div style="max-width: 800px; margin: 0 auto; padding: 20px 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.08);">
 
-<h2 id="education" style="font-size: 20px; font-weight: bold; border-bottom: 2px solid #ddd; padding-bottom: 5px; margin-bottom: 15px;">
-
-</h2>
+<h2 id="education" style="font-size: 20px; font-weight: bold; border-bottom: 2px solid #ddd; padding-bottom: 5px; margin-bottom: 15px;"></h2>
 
 <!-- PhD -->
 <div style="margin-bottom: 20px; padding: 10px 15px; border-radius: 6px; background-color: #fafafa; border-left: 4px solid #333; overflow: auto;">
-
   <div style="float:left; margin-right:15px;">
     <img src="/images/mit-logo.svg" alt="MIT Logo" style="width:50px; height:auto;" />
   </div>
@@ -65,18 +41,14 @@ permalink: /aboutme/index.html
     <div style="font-size: 12px; color: #666;">2023</div>
   </div>
 
-  <div style="font-size: 13px; margin-bottom: 3px;">Massachussetts Institute of Technology<br>Woods Hole Oceanographic Institution</div>
-
-  <!-- <div style="font-size: 14px; color: #555; margin-left: 95px;">
-    • GPA: 3.8/4.0<br />
-    • Relevant coursework: Data Structures, Algorithms, Databases, Machine Learning
-  </div> -->
-
+  <div style="margin-left:95px; font-size: 13px; margin-bottom: 3px;">
+    Massachussetts Institute of Technology<br>
+    Woods Hole Oceanographic Institution
+  </div>
 </div>
 
 <!-- MS -->
 <div style="margin-bottom: 20px; padding: 10px 15px; border-radius: 6px; background-color: #fafafa; border-left: 4px solid #333; overflow: auto;">
-
   <div style="float:left; margin-right:15px;">
     <img src="/images/tamu-logo.svg" alt="TAMU Logo" style="width:50px; height:auto;" />
   </div>
@@ -86,18 +58,13 @@ permalink: /aboutme/index.html
     <div style="font-size: 12px; color: #666;">2021 – 2023</div>
   </div>
 
-  <div style="font-size: 13px; margin-bottom: 3px;">Texas A&M University</div>
-
-  <!-- <div style="font-size: 14px; color: #555; margin-left: 95px;">
-    • Honors Program<br />
-    • Activities: Science Club, Math Team
-  </div> -->
-
+  <div style="font-size: 13px; margin-bottom: 3px;">
+    Texas A&M University
+  </div>
 </div>
 
 <!-- BS -->
 <div style="margin-bottom: 20px; padding: 10px 15px; border-radius: 6px; background-color: #fafafa; border-left: 4px solid #333; overflow: auto;">
-
   <div style="float:left; margin-right:15px;">
     <img src="/images/up-logo.svg" alt="UPD Logo" style="width:50px; height:auto;" />
   </div>
@@ -107,15 +74,15 @@ permalink: /aboutme/index.html
     <div style="font-size: 12px; color: #666;">2013 - 2018</div>
   </div>
 
-  <div style="font-size: 13px; margin-bottom: 3px;">University of the Philippines Diliman</div>
-  <div style="font-size: 13px; margin-bottom: 3px;">test</div>
-
-  
-
+  <div style="font-size: 13px; margin-bottom: 3px;">
+    University of the Philippines Diliman
+  </div>
 </div>
 
 </div>
 </div>
+</div>
+
 
 
 
