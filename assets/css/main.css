@@ -84,7 +84,7 @@ h1,h2,h3,h4,h5,h6{color:#333332;}
 .pull-quote{position:relative;padding:1em;}.pull-quote:before,.pull-quote:after{height:1em;opacity:0.15;position:absolute;font-size:4em;}
 .pull-quote:before{content:'“';top:0em;left:0em;}
 .pull-quote:after{content:'”';bottom:0em;right:0em;}
-h1,h2,h3,h4,h5,h6{font-family:'PT Sans Narrow',sans-serif;font-weight:700;}
+h1,h2,h3,h4,h5,h6{font-family:'Quicksand',sans-serif;font-weight:700;}
 h6{font-weight:400;}
 a{text-decoration:none;color:#343434;}a:visited{color:#4e4e4e;}
 a:hover{color:#1a1a1a;font-weight:300;}

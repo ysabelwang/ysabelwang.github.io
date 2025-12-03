@@ -3,6 +3,7 @@ layout: page
 permalink: /aboutme/index.html
 # title: About me
 ---
+***
 <!-- <ul style="list-style-type: none;">
     <li><a href="#education"><h5>Education</h5></a></li>
     <li><a href="#background"><h5>Background</h5></a></li>
@@ -40,7 +41,8 @@ permalink: /aboutme/index.html
 <!-- EDUCATION -->
 <div style="padding: 40px 0;">
 
-<div style="max-width: 800px; margin: 0 auto; padding: 20px 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.08);">
+<!-- <div style="max-width: 800px; margin: 0 auto; padding: 20px 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.08);"> -->
+<div style="max-width: 800px; margin: 0 auto; padding: 20px 30px; border-radius: 8px; ">
 
 <h2 id="education" style="font-family:Quicksand;font-size: 20px; font-weight: bold; padding-bottom: 5px; margin-bottom: 15px; text-align:center">Education</h2>
 
