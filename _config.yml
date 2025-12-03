@@ -2,7 +2,7 @@ title: Ysabel Wang
 # tagline: Two roads diverged in woods, I took the one less traveled by.
 # description: Two roads diverged in woods, I took the one less traveled by.
 #Comment out url when working locally to resolve base urls correctly
-url: https://ysabelwang.github.io/
+url: https://ysabelwang.github.io
 
 # Owner/author information
 owner:
@@ -31,13 +31,13 @@ bing_verify: ""
 # For external links add external: true
 links:
   - title: About
-    url: aboutme
+    url: /aboutme/
   - title: Research
-    url: research/
+    url: /research/
   - title: Publications
-    url: publications/
+    url: /publications/
   - title: Conferences
-    url: conferences/
+    url: /conferences/
   # - title: Blogs
   #   url: /blogs/
 
