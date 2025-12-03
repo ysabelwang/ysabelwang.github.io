@@ -4,7 +4,7 @@ permalink: /aboutme/index.html
 title: About me
 ---
 ##### About me
-
+<p style="font-size: 14pt">Here you will find some of my background information. Use the menu below to navigate through this page.</p>
 
 ***
 <style>
@@ -28,7 +28,7 @@ title: About me
   ">
     
     <a href="#background" class="navlink" style="flex:1; text-align:center; text-decoration:none; color:#333;">
-      Background
+      Bio
     </a>
 
     <a href="#education" class="navlink" style="flex:1; text-align:center; text-decoration:none; color:#333;">
@@ -48,7 +48,7 @@ title: About me
 
 
 <br>
-<h2 id="background" style="font-family:Quicksand;font-size: 20px; padding-bottom: 5px; margin-bottom: 15px; text-align:center">Background</h2>
+<h2 id="background" style="font-family:Quicksand;font-size: 20px; padding-bottom: 5px; margin-bottom: 15px; text-align:center">Bio</h2>
 <p style="font-size: 14pt">I am a third year PhD candidate studying Physical Oceanography in the MIT-WHOI Joint Program. I'm currently investigating the cross-scale variability of ocean processes in the Northwestern Atlantic where Gulf Stream meanders play a huge role in the oceanography. </p>
 
 <p style="font-size: 14pt">I was born and raised in Metro Manila, Philippines. Before moving to the US in 2021 to start graduate school, I worked for 3 years as a physical oceanography researcher after receiving a BS in Physics in 2018. In August of 2023 I graduated with a MS in Oceanography from Texas A&M University, where I was advised by  <a href="https://ocean.tamu.edu/people/profiles/faculty/dimarcosteve.html" target="_blank">Steve DiMarco</a>.</p>
