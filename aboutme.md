@@ -96,35 +96,26 @@ permalink: /aboutme/index.html
 
 ***
 
-
+<!-- CV -->
 <div id="CV" style="margin: 20px 0;">
 
-  <!-- Embedded PDF -->
-  <embed 
-    src="/files/ywang_cv.pdf" 
-    type="application/pdf" 
-    width="100%" 
-    height="600px"
-    style="border: 1px solid #ccc; border-radius: 6px;"
-  />
-
-  <!-- Download Button -->
-  <div style="text-align: center; margin-top: 10px;">
-    <a 
-      href="/files/ywang_cv.pdf/" 
-      download 
-      style="
-        display: inline-block;
-        padding: 8px 16px;
-        background-color: #333;
-        color: white;
-        border-radius: 6px;
-        text-decoration: none;
-        font-family: Quicksand, sans-serif;
-      "
-    >
-      Download CV
-    </a>
+  <!-- Visible Scrollable PDF Area -->
+  <div 
+    style="
+      width: 100%;
+      height: 600px;
+      overflow-y: scroll;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    "
+  >
+    <embed 
+      src="/files/ywang_cv.pdf"
+      type="application/pdf"
+      width="100%"
+      height="1200px"
+      style="border: none;"
+    />
   </div>
 
 </div>
