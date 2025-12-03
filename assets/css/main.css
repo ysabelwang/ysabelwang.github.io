@@ -598,14 +598,15 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 
 /* ICON CONTAINERS */
 .icon-container {
-  display:flex;
-  justify-content:flex-start;
-  align-items:center;
-  gap:8px;
-  width:100%;
-  margin-right:5px;
-  margin-left:0px;
+  display: flex;
+  justify-content: flex-start;  /* left align */
+  align-items: center;
+  gap: 8px;                    /* change this for spacing */
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
 }
+
 
 .icon-container a i{
   color:#30313a;
