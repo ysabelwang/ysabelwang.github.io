@@ -6,12 +6,20 @@
 
 <!-- <p style="font-family: quicksand;text-align: center;font-size: 12pt">{{ site.owner.bio }}</p> -->
 
-
+<p style="font-size: 12pt ; text-align: left">
 <a href="mailto:{{ site.owner.email }}" target="_blank"><i class="icon-mail"></i> E-mail</a>
-<a href="https://linkedin.com/in/{{ site.owner.linkedin }}"><i class="icon-linkedin"></i>Linkedin</a> 
-<a href="{{ site.owner.scholar}}"><i class="ai ai-google-scholar-square"></i> Google Scholar/a> 
+
+<a href="https://linkedin.com/in/{{ site.owner.linkedin }}"><i class="icon-linkedin"></i> LinkedIn</a>
+
+<a href="{{ site.owner.scholar}}"><i class="ai ai-google-scholar-square"></i> Google Scholar</a> 
+
 <a href="https://orcid.org/{{ site.owner.orcid }}"><i class="ai ai-orcid-square"></i> ORCID</a> 
-<a href="https://github.com/{{ site.owner.github }}"><i class="icon-github"></i> Github</a> 
+
+<a href="https://github.com/{{ site.owner.github }}"><i class="icon-github" id="github-icon"></i> Github</a> 
+</p>
+#my-github-icon {
+  color: #ff0000; /* Changes the icon to red */
+}
 <!-- <div class="icon-container">
     <a href="mailto:{{ site.owner.email }}" target="_blank"><i class="icon-mail"></i></a> 
 

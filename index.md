@@ -2,9 +2,7 @@
 layout: page
 ---
 <!-- *** -->
-<div class="image-wrapper">
-    <img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="floatpic">
-</div>
+<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="floatpic">
 <!-- <p style="font-size: 14pt"> -->
 
  <p style="font-size: 14pt">
