@@ -28,8 +28,8 @@ permalink: /aboutme/index.html
 
 
 
-<br><br>
-<h2 id="background" style="font-size: 20px; font-weight: bold; padding-bottom: 5px; margin-bottom: 15px; text-align:center">Background</h2>
+<br>
+<h2 id="background" style="font-family:Quicksand;font-size: 20px; font-weight: bold; padding-bottom: 5px; margin-bottom: 15px; text-align:center">Background</h2>
 <p style="font-size: 14pt">I am a third year PhD candidate studying Physical Oceanography in the MIT-WHOI Joint Program. I'm currently investigating the cross-scale variability of ocean processes in the Northwestern Atlantic where Gulf Stream meanders play a huge role in the oceanography. </p>
 
 <p style="font-size: 14pt">I was born and raised in Metro Manila, Philippines. Before moving to the US in 2021 to start graduate school, I worked for 3 years as a physical oceanography researcher after receiving a BS in Physics in 2018. In August of 2023 I graduated with a MS in Oceanography from Texas A&M University, where I was advised by  <a href="https://ocean.tamu.edu/people/profiles/faculty/dimarcosteve.html" target="_blank">Steve DiMarco</a>.</p>
@@ -42,7 +42,7 @@ permalink: /aboutme/index.html
 
 <div style="max-width: 800px; margin: 0 auto; padding: 20px 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.08);">
 
-<h2 id="education" style="font-size: 20px; font-weight: bold; border-bottom: 2px solid #ddd; padding-bottom: 5px; margin-bottom: 15px; text-align:center">Education</h2>
+<h2 id="education" style="font-family:Quicksand;font-size: 20px; font-weight: bold; padding-bottom: 5px; margin-bottom: 15px; text-align:center">Education</h2>
 
 <!-- PhD -->
 <div style="margin-bottom: 20px; padding: 10px 15px; border-radius: 6px; background-color: #fafafa; border-left: 4px solid #333; overflow: auto;">
@@ -101,7 +101,8 @@ permalink: /aboutme/index.html
 ***
 
 <!-- CV -->
-<div id="CV" style="margin: 20px 0;">
+<h2 id="CV" style="font-family:Quicksand;font-size: 20px; font-weight: bold; padding-bottom: 5px; margin-bottom: 15px; text-align:center">CV</h2>
+<div style="margin: 20px 0;">
 
 
   <!-- Scrollable PDF Viewer -->
@@ -115,7 +116,7 @@ permalink: /aboutme/index.html
     "
   >
     <embed 
-      src="/files/ywang_cv.pdf#navpanes=0&toolbar=0&zoom=page-width"
+      src="/files/ywang_cv.pdf#navpanes=0&zoom=page-width"
       type="application/pdf"
       width="100%"
       height="1200px"
