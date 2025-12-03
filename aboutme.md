@@ -17,13 +17,23 @@ permalink: /aboutme/index.html
 <div style="font-family: Quicksand, sans-serif; margin: 0; padding: 0;">
 
 <div style="width: 100%; background-color: #ffffff; border-bottom: 2px solid #ddd; padding: 10px 0;">
-  <div style="display: flex; justify-content: space-around; align-items: center; max-width: 800px; margin: 0 auto; font-size: 16px;">
-    <a href="#education" class="navlink">Education</a>
+  <div style="display: flex; justify-content: space-around; align-items: center; max-width: 800px; margin: 0 auto; font-size: 18px;">
     <a href="#background" class="navlink">Background</a>
+    <a href="#education" class="navlink">Education</a>
     <a href="#cv" class="navlink">CV</a>
   </div>
 </div>
 
+<!-- Background -->
+<h5 id="background">Background</h5>
+<p style="font-size: 14pt">I am a third year PhD candidate studying Physical Oceanography in the MIT-WHOI Joint Program. I'm currently investigating the cross-scale variability of ocean processes in the Northwestern Atlantic where Gulf Stream meanders play a huge role in the oceanography. </p>
+
+<p style="font-size: 14pt">I was born and raised in Metro Manila, Philippines. Before moving to the US in 2021 to start graduate school, I worked for 3 years as a physical oceanography researcher after receiving a BS in Physics in 2018. In August of 2023 I graduated with a MS in Oceanography from Texas A&M University, where I was advised by  <a href="https://ocean.tamu.edu/people/profiles/faculty/dimarcosteve.html" target="_blank">Steve DiMarco</a>.</p>
+
+<p style="font-size: 14pt">Outside of school and research, I enjoy playing the guitar, powerlifting, reading, video games, and the occasional pro-wrestling show. I have a mini dachshund named Spamwise Hamgee.</p>
+
+
+<!-- EDUCATION -->
 <div style="padding: 40px 0;">
 
 <div style="max-width: 800px; margin: 0 auto; padding: 20px 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.08);">
@@ -41,8 +51,9 @@ permalink: /aboutme/index.html
     <div style="font-size: 12px; color: #666;">2023</div>
   </div>
 
-  <div style="margin-left:95px; font-size: 13px; margin-bottom: 3px;">
-    Massachussetts Institute of Technology<br>
+  <!-- <div style="margin-left:95px; font-size: 13px; margin-bottom: 3px;"> -->
+  <div style="font-size: 13px; margin-bottom: 3px;margin-left:85px">
+    Massachussetts Institute of Technology &<br>
     Woods Hole Oceanographic Institution
   </div>
 </div>
@@ -83,14 +94,39 @@ permalink: /aboutme/index.html
 </div>
 </div>
 
-
-
-
 ***
-<h5 id="background">Background</h5>
-<p style="font-size: 14pt">I am a third year PhD candidate studying Physical Oceanography in the MIT-WHOI Joint Program. I'm currently investigating the cross-scale variability of ocean processes in the Northwestern Atlantic where Gulf Stream meanders play a huge role in the oceanography. </p>
 
-<p style="font-size: 14pt">I was born and raised in Metro Manila, Philippines. Before moving to the US in 2021 to start graduate school, I worked for 3 years as a physical oceanography researcher after receiving a BS in Physics in 2018. In August of 2023 I graduated with a MS in Oceanography from Texas A&M University, where I was advised by  <a href="https://ocean.tamu.edu/people/profiles/faculty/dimarcosteve.html" target="_blank">Steve DiMarco</a>.</p>
 
-<p style="font-size: 14pt">Outside of school and research, I enjoy playing the guitar, powerlifting, reading, video games, and the occasional pro-wrestling show. I have a mini dachshund named Spamwise Hamgee.</p>
+<div id="CV" style="margin: 20px 0;">
+
+  <!-- Embedded PDF -->
+  <embed 
+    src="/files/ywang_cv.pdf" 
+    type="application/pdf" 
+    width="100%" 
+    height="600px"
+    style="border: 1px solid #ccc; border-radius: 6px;"
+  />
+
+  <!-- Download Button -->
+  <div style="text-align: center; margin-top: 10px;">
+    <a 
+      href="/files/ywang_cv.pdf/" 
+      download 
+      style="
+        display: inline-block;
+        padding: 8px 16px;
+        background-color: #333;
+        color: white;
+        border-radius: 6px;
+        text-decoration: none;
+        font-family: Quicksand, sans-serif;
+      "
+    >
+      Download CV
+    </a>
+  </div>
+
+</div>
+
 
