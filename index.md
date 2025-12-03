@@ -3,7 +3,7 @@ layout: page
 ---
 <!-- *** -->
 
-<img src="/images/avatar.jpeg/" width=150 height=150 class="floatpic">
+<img src="{{ site.url }}/images/{{ site.owner.avatar }}" width=150 height=150 class="floatpic">
 <!-- <p style="font-size: 14pt"> -->
 
 Hello, my name is Ysabel Wang. I'm a third-year PhD candidate studying physical oceanography in the MIT-WHOI Joint Program. 
