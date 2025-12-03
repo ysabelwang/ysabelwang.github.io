@@ -443,3 +443,25 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
     font-size: 1.2em !important;   /* optional: slightly larger icons */
   }
 }
+
+/* NAVBAR – match footer color */
+.navigation-wrapper,
+.top-navigation,
+.top-navigation ul,
+.top-navigation li,
+.top-navigation li a {
+  background-color: #1d1e2c !important;
+}
+
+/* Default link color (light gray) */
+.top-navigation li a {
+  color: #bfbfbf !important;
+  border-bottom: 0 solid transparent !important;
+}
+
+/* Hover state (white) */
+.top-navigation li a:hover {
+  color: #ffffff !important;
+  font-weight: 400 !important; /* prevent bold jump */
+  border-bot
+}
