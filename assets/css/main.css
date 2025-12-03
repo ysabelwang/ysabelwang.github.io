@@ -49,7 +49,7 @@ table{border-collapse:collapse;border-spacing:0;margin-bottom:1.5em;}
 .inherit-wrap{word-wrap:auto;}
 .drop-cap:first-letter{float:left;margin:inherit;padding:inherit;font-size:4em;font-family:inherit;line-height:1;text-indent:0;background:transparent;color:inherit;}
 html{font:normal 112.5%/1.65 serif;}
-body{word-wrap:normal;color:#333332;}
+body{word-wrap:normal;color:#061b77;}
 .tera{font-size:117px;font-size:6.5rem;margin-bottom:0.25384615384615383rem;}
 .giga{font-size:90px;font-size:5rem;margin-bottom:0.33rem;}
 .mega{font-size:72px;font-size:4rem;margin-bottom:0.4125rem;}
@@ -299,7 +299,7 @@ html{background-color:#ffffff;font-family:'Quicksand',serif;color:#333332;font-s
 .holder a.jp-current{font-weight:bold;}
 .holder a.jp-current,.holder a.jp-current:hover,.holder a.jp-disabled,.holder a.jp-disabled:hover{cursor:default;background:none;}
 .holder span{margin:0 5px;}
-.footer-wrap{margin:0 auto;width:100%;*zoom:1;clear:both;margin-top:1em;padding-top:2em;padding-bottom:3em;background-color:#000000;}.footer-wrap:before,.footer-wrap:after{display:table;content:"";}
+.footer-wrap{margin:0 auto;width:100%;*zoom:1;clear:both;margin-top:1em;padding-top:2em;padding-bottom:3em;background-color:#3038a4;}.footer-wrap:before,.footer-wrap:after{display:table;content:"";}
 .footer-wrap:after{clear:both;}
 .footer-wrap:before,.footer-wrap:after{content:"";display:table;}
 .footer-wrap:after{clear:both;}
@@ -383,11 +383,15 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 
 .icon-container {
   display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center;     /* Centers vertically */
-  margin-right: 100px;
-  margin-left: 100px;
+  justify-content: space-between; /* or space-evenly */
+  align-items: center; /* Aligns icons vertically in the middle */
+  width: 100%; /* Ensure the container spans the desired width */
   /* padding: 40px; */
   /* height: 100px;           Set a height for the container */
   /* border: 1px solid #ccc;  Optional: visualize the container area */
+}
+
+icon-container a i {
+  /* Add styling for your icons (e.g., color, size, padding) */
+  color: #4b5bc0;
 }
