@@ -103,15 +103,14 @@ permalink: /aboutme/index.html
   </div>
 
   <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px;">
-    <div style="font-weight: 300; font-size: 14px;">BS in Physics</div>
+    <div style="font-weight: bold; font-size: 14px;">BS in Physics</div>
     <div style="font-size: 12px; color: #666;">2013 - 2018</div>
   </div>
 
   <div style="font-size: 13px; margin-bottom: 3px;">University of the Philippines Diliman</div>
+  <div style="font-size: 13px; margin-bottom: 3px;">test</div>
 
-  <div style="font-size: 14px; color: #555;">
-    Thesis: title: text<br />
-  </div>
+  
 
 </div>
 
