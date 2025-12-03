@@ -396,3 +396,9 @@ icon-container a i {
   /* Add styling for your icons (e.g., color, size, padding) */
   color: #4b5bc0;
 }
+
+.container-image-text {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 15px;
+        }
