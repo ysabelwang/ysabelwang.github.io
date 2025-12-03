@@ -18,9 +18,9 @@ permalink: /aboutme/index.html
 
 <div style="width: 100%; background-color: #ffffff; border-bottom: 2px solid #ddd; padding: 10px 0;">
   <div style="display: flex; justify-content: space-around; align-items: center; max-width: 800px; margin: 0 auto; font-size: 18px;">
-    <a href="#background" class="navlink">Background</a>
-    <a href="#education" class="navlink">Education</a>
-    <a href="#cv" class="navlink">CV</a>
+    <a href="#background" class="navlink"><h6>Background</h6></a>
+    <a href="#education" class="navlink"><h6>Education</h6></a>
+    <a href="#cv" class="navlink"><h6>CV</h6></a>
   </div>
 </div>
 
@@ -28,8 +28,8 @@ permalink: /aboutme/index.html
 
 
 
-
-<h6 id="background">Background</h6>
+<br><br>
+<h2 id="background" style="font-size: 20px; font-weight: bold; padding-bottom: 5px; margin-bottom: 15px; text-align:center">Background</h2>
 <p style="font-size: 14pt">I am a third year PhD candidate studying Physical Oceanography in the MIT-WHOI Joint Program. I'm currently investigating the cross-scale variability of ocean processes in the Northwestern Atlantic where Gulf Stream meanders play a huge role in the oceanography. </p>
 
 <p style="font-size: 14pt">I was born and raised in Metro Manila, Philippines. Before moving to the US in 2021 to start graduate school, I worked for 3 years as a physical oceanography researcher after receiving a BS in Physics in 2018. In August of 2023 I graduated with a MS in Oceanography from Texas A&M University, where I was advised by  <a href="https://ocean.tamu.edu/people/profiles/faculty/dimarcosteve.html" target="_blank">Steve DiMarco</a>.</p>
@@ -103,7 +103,8 @@ permalink: /aboutme/index.html
 <!-- CV -->
 <div id="CV" style="margin: 20px 0;">
 
-  <!-- Visible Scrollable PDF Area -->
+
+  <!-- Scrollable PDF Viewer -->
   <div 
     style="
       width: 100%;
@@ -114,7 +115,7 @@ permalink: /aboutme/index.html
     "
   >
     <embed 
-      src="/files/ywang_cv.pdf"
+      src="/files/ywang_cv.pdf#navpanes=0&toolbar=0&zoom=page-width"
       type="application/pdf"
       width="100%"
       height="1200px"
@@ -123,5 +124,6 @@ permalink: /aboutme/index.html
   </div>
 
 </div>
+
 
 
