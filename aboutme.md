@@ -3,15 +3,76 @@ layout: page
 permalink: /aboutme/index.html
 # title: About me
 ---
-<ul>
+<ul style="list-style-type: none;">
 <li><a href="#education"><h5>Education</h5></a></li>
 <li><a href="#background"><h5>Background</h5></a></li>
 </ul>
 
 ***
 
-<h5 id="education">Education</h5>
-insert educational background
+<!-- <h5 id="education">Education</h5> -->
+<!-- Page container background -->
+<div style="font-family: Arial, sans-serif; background-color: #f5f5f5; padding: 40px 0;">
+
+  <!-- Card container -->
+  <div style="max-width: 800px; margin: 0 auto; background-color: #ffffff; padding: 20px 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.08);">
+
+  <!-- Section title -->
+  <h2 style="font-size: 20px; font-weight: bold; border-bottom: 2px solid #ddd; padding-bottom: 5px; margin-bottom: 15px;" id ="education">
+    Education
+  </h2>
+
+  <!-- Education Item 1 -->
+  <div style="margin-bottom: 20px; padding: 10px 15px; border-radius: 6px; background-color: #fafafa; border-left: 4px solid #333; overflow: auto;">
+    <div style="float: left; margin-right: 15px;">
+      <img src="/images/up-logo.svg" alt="UP Logo" style="height: 50px; width: auto;" />
+    </div>
+
+    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px;">
+      <div style="font-weight: bold; font-size: 16px;">
+        Bachelor of Science in Physics
+      </div>
+      <div style="font-size: 14px; color: #666;">
+        2013 – 2018
+      </div>
+    </div>
+
+    <div style="font-size: 15px; margin-bottom: 3px;">
+      University of the Philippines Diliman
+    </div>
+
+    <div style="font-size: 14px; color: #555;">
+      • Undergraduate thesis:
+    </div>
+  </div>
+
+  <!-- Education Item 2 -->
+  <div style="margin-bottom: 20px; padding: 10px 15px; border-radius: 6px; background-color: #fafafa; border-left: 4px solid #333; overflow: auto;">
+    <div style="float: left; margin-right: 15px;">
+      <img src="/images/tamu-logo.svg" alt="School Logo" style="height: 50px; width: auto;" />
+    </div>
+
+    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px;">
+      <div style="font-weight: bold; font-size: 16px;">
+        MS in Oceanography
+      </div>
+      <div style="font-size: 14px; color: #666;">
+        2021 - 2023
+      </div>
+    </div>
+
+    <div style="font-size: 15px; margin-bottom: 3px;">
+      Texas A&M University
+    </div>
+
+    <div style="font-size: 14px; color: #555;">
+      • MS Thesis:
+    </div>
+  </div>
+
+  </div>
+</div>
+
 
 ***
 <h5 id="background">Background</h5>
