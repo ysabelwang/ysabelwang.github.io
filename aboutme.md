@@ -25,19 +25,20 @@ permalink: /aboutme/index.html
     max-width: 800px; 
     margin: 0 auto; 
     font-size: 21px; 
+    font-weight: bold;
     font-family: Quicksand;
   ">
     
     <a href="#background" class="navlink" style="flex:1; text-align:center; text-decoration:none; color:#333;">
-      <h2>Background</h2>
+      Background
     </a>
 
     <a href="#education" class="navlink" style="flex:1; text-align:center; text-decoration:none; color:#333;">
-      <h2>Education</h2>
+      Education
     </a>
 
     <a href="#cv" class="navlink" style="flex:1; text-align:center; text-decoration:none; color:#333;">
-      <h2>CV</h2>
+      CV
     </a>
 
   </div>
