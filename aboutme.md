@@ -1,9 +1,10 @@
 ---
 layout: page
 permalink: /aboutme/index.html
-# title: About me
+title: About me
 ---
 ***
+Contents of this page: <br>
 <!-- <ul style="list-style-type: none;">
     <li><a href="#education"><h5>Education</h5></a></li>
     <li><a href="#background"><h5>Background</h5></a></li>
