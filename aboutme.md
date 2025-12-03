@@ -57,6 +57,7 @@ permalink: /aboutme/index.html
 
 <p style="font-size: 14pt">Outside of school and research, I enjoy playing the guitar, powerlifting, reading, video games, and the occasional pro-wrestling show. I have a mini dachshund named Spamwise Hamgee.</p>
 
+***
 
 <!-- EDUCATION -->
 <div style="padding: 40px 0;">

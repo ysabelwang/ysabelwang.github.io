@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-***
+
 <!-- <img src="{{ site.url }}/images/avatar.png" class="floatpic" width=150 height=150> -->
 <!-- <p style="font-size: 14pt"> -->
 
