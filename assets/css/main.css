@@ -245,13 +245,13 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 .form-search label{display:inline-block;}
 .form-search .radio,.form-search .checkbox,.form-inline .radio{padding-left:0;margin-bottom:0;vertical-align:middle;}
 .form-search .radio input[type="radio"],.form-search .checkbox input[type="checkbox"]{float:left;margin-left:0;margin-right:3px;}
-html{background-color:#ffffff;font-family:'Quicksand',serif;font-color:#333332;font-size:80%;}
+html{background-color:#ffffff;font-family:'Quicksand',serif;color:#333332;font-size:14px;}
 .navigation-wrapper{margin:0 auto;width:100%;padding:2em 0 3em;font-family:'Quicksand',sans-serif;font-weight:500}
 .site-name{text-transform:uppercase;; margin:0 auto;width:100%;display:inline;float:left;width:83.33333333333334%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:1em;}
 .top-navigation{margin:0 auto;width:100%;display:inline;float:left;width:83.33333333333334%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:1em;}
 .top-navigation ul{list-style:none;margin:0;padding:0;}
 .top-navigation li{list-style-type:none;display:inline;margin-right:25px;}.top-navigation li a{decoration:none;border-bottom:0 solid transparent;-webkit-transition:all 0.2s;-moz-transition:all 0.2s;-ms-transition:all 0.2s;-o-transition:all 0.2s;transition:all 0.2s;}
-.top-navigation-hover{text-decoration: none;font-weight: 300;font-color:#7d7e78;}
+.top-navigation-hover{text-decoration: none;font-weight: 300;color:#7d7e78;}
 .top-navigation-current{text-decoration: underline;font-weight: 300;}
 #main{counter-reset:captions;margin:0 auto;width:100%;*zoom:1;clear:both;margin-top:1em;}#main:before,#main:after{display:table;content:"";}
 #main:after{clear:both;}
@@ -385,8 +385,8 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center;     /* Centers vertically */
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
   /* padding: 40px; */
   /* height: 100px;           Set a height for the container */
   /* border: 1px solid #ccc;  Optional: visualize the container area */
