@@ -247,8 +247,8 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 .form-search .radio input[type="radio"],.form-search .checkbox input[type="checkbox"]{float:left;margin-left:0;margin-right:3px;}
 html{background-color:#ffffff;font-family:'Quicksand',serif;color:#333332;font-size:18px;}
 .navigation-wrapper{margin:0 auto;width:100%;padding:2em 0 3em;font-family:'Quicksand',sans-serif;font-weight:500}
-.site-name{color:#4b5bc0; text-transform:uppercase; font-weight:500;font-size:26px; margin:0 auto;width:100%;display:inline;float:left;width:83.33333333333334%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:1em;}
-.site-name a{color:#4b5bc0;}
+.site-name{text-transform:uppercase;  margin:0 auto;width:100%;display:flex;justify-content: center;;width:83.33333333333334%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:1em;}
+.site-name a{color:#4b5bc0;font-weight:500;font-size:26px;}
 .top-navigation{margin:0 auto;width:100%;display:inline;float:left;width:83.33333333333334%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:1em;}
 .top-navigation ul{list-style:none;margin:0;padding:0;}
 .top-navigation li{list-style-type:none;display:inline;margin-right:25px;}.top-navigation li a{color:#4b5bc0; decoration:none;border-bottom:0 solid transparent;-webkit-transition:all 0.2s;-moz-transition:all 0.2s;-ms-transition:all 0.2s;-o-transition:all 0.2s;transition:all 0.2s;}
