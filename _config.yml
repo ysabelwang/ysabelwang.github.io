@@ -34,10 +34,12 @@ links:
     url: /research/
   - title: Publications
     url: /publications/
+  - title: Datasets
+    url: /datasets/
   - title: Conferences
     url: /conferences/
-  # - title: Contact
-  #   url: /contact/
+  - title: CV
+    url: /files/ywang_cv.pdf
   # - title: Blogs
   #   url: /blogs/
 

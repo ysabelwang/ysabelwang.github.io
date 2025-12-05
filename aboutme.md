@@ -3,8 +3,13 @@ layout: page
 permalink: /aboutme/index.html
 title: About me
 ---
+<<<<<<< HEAD
 ##### ABOUT ME
 <p style="font-size: 14pt">Here you will find some of my background information. Use the menu below to navigate through this page.</p>
+=======
+##### About me
+<p style="font-size: 14pt">Here you will find some of my background information. Use the menu below to navigate.</p>
+>>>>>>> 6916568cbddb43251956b31eb439aecd78dc4e8f
 
 ***
 <style>
