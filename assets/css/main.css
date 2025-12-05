@@ -239,7 +239,88 @@ p code{font-size:80%;white-space:nowrap;margin:0 2px;padding:0 5px;border:1px so
     font-size: 1.2em;
   }
 
+    /* --- MOBILE NAVIGATION DROPDOWN --- */
+
+  /* Make nav full-width on mobile */
+  .top-navigation {
+    margin: 0;
+    width: 100%;
+    float: none;
+    padding: 0 16px;
+  }
+
+  /* Hide the checkbox itself */
+  #nav-toggle {
+    display: none;
+  }
+
+  /* Show the "Menu" label on mobile */
+  .mobile-menu-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0;
+    color: #bfbfbf;
+    background-color: #1d1e2c;   /* same as header/footer */
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  /* Make nav list a hidden vertical dropdown by default */
+  .top-navigation ul {
+    display: none;
+    flex-direction: column;
+    background-color: #1d1e2c;
+    padding: 0;
+    margin: 0;
+    border-radius: 0 0 4px 4px;
+  }
+
+  .top-navigation li {
+    display: block;
+    margin: 0;
+  }
+
+  .top-navigation li a {
+    display: block;
+    padding: 10px 0;
+    color: #bfbfbf;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .top-navigation li:last-child a {
+    border-bottom: none;
+  }
+
+  .top-navigation li a:hover {
+    color: #ffffff;
+  }
+
+  /* When the checkbox is checked, show the dropdown */
+  #nav-toggle:checked + .mobile-menu-label + nav ul {
+    display: flex;
+  }
+
 }
+
+/* Show a drop down menu on mobile but the regular menu on desktop*/
+.mobile-menu-label {
+  display: none;
+}
+@media (min-width: 768px) {
+  .mobile-menu-label {
+    display: none;
+  }
+
+  .top-navigation ul {
+    display: block;
+  }
+}
+
+
 
 @media (min-width:768px) and (max-width:979px){
   .visible-tablet{display:inherit !important;}
