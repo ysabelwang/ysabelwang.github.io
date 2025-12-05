@@ -56,8 +56,8 @@ html{font:normal 112.5%/1.65 serif;}
 /* body{word-wrap:normal;color:#3b3c44;} */
 body{
   margin:0;
-  padding-top:140px;   /* space so content isn't hidden under fixed header */
-  padding-bottom:120px;/* space so content isn't hidden behind fixed footer */
+  padding-top:100px;    
+  padding-bottom:60px;  /* was 120px */
   word-wrap:normal;
   color:#3b3c44;
 }
@@ -254,10 +254,25 @@ p code{font-size:80%;white-space:nowrap;margin:0 2px;padding:0 5px;border:1px so
      MOBILE NAV: HAMBURGER DROPDOWN
      -------------------------------------- */
 
-  /* Slightly tighter header on mobile */
-  .navigation-wrapper {
-    padding: 0.75em 0 1em;
-  }
+  /* MOBILE NAV: HAMBURGER DROPDOWN */
+ .navigation-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 2000;         /* stays above everything */
+  background-color: #1d1e2c;
+  width: 100%;
+
+  padding: 1em 0 1.25em;  /* was 1.5em 0 2em */
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
+}
+
+
+}
+
 
   .site-name {
     margin-bottom: 0.5em;
@@ -285,6 +300,7 @@ p code{font-size:80%;white-space:nowrap;margin:0 2px;padding:0 5px;border:1px so
     font-size: 1rem;
     font-weight: 400;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 0.08em;
     cursor: pointer;
     padding-top: 0.25em;
@@ -563,7 +579,7 @@ Header always stays fixed */
   background-color: #1d1e2c;
 
   width: 100%;
-  padding: 2em 0 3em;
+  padding: 1em 0 1.5em;  /* was 2em 0 3em */
 }
 
 .footer-wrap:before,.footer-wrap:after{display:table;content:"";}
