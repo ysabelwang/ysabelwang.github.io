@@ -185,42 +185,60 @@ p code{font-size:80%;white-space:nowrap;margin:0 2px;padding:0 5px;border:1px so
 .visible-tablet{display:none !important;}
 .hidden-desktop{display:none !important;}
 
-@media (max-width:767px){
-  .visible-phone{display:inherit !important;}
-  .hidden-phone{display:none !important;}
-  .hidden-desktop{display:inherit !important;}
-  .visible-desktop{display:none !important;}
+@media (max-width: 767px) {
 
-  /* MOBILE AUTHOR BIO LAYOUT */
-  .article-author-top{
-    float:none;
-    display:block;
-    width:100%;
-    margin:1.5em auto 1em auto;
-    text-align:center;
+  /* Visibility rules (theme defaults) */
+  .visible-phone { display: inherit; }
+  .hidden-phone { display: none; }
+  .hidden-desktop { display: inherit; }
+  .visible-desktop { display: none; }
+
+  /* --------------------------------------
+     MOBILE PAGE MARGINS
+     -------------------------------------- */
+  #main article,
+  #index,
+  .article-wrap,
+  body {
+    margin-left: 16px;
+    margin-right: 16px;
+    box-sizing: border-box;
   }
 
-  .article-author-top img.bio-photo{
-    float:none;
-    display:block;
-    margin:0 auto 1em auto;
+  /* --------------------------------------
+     MOBILE AUTHOR BIO LAYOUT
+     -------------------------------------- */
+  .article-author-top {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 1.5em auto 1em auto;
+    text-align: center;
   }
 
-  .article-author-top p{
-    text-align:center;
-    padding:0 10px;
-    font-size:11pt;
+  .article-author-top img.bio-photo {
+    float: none;
+    display: block;
+    margin: 0 auto 1em auto;
   }
 
-  .article-author-top .icon-container{
-    justify-content:center;
-    gap:15px;
-    margin-top:0.5em;
+  .article-author-top p {
+    text-align: center;
+    padding: 0 10px;
+    font-size: 11pt;
   }
 
-  .article-author-top .icon-container a i{
-    font-size:1.2em;
+  .article-author-top .icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 0.5em;
   }
+
+  .article-author-top .icon-container a i {
+    font-size: 1.2em;
+  }
+
 }
 
 @media (min-width:768px) and (max-width:979px){
