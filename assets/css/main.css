@@ -54,13 +54,13 @@ table{border-collapse:collapse;border-spacing:0;margin-bottom:1.5em;}
 .drop-cap:first-letter{float:left;margin:inherit;padding:inherit;font-size:4em;font-family:inherit;line-height:1;text-indent:0;background:transparent;color:inherit;}
 html{font:normal 112.5%/1.65 serif;}
 /* body{word-wrap:normal;color:#3b3c44;} */
-body{
-  margin:0;
-  padding-top:100px;    
-  padding-bottom:60px;  /* was 120px */
-  word-wrap:normal;
-  color:#3b3c44;
+body {
+  margin: 0;
+  padding-top: 70px;   /* was 100 or 140 — now shorter */
+  padding-bottom: 80px;
+  color: #3b3c44;
 }
+
 
 .tera{font-size:117px;font-size:6.5rem;margin-bottom:0.25384615384615383rem;}
 .giga{font-size:90px;font-size:5rem;margin-bottom:0.33rem;}
@@ -438,64 +438,54 @@ html{background-color:#ffffff;font-family:'Quicksand',serif;color:#333332;font-s
 
 /* HEADER / NAV UPDATED TO MATCH FOOTER 
 Header always stays fixed */
+/* SHRUNK HEADER – only tall enough for logo + nav */
 .navigation-wrapper {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
 
-  z-index: 2000;         /* stays above everything */
+  z-index: 2000;
   background-color: #1d1e2c;
   width: 100%;
 
-  padding: 1.5em 0 2em;  /* adjust as needed */
+  padding: 0.5em 0;  /* MUCH smaller than before */
   font-family: 'Quicksand', sans-serif;
   font-weight: 200;
 }
 
-.site-name{
-  text-transform:uppercase;
-  color:#bfbfbf;
-  margin:0 auto;
-  width:100%;
-  display:flex;
-  justify-content:center;
-  width:83.33333333333334%;
-  margin-left:8.333333333333334%;
-  margin-right:8.333333333333334%;
-  margin-bottom:1em;
+/* Site name area – reduce spacing */
+.site-name {
+  margin: 0 auto 0.25em auto; /* tighten spacing */
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.site-name a{
-  color:#bfbfbf;
-  font-weight:500;
-  font-size:26px;
+.site-name a {
+  font-size: 22px;   /* slightly smaller title */
+  color: #bfbfbf;
+  font-weight: 500;
 }
 
-.site-name-current{
-  text-decoration:underline;
-  font-weight:400;
-  color:#ffffff;
+/* Navigation bar – reduce spacing around links */
+.top-navigation {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
 }
 
-.top-navigation{
-  margin:0 auto;
-  width:100%;
-  display:inline;
-  float:left;
-  width:83.33333333333334%;
-  margin-left:8.333333333333334%;
-  margin-right:8.333333333333334%;
-  margin-bottom:1em;
+.top-navigation ul {
+  margin: 0;
+  padding: 0;
 }
 
-.top-navigation ul{list-style:none;margin:0;padding:0;}
-
-.top-navigation li{
-  list-style-type:none;
-  display:inline;
-  margin-right:25px;
+.top-navigation li {
+  display: inline-block;
+  margin: 0 15px; /* tighter horizontally */
 }
+
 
 .top-navigation li a{
   color:#bfbfbf;
