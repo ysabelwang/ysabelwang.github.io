@@ -3,13 +3,9 @@ layout: page
 permalink: /aboutme/index.html
 title: About me
 ---
-<<<<<<< HEAD
-##### ABOUT ME
-<p style="font-size: 14pt">Here you will find some of my background information. Use the menu below to navigate through this page.</p>
-=======
+
 ##### About me
 <p style="font-size: 14pt">Here you will find some of my background information. Use the menu below to navigate.</p>
->>>>>>> 6916568cbddb43251956b31eb439aecd78dc4e8f
 
 ***
 <style>
@@ -53,7 +49,9 @@ title: About me
 
 
 <br>
-<p id="background" style="font-family:Quicksand;font-size: 20px; padding-bottom: 5px; margin-bottom: 15px; text-align:left">Bio:</p> <p style="font-size: 14pt">I am a third year PhD candidate studying Physical Oceanography in the MIT-WHOI Joint Program. I'm currently investigating the cross-scale variability of ocean processes in the Northwestern Atlantic where Gulf Stream meanders play a huge role in the oceanography. </p>
+<p id="background" style="font-family:Quicksand;font-size: 20px; padding-bottom: 5px; margin-bottom: 15px; text-align:center">Bio:</p> 
+
+<p style="font-size: 14pt">I am a third year PhD candidate studying Physical Oceanography in the MIT-WHOI Joint Program. I'm currently investigating the cross-scale variability of ocean processes in the Northwestern Atlantic where Gulf Stream meanders play a huge role in the oceanography. </p>
 
 <p style="font-size: 14pt">I was born and raised in Metro Manila, Philippines. Before moving to the US in 2021 to start graduate school, I worked for 3 years as a physical oceanography researcher after receiving a BS in Physics in 2018. In August of 2023 I graduated with a MS in Oceanography from Texas A&M University, where I was advised by  <a href="https://ocean.tamu.edu/people/profiles/faculty/dimarcosteve.html" target="_blank">Steve DiMarco</a>.</p>
 
@@ -61,72 +59,170 @@ title: About me
 
 ***
 
-<!-- EDUCATION -->
+<!-- EDUCATION SECTION -->
 <div style="padding: 40px 0;">
 
-<!-- <div style="max-width: 800px; margin: 0 auto; padding: 20px 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.08);"> -->
-<div style="max-width: 800px; margin: 0 auto; padding: 20px 30px; border-radius: 8px; ">
+  <div style="max-width: 800px; margin: 0 auto; padding: 20px 30px; border-radius: 8px;">
 
-<p id="education" style="font-family:Quicksand;font-size: 20px; padding-bottom: 5px; margin-bottom: 15px; text-align:center">Education and Academic Background</p>
+    <style>
+      /* --- BASE BLOCK STYLE --- */
+      .edu-item {
+        margin-bottom: 20px;
+        padding: 12px 15px;
+        border-radius: 6px;
+        background-color: #fafafa;
+        border-left: 4px solid #333;
+        overflow: auto;
+      }
 
-<!-- PhD -->
-<div style="margin-bottom: 20px; padding: 10px 15px; border-radius: 6px; background-color: #fafafa; border-left: 4px solid #333; overflow: auto;">
-  <div style="float:left; margin-right:15px;">
-    <img src="/images/mit-logo.svg" alt="MIT Logo" style="width:50px; height:auto;" />
+      /* --- DESKTOP LAYOUT (original float layout) --- */
+      .edu-logo {
+        float: left;
+        margin-right: 15px;
+      }
+
+      .edu-logo img {
+        width: 50px;
+        height: auto;
+      }
+
+      .edu-body {
+        overflow: hidden; /* clears float */
+      }
+
+      .edu-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 5px;
+      }
+
+      .edu-degree {
+        font-weight: bold;
+        font-size: 14px;
+      }
+
+      .edu-date {
+        font-size: 12px;
+        color: #666;
+      }
+
+      .edu-school {
+        font-size: 13px;
+        margin-bottom: 3px;
+      }
+
+      /* special hanging indent for long MIT/WHOI text */
+      .edu-school-phd {
+        font-size: 13px;
+        margin-bottom: 3px;
+        margin-left: 65px;  
+        text-indent: -65px;
+      }
+
+      /* --- MOBILE LAYOUT --- */
+      @media (max-width: 600px) {
+        .edu-item {
+          display: flex;
+          align-items: flex-start;
+          gap: 12px;
+          overflow: visible;
+        }
+
+        .edu-logo {
+          float: none;
+          margin-right: 0;
+          flex-shrink: 0;
+        }
+
+        .edu-body {
+          flex: 1;
+          overflow: visible;
+        }
+
+        .edu-header {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: baseline;
+          gap: 4px 8px;
+          margin-bottom: 4px;
+        }
+
+        .edu-school,
+        .edu-school-phd {
+          margin-left: 0;
+          text-indent: 0;
+          line-height: 1.4;
+        }
+      }
+    </style>
+
+    <p id="education" style="font-family:Quicksand; font-size: 20px; padding-bottom: 5px; margin-bottom: 15px; text-align:center;">
+      Education and Academic Background
+    </p>
+
+    <!-- PhD BLOCK -->
+    <div class="edu-item">
+      <div class="edu-logo">
+        <img src="/images/mit-logo.svg" alt="MIT Logo">
+      </div>
+
+      <div class="edu-body">
+        <div class="edu-header">
+          <div class="edu-degree">PhD in Physical Oceanography</div>
+          <div class="edu-date">2023</div>
+        </div>
+
+        <div class="edu-school-phd">
+          Massachusetts Institute of Technology &amp; Woods Hole Oceanographic Institution
+        </div>
+      </div>
+    </div>
+
+    <!-- MS BLOCK -->
+    <div class="edu-item">
+      <div class="edu-logo">
+        <img src="/images/tamu-logo.svg" alt="TAMU Logo">
+      </div>
+
+      <div class="edu-body">
+        <div class="edu-header">
+          <div class="edu-degree">MS Oceanography</div>
+          <div class="edu-date">2021 – 2023</div>
+        </div>
+
+        <div class="edu-school">
+          Texas A&amp;M University
+        </div>
+      </div>
+    </div>
+
+    <!-- BS BLOCK -->
+    <div class="edu-item">
+      <div class="edu-logo">
+        <img src="/images/up-logo.svg" alt="UPD Logo">
+      </div>
+
+      <div class="edu-body">
+        <div class="edu-header">
+          <div class="edu-degree">BS in Physics</div>
+          <div class="edu-date">2013 – 2018</div>
+        </div>
+
+        <div class="edu-school">
+          University of the Philippines Diliman
+        </div>
+      </div>
+    </div>
+
   </div>
-
-  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px;">
-    <div style="font-weight: bold; font-size: 14px;">PhD in Physical Oceanography</div>
-    <div style="font-size: 12px; color: #666;">2023</div>
-  </div>
-
-  <!-- <div style="margin-left:95px; font-size: 13px; margin-bottom: 3px;"> -->
-  <div style="font-size: 13px; margin-bottom: 3px; margin-left:65px; text-indent:-65px;">
-  Massachusetts Institute of Technology & Woods Hole Oceanographic Institution
-  </div>
-</div>
-
-<!-- MS -->
-<div style="margin-bottom: 20px; padding: 10px 15px; border-radius: 6px; background-color: #fafafa; border-left: 4px solid #333; overflow: auto;">
-  <div style="float:left; margin-right:15px;">
-    <img src="/images/tamu-logo.svg" alt="TAMU Logo" style="width:50px; height:auto;" />
-  </div>
-
-  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px;">
-    <div style="font-weight: bold; font-size: 14px;">MS Oceanography</div>
-    <div style="font-size: 12px; color: #666;">2021 – 2023</div>
-  </div>
-
-  <div style="font-size: 13px; margin-bottom: 3px;">
-    Texas A&M University
-  </div>
-</div>
-
-<!-- BS -->
-<div style="margin-bottom: 20px; padding: 10px 15px; border-radius: 6px; background-color: #fafafa; border-left: 4px solid #333; overflow: auto;">
-  <div style="float:left; margin-right:15px;">
-    <img src="/images/up-logo.svg" alt="UPD Logo" style="width:50px; height:auto;" />
-  </div>
-
-  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px;">
-    <div style="font-weight: bold; font-size: 14px;">BS in Physics</div>
-    <div style="font-size: 12px; color: #666;">2013 - 2018</div>
-  </div>
-
-  <div style="font-size: 13px; margin-bottom: 3px;">
-    University of the Philippines Diliman
-  </div>
-</div>
-
-</div>
-</div>
 </div>
 
 ***
 
 <!-- CV -->
-<p id="cv" style="font-family:Quicksand;font-size: 20px; padding-bottom: 5px; margin-bottom: 15px; text-align:center">CV</p>
-<br> Last updated on: Dec. 4, 2025
+<p id="cv" style="font-family:Quicksand;font-size: 20px; padding-bottom: 5px; margin-bottom: 15px; text-align:center">CV (Last updated on: Dec. 4, 2025) </p>
 <div style="margin: 20px 0;">
 
 
