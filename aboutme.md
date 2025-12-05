@@ -159,7 +159,7 @@ title: About me
 
   <!-- BIO SECTION -->
   <div class="collapsible-section" id="background">
-    <details open>
+    <details>
       <summary>BIO</summary>
       <div class="collapsible-content">
         <p style="font-size: 14pt">I am a third year PhD candidate studying Physical Oceanography in the MIT-WHOI Joint Program. I'm currently investigating the cross-scale variability of ocean processes in the Northwestern Atlantic where Gulf Stream meanders play a huge role in the oceanography. </p>
