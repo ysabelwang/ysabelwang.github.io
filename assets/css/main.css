@@ -57,7 +57,7 @@ html{font:normal 112.5%/1.65 serif;}
 body {
   margin: 0;
   padding-top: 70px;   /* was 100 or 140 — now shorter */
-  padding-bottom: 0px; /* was 80 but made footer static
+  padding-bottom: 0px; /* was 80 but made footer static */
   color: #3b3c44;
 }
 
