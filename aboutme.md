@@ -4,7 +4,7 @@ permalink: /aboutme/index.html
 title: About me
 ---
 
-##### About me
+##### ABOUT ME
 <p style="font-size: 14pt">
   Here you will find some of my background information. Click on each section below to expand or collapse.
 </p>
@@ -35,7 +35,7 @@ title: About me
   .collapsible-section summary {
     padding: 10px 14px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 300;
     cursor: pointer;
     list-style: none;
   }
@@ -160,7 +160,7 @@ title: About me
   <!-- BIO SECTION -->
   <div class="collapsible-section" id="background">
     <details>
-      <summary>BIO</summary>
+      <summary>Bio</summary>
       <div class="collapsible-content">
         <p style="font-size: 14pt">I am a third year PhD candidate studying Physical Oceanography in the MIT-WHOI Joint Program. I'm currently investigating the cross-scale variability of ocean processes in the Northwestern Atlantic where Gulf Stream meanders play a huge role in the oceanography. </p>
 
@@ -174,7 +174,7 @@ title: About me
   <!-- EDUCATION SECTION -->
   <div class="collapsible-section" id="education">
     <details>
-      <summary>Education and Academic Background</summary>
+      <summary>Education</summary>
       <div class="collapsible-content">
 
         <!-- PhD BLOCK -->

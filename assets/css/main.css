@@ -265,7 +265,7 @@ p code{font-size:80%;white-space:nowrap;margin:0 2px;padding:0 5px;border:1px so
   background-color: #1d1e2c;
   width: 100%;
 
-  padding: 1em 0 1.25em;  /* was 1.5em 0 2em */
+  padding: 0.5em 0 1.25em;  /* was 1.5em 0 2em */
   font-family: 'Quicksand', sans-serif;
   font-weight: 200;
 }
@@ -449,14 +449,14 @@ Header always stays fixed */
   background-color: #1d1e2c;
   width: 100%;
 
-  padding: 0.5em 0;  /* MUCH smaller than before */
+  padding: 0.25em 0;  /* MUCH smaller than before */
   font-family: 'Quicksand', sans-serif;
   font-weight: 200;
 }
 
 /* Site name area – reduce spacing */
 .site-name {
-  margin: 0 auto 0.25em auto; /* tighten spacing */
+  margin: 0 auto auto auto; /* tighten spacing */
   width: 100%;
   display: flex;
   justify-content: center;
