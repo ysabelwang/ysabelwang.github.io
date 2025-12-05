@@ -566,7 +566,7 @@ Header always stays fixed */
   background-color: #1d1e2c;
 
   width: 100%;
-  padding: 0.5em 0 0.5em 0;  /* was 2em 0 3em */
+  padding: 0.5em 0em;  /* was 2em 0 3em */
 }
 
 .footer-wrap:before,.footer-wrap:after{display:table;content:"";}
