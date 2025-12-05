@@ -57,7 +57,7 @@ html{font:normal 112.5%/1.65 serif;}
 body {
   margin: 0;
   padding-top: 70px;   /* was 100 or 140 — now shorter */
-  padding-bottom: 80px;
+  padding-bottom: 0px; /* was 80 but made footer static
   color: #3b3c44;
 }
 
@@ -456,7 +456,7 @@ Header always stays fixed */
 
 /* Site name area – reduce spacing */
 .site-name {
-  margin: 0 auto auto auto; /* tighten spacing */
+  margin: 0 auto 0.1em auto; /* tighten spacing */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -557,7 +557,7 @@ Header always stays fixed */
 .holder a.jp-current,.holder a.jp-current:hover,.holder a.jp-disabled,.holder a.jp-disabled:hover{cursor:default;background:none;}
 .holder span{margin:0 5px;}
 .footer-wrap {
-  position: fixed;
+  position: static;
   bottom: 0;
   left: 0;
   right: 0;
@@ -566,7 +566,7 @@ Header always stays fixed */
   background-color: #1d1e2c;
 
   width: 100%;
-  padding: 1em 0 1.5em;  /* was 2em 0 3em */
+  padding: 0.5em 0 1.5em;  /* was 2em 0 3em */
 }
 
 .footer-wrap:before,.footer-wrap:after{display:table;content:"";}
