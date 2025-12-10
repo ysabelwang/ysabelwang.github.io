@@ -54,13 +54,26 @@ table{border-collapse:collapse;border-spacing:0;margin-bottom:1.5em;}
 .drop-cap:first-letter{float:left;margin:inherit;padding:inherit;font-size:4em;font-family:inherit;line-height:1;text-indent:0;background:transparent;color:inherit;}
 html{font:normal 112.5%/1.65 serif;}
 /* body{word-wrap:normal;color:#3b3c44;} */
+/* body { */
+  /* margin: 0; */
+  /* padding-top: 70px;   was 100 or 140 — now shorter */
+  /* padding-bottom: 0px; was 80 but made footer static */
+  /* color: #3b3c44; */
+/* } */
+html, body {
+  height: 100%;
+}
 body {
   margin: 0;
-  padding-top: 70px;   /* was 100 or 140 — now shorter */
-  padding-bottom: 0px; /* was 80 but made footer static */
+  min-height: 100vh;          /* full viewport height */
+  display: flex;
+  flex-direction: column;
+  
+  padding-top: 70px;          /* whatever you use for the fixed header height */
+  padding-bottom: 0;          /* no need to reserve space for footer anymore */
+  word-wrap: normal;
   color: #3b3c44;
 }
-
 
 .tera{font-size:117px;font-size:6.5rem;margin-bottom:0.25384615384615383rem;}
 .giga{font-size:90px;font-size:5rem;margin-bottom:0.33rem;}
@@ -506,9 +519,10 @@ Header always stays fixed */
   font-weight:400;
 }
 
-#main{counter-reset:captions;margin:0 auto;width:100%;*zoom:1;clear:both;margin-top:1em;}
+#main{counter-reset:captions;margin:0 auto;width:100%;*zoom:1;clear:both;margin-top:1em;flex:1;}
 #main:before,#main:after{display:table;content:"";}
 #main:after{clear:both;}
+
 #index{margin:0 auto;width:100%;display:inline;float:left;width:83.33333333333334%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:2em;}
 #index article h2{font-size:24px;font-size:1.3333333333333333rem;margin-bottom:1.2375rem;margin-bottom:0;}
 #index article p+p{text-indent:0;}
@@ -558,16 +572,21 @@ Header always stays fixed */
 .holder span{margin:0 5px;}
 .footer-wrap {
   position: static;
-  bottom: 0;
+  /* bottom: 0;
   left: 0;
   right: 0;
 
-  z-index: 1500;         /* slightly below header but above content */
+  z-index: 1500;         slightly below header but above content */
   background-color: #1d1e2c;
 
   width: 100%;
-  padding: 0.5em 0em;  /* was 2em 0 3em */
+  /* padding: 0.5em 0em;  was 2em 0 3em */
+  padding: 1em 0 1.5em;
+
+  margin-top: auto;   /* this pushes it to the bottom when content is short */
 }
+
+
 
 .footer-wrap:before,.footer-wrap:after{display:table;content:"";}
 .footer-wrap:after{clear:both;}
