@@ -580,8 +580,8 @@ Header always stays fixed */
   background-color: #1d1e2c;
 
   width: 100%;
-  /* padding: 0.5em 0em;  was 2em 0 3em */
-  padding: 1em 0 1.5em;
+  padding: 0.5em 0em; /*  was 2em 0 3em */
+  /* padding: 1em 0 1.5em; */
 
   margin-top: auto;   /* this pushes it to the bottom when content is short */
 }
