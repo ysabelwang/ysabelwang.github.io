@@ -6,7 +6,7 @@ title: About me
 
 ##### ABOUT ME
 <p style="font-size: 14pt">
-  Here you will find some of my background information. Click on each section below to expand or collapse.
+  Here you will find some of my background information and my most recent CV.
 </p>
 
 ***
