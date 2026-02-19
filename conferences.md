@@ -61,7 +61,7 @@ title: Upcoming and Recent Conferences
 <div class="collapsible-wrapper">
 
   <!-- BIO SECTION -->
-  <div class="collapsible-section" id="mab-swot_cpies">
+  <div class="collapsible-section" id="osm_2026">
     <details>
       <summary>Ocean Sciences Meeting 2026</summary>
       <div class="collapsible-content">
@@ -71,7 +71,7 @@ title: Upcoming and Recent Conferences
   </div>
 
 
-***
+
 
 
 <!-- <br> -->

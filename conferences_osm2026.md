@@ -4,3 +4,98 @@ permalink: /conferences/osm2026.html
 title: Ocean Sciences Meeting 2026
 ---
 ##### Ocean Sciences Meeting 2026
+<style>
+  /* ---------- Collapsible blocks ---------- */
+  .collapsible-wrapper {
+    font-family: Quicksand, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .collapsible-section {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+
+  .collapsible-section details {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fafafa;
+    margin-bottom: 16px;
+    overflow: hidden;
+  }
+
+  .collapsible-section summary {
+    padding: 10px 14px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .collapsible-section summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .collapsible-section details[open] summary {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .collapsible-content {
+    padding: 12px 16px 16px 16px;
+    font-size: 14pt;
+  }
+
+  /* Optional: small indicator on the right */
+  .collapsible-section summary::after {
+    content: "▾";
+    float: right;
+    font-size: 0.9em;
+  }
+
+  .collapsible-section details[open] summary::after {
+    content: "▴";
+  }
+</style>
+<div class="collapsible-wrapper">
+
+  <!-- Poster -->
+  <div class="collapsible-section" id="poster">
+    <details>
+      <summary>Digital copy of poster</summary>
+      <div class="collapsible-content">
+        <p style="font-size: 14pt">Insert copy of poster</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Other examples of WCR-cyclone interactions -->
+  <div class="collapsible-section" id="wcr_cyclone">
+    <details>
+      <summary>WCR-cyclone interactions</summary>
+      <div class="collapsible-content">
+        <p style="font-size: 14pt">Interactions between WCRs and cyclones are not unique events. Below are a few instances of these interactions based on satellite imagery.</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- WCRs as drivers of cross-slope physical variability -->
+  <div class="collapsible-section" id="wcr_impact">
+    <details>
+      <summary>The impact of WCRs on shelf water export</summary>
+      <div class="collapsible-content">
+        <p style="font-size: 14pt">Our paper entitled "The impact of Gulf Stream warm core rings on shelf water export in the Northwestern Atlantic" is currently being prepared for submission. This paper investigates the multi-scale temporal variability (daily, annual, and interannual) of shelf water streamer export by WCRs and the relationship between streamer transport volumes and interactions involving the WCR and circulation features in the Slope Sea associated with the Gulf Stream. We estimate the likelihood for a WCR that is present in the western Slope Sea to entrain a streamer in 2021-2025 using satellite imagery (sea surface height, sea surface temperature, and sea surface chlorophyll). We also follow the evolution and streamer export impact of single WCR from April to September 2023 that underwent almost all possible interactions with the Gulf Stream system that all WCRs experience. Many of these interactions occurred at the same time as the ring entrained shelf water streamers.</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Realistic model -->
+  <div class="collapsible-section" id="wcr_impact">
+    <details>
+      <summary>A realistic model of the Northwestern Atlantic</summary>
+      <div class="collapsible-content">
+        <p style="font-size: 14pt">Talk about Sean's model and paper.</p>
+      </div>
+    </details>
+  </div>
+</div>
