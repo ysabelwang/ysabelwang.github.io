@@ -65,7 +65,7 @@ title: Upcoming and Recent Conferences
     <details>
       <summary>Ocean Sciences Meeting 2026</summary>
       <div class="collapsible-content">
-        <p style="font-size: 14pt"><a href="/conferences_osm2026.md">Ocean Sciences 2026</a>: I will be presenting my research on the interactions between warm core rings and Slope Sea cyclones at the 2026 Ocean Sciences Meeting in Glasgow, Scotland.</p>
+        <p style="font-size: 14pt"><a href="/conferences/osm2026.html">Ocean Sciences 2026</a>: I will be presenting my research on the interactions between warm core rings and Slope Sea cyclones at the 2026 Ocean Sciences Meeting in Glasgow, Scotland.</p>
       </div>
     </details>
   </div>
