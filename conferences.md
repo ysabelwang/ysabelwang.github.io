@@ -69,6 +69,7 @@ title: Upcoming and Recent Conferences
       </div>
     </details>
   </div>
+</div>
 
 
 
