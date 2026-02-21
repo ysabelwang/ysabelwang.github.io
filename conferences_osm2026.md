@@ -58,24 +58,22 @@ title: Ocean Sciences Meeting 2026
   }
 </style>
 <div class="collapsible-wrapper">
-
-  <!-- Poster -->
   
+  <!-- Poster -->
   <div class="collapsible-section" id="poster">
     <details>
       <summary>Digital copy of poster</summary>
       <div class="collapsible-content">
 
-        <a href="/files/osm26_PS24D-1772.pdf/" target="_blank">
+        <a href="/files/osm26_PS24D-1772.pdf" target="_blank">
           <embed 
-            src="/files/osm26_PS24D-1772.pdf/" 
+            src="/files/osm26_PS24D-1772.pdf" 
             type="application/pdf" 
             width="100%" 
             height="600px"
           />
         </a>
       </div>
-      
     </details>
   </div>
 
