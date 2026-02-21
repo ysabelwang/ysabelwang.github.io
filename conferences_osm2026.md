@@ -69,8 +69,8 @@ title: Ocean Sciences Meeting 2026
           <embed 
             src="/files/osm26_PS24D-1772.pdf#toolbar=0&navpanes=0&page=1&view=FitH" 
             type="application/pdf" 
-            width="100%"
-            style="aspect-ratio: 38.03 / 36.1; display: block;"
+            height="100%"
+            style="display: block;"
           />
         </a>
       </div>
