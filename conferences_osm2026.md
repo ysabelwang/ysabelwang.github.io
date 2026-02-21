@@ -56,6 +56,19 @@ title: Ocean Sciences Meeting 2026
   .collapsible-section details[open] summary::after {
     content: "▴";
   }
+
+  /* PDF insert */
+  .pdf-link {
+    display: block;
+    text-decoration: none;
+  }
+
+  .pdf-preview embed {
+    width: 100%;
+    height: 100%;
+    display: block;
+    pointer-events: none;
+  }
 </style>
 <div class="collapsible-wrapper">
   
@@ -65,13 +78,13 @@ title: Ocean Sciences Meeting 2026
       <summary>Digital copy of poster</summary>
       <div class="collapsible-content">
 
-        <a href="/files/osm26_PS24D-1772.pdf" target="_blank">
-          <embed 
-            src="/files/osm26_PS24D-1772.pdf#toolbar=0&navpanes=0&page=1&view=FitH" 
-            type="application/pdf" 
-            height="100%"
-            style="display: block;"
-          />
+        <a href="/files/osm26_PS24D-1772.pdf" target="_blank" class="pdf-link">
+          <div class="pdf-preview">
+            <embed 
+              src="/files/osm26_PS24D-1772.pdf#toolbar=0&navpanes=0&page=1&view=FitH" 
+              type="application/pdf"
+            />
+          </div>
         </a>
       </div>
     </details>
