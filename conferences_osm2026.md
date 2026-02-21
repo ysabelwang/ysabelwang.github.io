@@ -71,6 +71,7 @@ title: Ocean Sciences Meeting 2026
             type="application/pdf" 
             width="100%" 
             height="600px"
+            style="aspect-ratio: 38.03 / 36.1;"
           />
         </a>
       </div>
