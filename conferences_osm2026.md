@@ -60,12 +60,22 @@ title: Ocean Sciences Meeting 2026
 <div class="collapsible-wrapper">
 
   <!-- Poster -->
+  
   <div class="collapsible-section" id="poster">
     <details>
       <summary>Digital copy of poster</summary>
       <div class="collapsible-content">
-        <p style="font-size: 14pt">Insert copy of poster</p>
+
+        <a href="/files/osm26_PS24D-1772.pdf/" target="_blank">
+          <embed 
+            src="/files/osm26_PS24D-1772.pdf/" 
+            type="application/pdf" 
+            width="100%" 
+            height="600px"
+          />
+        </a>
       </div>
+      
     </details>
   </div>
 
@@ -92,9 +102,9 @@ title: Ocean Sciences Meeting 2026
   <!-- Realistic model -->
   <div class="collapsible-section" id="wcr_impact">
     <details>
-      <summary>A realistic model of the Northwestern Atlantic</summary>
+      <summary>Deep ocean processes associated with the Gulf Stream</summary>
       <div class="collapsible-content">
-        <p style="font-size: 14pt">Talk about Sean's model and paper.</p>
+        <p style="font-size: 14pt">For more information on the mechanisms that drive benthic storms under the Gulf Stream, see this paper by Sean Chen: Chen, S.-Y. S., Marchal, O., Gardner, W., & Andres, M. (2024). Intensified currents associated with benthic storms underneath an eddying jet. Journal of Geophysical Research: Oceans, 129, e2024JC020963. <a href="https://doi.org/10.1029/2024JC020963 ">https://doi.org/10.1029/2024JC020963</a></p>
       </div>
     </details>
   </div>
