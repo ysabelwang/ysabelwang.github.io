@@ -95,7 +95,15 @@ title: Ocean Sciences Meeting 2026
     <details>
       <summary>WCR-cyclone interactions</summary>
       <div class="collapsible-content">
-        <p style="font-size: 14pt">Interactions between WCRs and cyclones are not unique events. Below are a few instances of these interactions based on satellite imagery.</p>
+        <p style="font-size: 14pt">Interactions between WCRs and cyclones are not unique events. Below are two instances of these interactions based on satellite imagery.
+        </br>
+        For each figure, the top plot is a bathymetry map 
+        in the Slope Sea showing the evolution of a WCR’s SSH-derived shape during its interaction with a cyclone on four different dates, and the right plot is an SST map on each of these dates showing the WCR (white contours) and deep cyclone (black contour, -30 cm SSH) interaction at different stages, where the thick red line is the 25-cm SSH contour to estimate the GS North Wall. The 200-m isobath contour delineating the continental shelf is shown in black in all figures. 
+        </p>
+
+        <img src="/files/fig_wcr_deformation_2021_03.png" target="_blank" alt="WCR deformation in March to April, 2021.">
+        <img src="/files/fig_wcr_deformation_2022_06.png" target="_blank" alt="Wcy deformation in June 2022.">
+
       </div>
     </details>
   </div>
