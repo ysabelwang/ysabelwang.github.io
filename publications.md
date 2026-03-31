@@ -13,7 +13,7 @@ Wang, Y.D., DiMarco, S.F. (2026). The 2021 Texas winter storms: evidence of the 
 
 <br/><br/>
 
-Wang, Y. D. & Andres, M. (2024). SWOT Adopt a Crossover Field Campaign—Cape Hatteras (MAB-SWOT) Current and Pressure Sensor Equipped Inverted Echo Sounder (CPIES) Technical Report (Version 1). Zenodo. <a href='https://doi.org/10.5281/zenodo.12583849'>https://doi.org/10.5281/zenodo.12583849</a>
+Wang, Y. D. & Andres, M. (2024). SWOT Adopt a Crossover Field Campaign—Cape Hatteras (MAB-SWOT) Current and Pressure Sensor Equipped Inverted Echo Sounder (CPIES) Technical Report (Version 1). Zenodo. <a href="https://doi.org/10.5281/zenodo.12583849">https://doi.org/10.5281/zenodo.12583849</a>
 
 <br/><br/>
 
