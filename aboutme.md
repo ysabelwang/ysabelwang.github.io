@@ -238,7 +238,7 @@ title: About me
   <!-- CV SECTION -->
   <div class="collapsible-section" id="cv">
     <details>
-      <summary>CV (Last updated on: Dec. 4, 2025)</summary>
+      <summary>CV (Last updated on: April 30, 2026)</summary>
       <div class="collapsible-content">
 
         <div style="margin: 20px 0;">
