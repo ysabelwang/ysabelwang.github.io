@@ -120,6 +120,24 @@ title: 2026 Physical Oceanography Early Career Research Symposium
     </details>
   </div>
 
+  <!-- Poster -->
+  <div class="collapsible-section" id="poster">
+    <details>
+      <summary>Digital copy of poster</summary>
+      <div class="collapsible-content">
+
+        <a href="/files/poecr26_poster.pdf" target="_blank" class="pdf-link">
+          <div class="pdf-preview">
+            <embed 
+              src="/files/poecr26_poster.pdf#toolbar=0&navpanes=0&page=1&view=FitH" 
+              type="application/pdf"
+            />
+          </div>
+        </a>
+      </div>
+    </details>
+  </div>
+
   <!-- SWOT and internal tides -->
   <div class="collapsible-section" id="swot_internal_tides">
     <details>
@@ -153,9 +171,9 @@ title: 2026 Physical Oceanography Early Career Research Symposium
       <div class="collapsible-content">
         <p style="font-size: 14pt">A conventional subsurface mooring is not a practical way to observe the Cape Hatteras environment, as the Gulf Stream can knock over or damage a moored instrument string. Current and pressure sensor equipped inverted echo sounders (CPIES) sidestep this problem: they sit on the seafloor (mostly) away from the energetic flow above. CPIES arrays have been used to characterize ITs and circulation in other energetic current systems, including the Kuroshio (Donohue et al., 2010) and the Antarctic Circumpolar Current in Drake Passage (Donohue et al., 2016).</p>
 
-        <p style="font-size: 14pt" class="indented">Each CPIES combines two measurements to recover the IT signal through the full water column. Bottom pressure ($$p_{bottom}$$) records the weight of the water column directly above the sensor, which is essentially a measurement of the barotropic tide. The roundtrip acoustic travel time ($$\tau$$) is the time for a sound pulse to travel from the instrument to the surface and back; because sound speed depends on temperature and salinity, $$\tau$$ is sensitive to the mode-1 baroclinic structure of the water column. Converting $$p_{bottom}$$ to an equivalent travel time lets us estimate and remove the portion of $$\tau$$ due to the barotropic tide, leaving a residual, $$\tau_{res}$$, that reflects the IT.</p>
+        <p style="font-size: 14pt" class="indented">Each CPIES combines two measurements to recover the IT signal through the full water column. Bottom pressure (\(p_{bottom}\)) records the weight of the water column directly above the sensor, which is essentially a measurement of the barotropic tide. The roundtrip acoustic travel time (\(\tau\)) is the time for a sound pulse to travel from the instrument to the surface and back; because sound speed depends on temperature and salinity, \(\tau\) is sensitive to the mode-1 baroclinic structure of the water column. Converting \(p_{bottom}\) to an equivalent travel time lets us estimate and remove the portion of \(\tau\) due to the barotropic tide, leaving a residual, \(\tau_{res}\), that reflects the IT.</p>
 
-        <p style="font-size: 14pt" class="indented">Separating $$\tau_{res}$$ into its coherent ($$\tau_{res,\,coh}$$) and incoherent ($$\tau_{res,\,icoh}$$) parts then only requires harmonic fitting: because $$\tau_{res,\,coh}$$ is predictable, it can be fit with sinusoids using the classical harmonic analysis package <a href="https://www.eoas.ubc.ca/~rich/" target="_blank">T_TIDE</a> (Pawlowicz et al., 2002). Subtracting that from $$\tau_{res}$$ gives $$\tau_{res,\,icoh}$$.</p>
+        <p style="font-size: 14pt" class="indented">Separating \(\tau_{res}\) into its coherent (\(\tau_{res,\,coh}\)) and incoherent (\(\tau_{res,\,icoh}\)) parts then only requires harmonic fitting: because \(\tau_{res,\,coh}\) is predictable, it can be fit with sinusoids using the classical harmonic analysis package <a href="https://www.eoas.ubc.ca/~rich/" target="_blank">T_TIDE</a> (Pawlowicz et al., 2002). Subtracting that from \(\tau_{res}\) gives \(\tau_{res,\,icoh}\).</p>
       </div>
     </details>
   </div>
@@ -165,11 +183,11 @@ title: 2026 Physical Oceanography Early Career Research Symposium
     <details>
       <summary>Estimating the IT impact on vertical structure</summary>
       <div class="collapsible-content">
-        <p style="font-size: 14pt">This section of converting $$\tau_{res}$$ into a physical displacement of the water column follows the transfer-function approach of Li et al. (2009).</p>
+        <p style="font-size: 14pt">This section of converting \(\tau_{res}\) into a physical displacement of the water column follows the transfer-function approach of Li et al. (2009).</p>
 
-        <p style="font-size: 14pt" class="indented">Each CPIES samples $$\tau$$ hourly. Applying a 2-day low-pass filter removes all IT variability and anything else varying on two days or less, leaving $$\tau_{lp}$$. Each value of $$\tau_{lp}$$ corresponds to a background water column density profile, $$\rho_{bg}(z)$$, at least as an estimate of its general shape. This $$\tau_{lp}$$ and $$\rho_{bg}$$ relationship is the gravest empirical mode, or GEM, look-up table (Meinen &amp; Watts, 2000).</p>
+        <p style="font-size: 14pt" class="indented">Each CPIES samples \(\tau\) hourly. Applying a 2-day low-pass filter removes all IT variability and anything else varying on two days or less, leaving \(\tau_{lp}\). Each value of \(\tau_{lp}\) corresponds to a background water column density profile, \(\rho_{bg}(z)\), at least as an estimate of its general shape. This \(\tau_{lp}\) and \(\rho_{bg}\) relationship is the gravest empirical mode, or GEM, look-up table (Meinen &amp; Watts, 2000).</p>
 
-        <p style="font-size: 14pt" class="indented">If most of the perturbation an IT makes to $$\rho_{bg}$$ projects onto the first baroclinic (mode-1) vertical structure - i.e., the water column moves up or down together, with the largest displacement centered at the pycnocline - then the shape of that displacement can be found by solving the mode-1 eigenvalue problem for a flat bottom and rigid lid (e.g., Gill, 1982):</p>
+        <p style="font-size: 14pt" class="indented">If most of the perturbation an IT makes to \(\rho_{bg}\) projects onto the first baroclinic (mode-1) vertical structure - i.e., the water column moves up or down together, with the largest displacement centered at the pycnocline - then the shape of that displacement can be found by solving the mode-1 eigenvalue problem for a flat bottom and rigid lid (e.g., Gill, 1982):</p>
 
         <p style="font-size: 14pt">
         $$
@@ -177,9 +195,9 @@ title: 2026 Physical Oceanography Early Career Research Symposium
         $$
         </p>
 
-        <p style="font-size: 14pt" class="indented">where $$N(z)$$ is the stratification represented by buoyancy frequency profile, $$H$$ is the water depth, and $$W_1$$ and $$c_1$$ are the vertical structure function and eigenspeed of mode 1. Once $$W_1$$ is known, $$\rho_{bg}$$ is displaced by a range of arbitrary amplitudes along that shape, $$\tau$$ is recalculated through each displaced profile, and the resulting anomaly $$\tau_{anom}$$ is plotted against displacement amplitude. This relationship is luckily linear, so its slope defines a transfer function $$T$$ that converts a change in $$\tau$$ (in seconds) directly into a change in vertical displacement (in meters).</p>
+        <p style="font-size: 14pt" class="indented">where \(N(z)\) is the stratification represented by buoyancy frequency profile, \(H\) is the water depth, and \(W_1\) and \(c_1\) are the vertical structure function and eigenspeed of mode 1. Once \(W_1\) is known, \(\rho_{bg}\) is displaced by a range of arbitrary amplitudes along that shape, \(\tau\) is recalculated through each displaced profile, and the resulting anomaly \(\tau_{anom}\) is plotted against displacement amplitude. This relationship is luckily linear, so its slope defines a transfer function \(T\) that converts a change in \(\tau\) (in seconds) directly into a change in vertical displacement (in meters).</p>
 
-        <p style="font-size: 14pt" class="indented">Applying $$T$$ to $$\rho_{bg}$$ with amplitudes set by the internal tide at a given time ($$\tau_{res}$$, $$\tau_{res,\,coh}$$, and/or $$\tau_{res,\,icoh}$$) then yields an estimate of the mode-1 displacement of the water column due to the internal tide. Integrating that displacement sterically gives the corresponding sea surface height anomaly - the quantity compared directly against HRET.</p>
+        <p style="font-size: 14pt" class="indented">Applying \(T\) to \(\rho_{bg}\) with amplitudes set by the internal tide at a given time (\(\tau_{res}\), \(\tau_{res,\,coh}\), and/or \(\tau_{res,\,icoh}\)) then yields an estimate of the mode-1 displacement of the water column due to the internal tide. Integrating that displacement sterically gives the corresponding sea surface height anomaly - the quantity compared directly against HRET.</p>
       </div>
     </details>
   </div>
@@ -190,7 +208,7 @@ title: 2026 Physical Oceanography Early Career Research Symposium
       <summary>Ongoing work</summary>
       <div class="collapsible-content">
         <p style="font-size: 14pt"><strong>1. Can I assume a flat bottom?</strong></p>
-        <p style="font-size: 14pt" class="indented">The eigenvalue problem above assumes a flat bottom and rigid lid, which greatly simplifies both the math and the processing. I am currently diagnosing whether that assumption is appropriate at each CPIES site. Following the topographic criticality framework of Cacchione et al. (2002), the diagnostic at each site is $$\epsilon(t)$$, the ratio of the local topographic slope to the IT's own characteristic slope in the background water column at time $$t$$:</p>
+        <p style="font-size: 14pt" class="indented">The eigenvalue problem above assumes a flat bottom and rigid lid, which greatly simplifies both the math and the processing. I am currently diagnosing whether that assumption is appropriate at each CPIES site. Following the topographic criticality framework of Cacchione et al. (2002), the diagnostic at each site is \(\epsilon(t)\), the ratio of the local topographic slope to the IT's own characteristic slope in the background water column at time \(t\):</p>
 
         <p style="font-size: 14pt">
         $$
@@ -198,10 +216,10 @@ title: 2026 Physical Oceanography Early Career Research Symposium
         $$
         </p>
 
-        <p style="font-size: 14pt" class="indented">where $$|\nabla h|$$ is the bottom slope, $$\omega$$ is the tidal frequency, $$f$$ is the Coriolis frequency, and $$N(z,t)$$ is the local buoyancy frequency. A site is subcritical for $$\epsilon < 1$$, critical for $$\epsilon \approx 1$$, and supercritical for $$\epsilon > 1$$; the flat-bottom assumption is best justified where topography stays subcritical.</p>
+        <p style="font-size: 14pt" class="indented">where \(|\nabla h|\) is the bottom slope, \(\omega\) is the tidal frequency, \(f\) is the Coriolis frequency, and \(N(z,t)\) is the local buoyancy frequency. A site is subcritical for \(\epsilon < 1\), critical for \(\epsilon \approx 1\), and supercritical for \(\epsilon > 1\); the flat-bottom assumption is best justified where topography stays subcritical.</p>
 
         <p style="font-size: 14pt"><strong>2. Producing a lookup table of background profiles</strong></p>
-        <p style="font-size: 14pt" class="indented">My next step is to build a GEM look-up table linking each $$\tau_{lp}$$ to a $$\rho_{bg}$$ that can then be perturbed by the IT components of $$\tau_{res}$$. This builds on the hydrographic and CPIES work compiled for the Processes Driving Exchange at Cape Hatteras (PEACH) program (Andres, 2020); the corresponding Part 2 report is not yet publicly archived &mdash; contact <a href="mailto:mandres@whoi.edu">mandres@whoi.edu</a> for a copy.</p>
+        <p style="font-size: 14pt" class="indented">My next step is to build a GEM look-up table linking each \(\tau_{lp}\) to a \(\rho_{bg}\) that can then be perturbed by the IT components of \(\tau_{res}\). This builds on the hydrographic and CPIES work compiled for the Processes Driving Exchange at Cape Hatteras (PEACH) program (Andres, 2020); the corresponding Part 2 report is not yet publicly archived &mdash; contact <a href="mailto:mandres@whoi.edu">mandres@whoi.edu</a> for a copy.</p>
       </div>
     </details>
   </div>
