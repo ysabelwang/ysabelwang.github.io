@@ -80,6 +80,19 @@ title: 2026 Physical Oceanography Early Career Research Symposium
 }
 }
 
+  /* Let wide equations scroll horizontally instead of getting clipped on narrow/mobile screens */
+  .katex-display {
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 6px;
+  }
+
+  .katex-display > .katex {
+    white-space: nowrap;
+  }
+
   /* References */
   .ref-list {
     font-size: 14pt;
@@ -160,11 +173,11 @@ title: 2026 Physical Oceanography Early Career Research Symposium
 
         <p style="font-size: 14pt">
         $$
-        \frac{d^2\phi_n}{dz^2} + \frac{N^2(z)}{c_1^2}\,\W_n = 0, \qquad \W_1(0) = \W_n(H) = 0
+        \frac{d^2 W_n}{dz^2} + \frac{N^2(z)}{c_n^2}\,W_n = 0, \qquad W_n(0) = W_n(H) = 0
         $$
         </p>
 
-        <p style="font-size: 14pt" class="indented">where $N(z)$ is the stratification represented by buoyancy frequency profile, $H$ is the water depth, and $W_1$ and $c_1$ are the vertical structure function and eigenspeed of mode 1. Once the $\W_1$ is known, $\rho_{bg}$ is displaced by a range of arbitrary amplitudes along that shape, $\tau$ is recalculated through each displaced profile, and the resulting anomaly $\tau_{anom}$ is plotted against displacement amplitude. This relationship is luckily linear, so its slope defines a transfer function $T$ that converts a change in $\tau$ (in seconds) directly into a change in vertical displacement (in meters).</p>
+        <p style="font-size: 14pt" class="indented">where $N(z)$ is the stratification represented by buoyancy frequency profile, $H$ is the water depth, and $W_1$ and $c_1$ are the vertical structure function and eigenspeed of mode 1. Once $W_1$ is known, $\rho_{bg}$ is displaced by a range of arbitrary amplitudes along that shape, $\tau$ is recalculated through each displaced profile, and the resulting anomaly $\tau_{anom}$ is plotted against displacement amplitude. This relationship is luckily linear, so its slope defines a transfer function $T$ that converts a change in $\tau$ (in seconds) directly into a change in vertical displacement (in meters).</p>
 
         <p style="font-size: 14pt" class="indented">Applying $T$ to $\rho_{bg}$ with amplitudes set by the internal tide at a given time ($\tau_{res}$, $\tau_{res,\,coh}$, and/or $\tau_{res,\,icoh}$) then yields an estimate of the mode-1 displacement of the water column due to the internal tide. Integrating that displacement sterically gives the corresponding sea surface height anomaly - the quantity compared directly against HRET.</p>
       </div>
@@ -206,7 +219,6 @@ title: 2026 Physical Oceanography Early Career Research Symposium
           <li>Gill, A. E. (1982). <em>Atmosphere&ndash;Ocean Dynamics</em>. Academic Press.</li>
           <li>Li, Q., Farmer, D. M., Duda, T. F., &amp; Ramp, S. (2009). Acoustical measurement of nonlinear internal waves using the inverted echo sounder. <em>Journal of Atmospheric and Oceanic Technology, 26</em>(10), 2228&ndash;2242. <a href="https://doi.org/10.1175/2009JTECHO652.1" target="_blank">https://doi.org/10.1175/2009JTECHO652.1</a></li>
           <li>Meinen, C. S., &amp; Watts, D. R. (2000). Vertical structure and transport on a transect across the North Atlantic Current near 42&deg;N: Time series and mean. <em>Journal of Geophysical Research, 105</em>(C9), 21869&ndash;21892. <a href="https://doi.org/10.1029/2000JC900097" target="_blank">https://doi.org/10.1029/2000JC900097</a></li>
-          <li>Morrow, R., Fu, L.-L., Ardhuin, F., Benkiran, M., Chapron, B., Cosme, E., d'Ovidio, F., Farrar, J. T., Gille, S. T., Lapeyre, G., Le Traon, P.-Y., Pascual, A., Ponte, A., Qiu, B., Rascle, N., Ubelmann, C., Wang, J., &amp; Zaron, E. D. (2019). Global observations of fine-scale ocean surface topography with the Surface Water and Ocean Topography (SWOT) mission. <em>Frontiers in Marine Science, 6</em>, Article 232. <a href="https://doi.org/10.3389/fmars.2019.00232" target="_blank">https://doi.org/10.3389/fmars.2019.00232</a></li>
           <li>Pawlowicz, R., Beardsley, B., &amp; Lentz, S. (2002). Classical tidal harmonic analysis including error estimates in MATLAB using T_TIDE. <em>Computers &amp; Geosciences, 28</em>(8), 929&ndash;937. <a href="https://doi.org/10.1016/S0098-3004(02)00013-4" target="_blank">https://doi.org/10.1016/S0098-3004(02)00013-4</a></li>
           <li>Zaron, E. D. (2019). Baroclinic tidal sea level from exact-repeat mission altimetry. <em>Journal of Physical Oceanography, 49</em>(1), 193&ndash;210. <a href="https://doi.org/10.1175/JPO-D-18-0127.1" target="_blank">https://doi.org/10.1175/JPO-D-18-0127.1</a></li>
         </ul>
