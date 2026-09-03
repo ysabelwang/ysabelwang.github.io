@@ -63,9 +63,17 @@ title: 2026 Physical Oceanography Early Career Research Symposium
     text-decoration: none;
   }
 
+  .pdf-preview {
+    max-height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
   .pdf-preview embed {
     width: 100%;
-    height: 100%;
+    aspect-ratio: 3 / 4; /* match this to your poster's width:height ratio so the whole page renders, not just the top */
+    height: auto;
     display: block;
     pointer-events: none;
   }
@@ -171,7 +179,7 @@ title: 2026 Physical Oceanography Early Career Research Symposium
       <div class="collapsible-content">
         <p style="font-size: 14pt">A conventional subsurface mooring is not a practical way to observe the Cape Hatteras environment, as the Gulf Stream can knock over or damage a moored instrument string. Current and pressure sensor equipped inverted echo sounders (CPIES) sidestep this problem: they sit on the seafloor (mostly) away from the energetic flow above. CPIES arrays have been used to characterize ITs and circulation in other energetic current systems, including the Kuroshio (Donohue et al., 2010) and the Antarctic Circumpolar Current in Drake Passage (Donohue et al., 2016).</p>
 
-        <p style="font-size: 14pt" class="indented">Each CPIES combines two measurements to recover the IT signal through the full water column. Bottom pressure (\(p_{bottom}\)) records the weight of the water column directly above the sensor, which is essentially a measurement of the barotropic tide. The roundtrip acoustic travel time (\(\tau\)) is the time for a sound pulse to travel from the instrument to the surface and back; because sound speed depends on temperature and salinity, \(\tau\) is sensitive to the mode-1 baroclinic structure of the water column. Converting \(p_{bottom}\) to an equivalent travel time lets us estimate and remove the portion of \(\tau\) due to the barotropic tide, leaving a residual, \(\tau_{res}\), that reflects the IT.</p>
+        <p style="font-size: 14pt" class="indented">Each CPIES combines two measurements to recover the IT signal through the full water column. Bottom pressure (\(prs_{bottom}\)) records the weight of the water column directly above the sensor, which is essentially a measurement of the barotropic tide. The roundtrip acoustic travel time (\(\tau\)) is the time for a sound pulse to travel from the instrument to the surface and back; because sound speed depends on temperature and salinity, \(\tau\) is sensitive to the mode-1 baroclinic structure of the water column. Converting \(prs_{bottom}\) to an equivalent travel time lets us estimate and remove the portion of \(\tau\) due to the barotropic tide, leaving a residual, \(\tau_{res}\), that reflects the IT.</p>
 
         <p style="font-size: 14pt" class="indented">Separating \(\tau_{res}\) into its coherent (\(\tau_{res,\,coh}\)) and incoherent (\(\tau_{res,\,icoh}\)) parts then only requires harmonic fitting: because \(\tau_{res,\,coh}\) is predictable, it can be fit with sinusoids using the classical harmonic analysis package <a href="https://www.eoas.ubc.ca/~rich/" target="_blank">T_TIDE</a> (Pawlowicz et al., 2002). Subtracting that from \(\tau_{res}\) gives \(\tau_{res,\,icoh}\).</p>
       </div>
@@ -216,10 +224,10 @@ title: 2026 Physical Oceanography Early Career Research Symposium
         $$
         </p>
 
-        <p style="font-size: 14pt" class="indented">where \(|\nabla h|\) is the bottom slope, \(\omega\) is the tidal frequency, \(f\) is the Coriolis frequency, and \(N(z,t)\) is the local buoyancy frequency. A site is subcritical for \(\epsilon < 1\), critical for \(\epsilon \approx 1\), and supercritical for \(\epsilon > 1\); the flat-bottom assumption is best justified where topography stays subcritical.</p>
+        <p style="font-size: 14pt" class="indented">where \(|\nabla h|\) is the bottom slope, \(\omega\) is the tidal frequency, \(f\) is the Coriolis frequency, and \(N(z,t)\) is the local buoyancy frequency. A site is subcritical for \(\epsilon < 1\), critical for \(\epsilon \approx 1\), and supercritical for \(\epsilon > 1\); the flat-bottom assumption can be used when topography is subcritical.</p>
 
         <p style="font-size: 14pt"><strong>2. Producing a lookup table of background profiles</strong></p>
-        <p style="font-size: 14pt" class="indented">My next step is to build a GEM look-up table linking each \(\tau_{lp}\) to a \(\rho_{bg}\) that can then be perturbed by the IT components of \(\tau_{res}\). This builds on the hydrographic and CPIES work compiled for the Processes Driving Exchange at Cape Hatteras (PEACH) program (Andres, 2020); the corresponding Part 2 report is not yet publicly archived &mdash; contact <a href="mailto:mandres@whoi.edu">mandres@whoi.edu</a> for a copy.</p>
+        <p style="font-size: 14pt" class="indented">My next step is to build a GEM look-up table linking each \(\tau_{lp}\) to a \(\rho_{bg}\) that can then be perturbed by the IT components of \(\tau_{res}\). This builds on the work compiled for the Processes Driving Exchange at Cape Hatteras (PEACH) program (Andres, 2020).</p>
       </div>
     </details>
   </div>
