@@ -8,7 +8,7 @@
 
 {% include navigation.html %}
 
-<main id="main" class="page-main">
+<main id="main" class="{% if page.layout == 'home' %}home-main{% else %}page-main{% endif %}">
 {{ content }}
 </main>
 

@@ -246,13 +246,27 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
 }
 
 /* ---------- Home hero ---------- */
+/* Full-width light-blue band behind the photo, name and subtitle */
+.home-main { padding: 0 0 3rem; }
+.home-main .page-content {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+.hero-band {
+  background: linear-gradient(160deg, var(--tint) 0%, #d6edf6 55%, #bfe2f0 100%);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2rem;
+}
 .hero {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 2.25rem 1.25rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   gap: 1.25rem;
-  margin-bottom: 2rem;
 }
 .hero__photo {
   width: 9rem;
@@ -260,23 +274,24 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #fff;
-  box-shadow: 0 0 0 3px var(--navy);
+  box-shadow: 0 0 0 3px var(--navy), 0 8px 24px rgba(2, 48, 71, 0.18);
 }
 .hero__name {
   font-size: 2.1rem;
-  margin: 0 0 0.6rem;
+  margin: 0 0 0.3rem;
 }
+.hero__bio { color: var(--text-muted); font-size: 0.92rem; line-height: 1.5; margin: 0 0 0.9rem; }
 /* same amber-to-orange rule as under page titles; centered on phones, left-aligned beside the photo on wider screens */
-.hero__name::after {
+.hero__bio::after {
   content: "";
   display: block;
   width: 3.5rem;
   height: 4px;
-  margin: 0.6rem auto 0;
+  margin: 0.7rem auto 0;
   border-radius: 2px;
   background: linear-gradient(90deg, var(--amber), var(--orange));
 }
-.hero__bio { color: var(--text-muted); font-size: 0.92rem; line-height: 1.5; margin: 0 0 0.75rem; }
+.hero-band .social-links a:hover, .hero-band .social-links a:focus { background: rgba(255, 255, 255, 0.6); }
 
 @media (min-width: 40rem) {
   .hero {
@@ -284,9 +299,10 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
     align-items: center;
     text-align: left;
     gap: 2rem;
+    padding: 2.75rem 1.25rem 2.5rem;
   }
   .hero__photo { width: 11rem; height: 11rem; flex-shrink: 0; }
-  .hero__name::after { margin-left: 0; }
+  .hero__bio::after { margin-left: 0; }
 }
 
 .social-links {
