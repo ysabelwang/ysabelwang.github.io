@@ -1,14 +1,12 @@
 ---
 layout: default
 ---
-<section class="hero-band">
-  <div class="hero">
-    <img class="hero__photo" src="/images/{{ site.owner.avatar }}" alt="Portrait of Ysabel Wang" width="176" height="176">
-    <div>
-      <h1 class="hero__name">Ysabel Wang</h1>
-      <p class="hero__bio">{{ site.owner.bio | replace: 'MIT-WHOI', 'MIT&#8209;WHOI' }}</p>
-      {% include social-links.html %}
-    </div>
+<section class="hero">
+  <img class="hero__photo" src="/images/{{ site.owner.avatar }}" alt="Portrait of Ysabel Wang" width="176" height="176">
+  <div>
+    <h1 class="hero__name">Ysabel Wang</h1>
+    <p class="hero__bio">{{ site.owner.bio | replace: 'MIT-WHOI', 'MIT&#8209;WHOI' }}</p>
+    {% include social-links.html %}
   </div>
 </section>
 <div class="page-content">
