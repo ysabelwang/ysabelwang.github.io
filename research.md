@@ -1,99 +1,66 @@
 ---
 layout: page
-permalink: research/index.html
+permalink: /research/index.html
 title: Research
 ---
 
-## Current Research
+<p class="lede">Cross-scale ocean processes in the Northwestern Atlantic, from in situ measurements, satellite imagery and model output.</p>
 
-<div class="collapsible-wrapper">
+<h2 id="current">Current</h2>
 
-  <!-- BIO SECTION -->
-  <div class="collapsible-section" id="swot">
-    <details>
-      <summary>Verification of SWOT</summary>
-      <div class="collapsible-content">
-        <p>
-        link to NOPP, adopt a crossover
-        SWOT so high res, can resolve submesoscale
-        internal tides in the SSH, need to remove
-        CPIES deployed to get this signal</p>
-      </div>
-    </details>
-  </div>
-  <div class="collapsible-section" id="wcr">
-    <details>
-      <summary>Recent impact of warm core rings in the Northwestern Atlantic</summary>
-      <div class="collapsible-content">
-        <p>
-        warm core rings draw streamers
-        important for heat salt budgets, ecosystem
-        lots of changes, regime change
-        how has stuff evolved
-        link to OSM
-        paper in prep
-        </p>
-      </div>
-    </details>
-  </div>
-  <div class="collapsible-section" id="dense-water-mass">
-    <details>
-      <summary>The formation and fate of a dense water mass</summary>
-      <div class="collapsible-content">
-        <p>
-        result of the winter storms
-        water mass formed
-        how did hydrography change in response to this
-        paper ready for submission
-        </p>
-      </div>
-    </details>
-  </div>
-  <div class="collapsible-section" id="connectivity-clustering">
-    <details>
-      <summary>connectivity and clustering</summary>
-      <div class="collapsible-content">
-        <p>
-        cite paper
-        harmful algal bloom dynamics
-        </p>
-      </div>
-    </details>
-  </div>
+<div class="project" id="swot">
+  <span class="tag tag--ongoing">Ongoing</span>
+  <h3 class="project__title">Internal tides at Cape Hatteras and SWOT verification</h3>
+  <p class="project__summary">Correcting SWOT altimetry for internal tides using CPIES observations from the 2023 cal/val period, then using the corrected product to study submesoscale processes.</p>
+  <ul class="project__links">
+    <li><a href="/conferences/poecr2026.html">PO ECR 2026 poster</a></li>
+    <li><a href="/datasets/">CPIES dataset</a></li>
+    <li><a href="https://doi.org/10.5281/zenodo.16851887">Technical report</a></li>
+  </ul>
+  <details class="project__more">
+    <summary>More about this project</summary>
+    <div class="project__more-body">
+      <p>This work has two aims: (1) to accurately correct Surface Water and Ocean Topography (SWOT) altimetry measurements for internal tides using in situ observations from the mission's calibration/validation (cal/val) period in 2023, and (2) to use the corrected SWOT product to investigate submesoscale processes.</p>
+      <p>My progress to date addresses Objective 1. I am characterizing the behavior of internal tides at Cape Hatteras - a region where the various current systems like the Gulf Stream, fronts, eddies, and steep topography interact - using bottom-pressure and roundtrip acoustic travel time measurements from an array of current and pressure sensor equipped inverted echo sounders (<a href="https://doi.org/10.3389/fmars.2019.00232" target="_blank" rel="noopener">CPIES</a>).</p>
+      <p>The <a href="/conferences/poecr2026.html">PO ECR 2026 poster page</a> has the full method, figures and references.</p>
+    </div>
+  </details>
 </div>
 
+<div class="project project--with-figure" id="wcr">
+  <div>
+    <span class="tag tag--prep">Paper in prep</span>
+    <h3 class="project__title">Recent impact of warm core rings in the Northwestern Atlantic</h3>
+    <p class="project__summary">How Gulf Stream warm core rings draw shelf water off the shelf as streamers, and how that export varied from daily to interannual scales in 2021–2025.</p>
+    <ul class="project__links">
+      <li><a href="/conferences/osm2026.html">OSM 2026 poster</a></li>
+    </ul>
+    <details class="project__more">
+      <summary>More about this project</summary>
+      <div class="project__more-body">
+        <p>Our paper entitled "The impact of Gulf Stream warm core rings on shelf water export in the Northwestern Atlantic" is currently being prepared for submission. This paper investigates the multi-scale temporal variability (daily, annual, and interannual) of shelf water streamer export by WCRs and the relationship between streamer transport volumes and interactions involving the WCR and circulation features in the Slope Sea associated with the Gulf Stream.</p>
+        <p>We estimate the likelihood for a WCR that is present in the western Slope Sea to entrain a streamer in 2021-2025 using satellite imagery (sea surface height, sea surface temperature, and sea surface chlorophyll). We also follow the evolution and streamer export impact of single WCR from April to September 2023 that underwent almost all possible interactions with the Gulf Stream system that all WCRs experience. Many of these interactions occurred at the same time as the ring entrained shelf water streamers.</p>
+      </div>
+    </details>
+  </div>
+  <figure class="project__figure">
+    <a href="/conferences/osm2026.html#wcr_cyclone"><img src="/images/research-wcr-thumb.jpg" alt="Satellite maps showing a warm core ring deforming as it interacts with a cyclone, March to April 2021" width="900" height="487" loading="lazy"></a>
+  </figure>
+</div>
 
+<h2 id="earlier">Earlier work</h2>
 
+<div class="project project--earlier" id="dense-water-mass">
+  <span class="tag tag--prep">Paper in prep</span>
+  <h3 class="project__title">The formation and fate of a dense water mass</h3>
+  <p class="project__summary">Evidence of a coastal dense water mass formed during the 2021 Texas winter storms, and how hydrography responded.</p>
+</div>
 
-
-<!-- <br> -->
-
-<!-- ## Animes
-
-<br>
-
-In my perspective, anime constructs entirely new worlds filled with diverse characters. Within these alternate realities, authors convey unique ideas and concepts that capture the imagination. Exceptional anime has the power to create immersive and captivating environments, allowing me to feel as though I've embarked on the same adventures as the protagonists. This sensation, though virtual, significantly shapes my perception of the world. see also my [Douban](https://movie.douban.com/people/226630102/)
-
-## Teaching
-
-<br>
-
-Teaching is another to learn. When you are teaching, you will subtbly find whether you truly master a specific knowledge or not. [The Feynman Technique](https://www.colorado.edu/artssciences-advising/resource-library/life-skills/the-feynman-technique-in-academic-coaching) is a way to practice this idea. Due to the unsatisfactory teaching of university courses, I want to try my best to teach others in a relaxing but rigorous way.
-
-## Ping-pong & Swimming & Exercising
-
-<br>
-
-Among the ball games, I like playing ping-pong, other ball games are at the elementary level like tennis, football, badminton and basketball. Swimming and exercising are also my favorite sports. I spent 3 - 4 days a week in swimming and exercising.
-
-## Reading
-
-<br>
-
-I am an omnivorous reader (physics, geography, history, novel). But currently finding time to read at noon and evening is difficult for me due to the increasingly tight schedule. I am interested in theoretical physics but getting bad score in high school. See also my [reading list](https://book.douban.com/people/226630102/)
-
-## Miscellaneous
-
-<br>
-
-I enjoy drinking coffee, and watching movies; [R](https://cran.r-project.org/) is the language I mainly use and previously I have learned MATLAB(forgotten), Python, C, C++, SQL and Wolfram (Mathematica); [R Markdown](https://rmarkdown.rstudio.com/) is the main tool I use for editing which combines Markdown, TeX, code chunks(like code cell in Jupyter Notebook and Mathematica Notebook) and using Pandoc to output different format. -->
+<div class="project project--earlier" id="connectivity-clustering">
+  <span class="tag tag--published">Published 2022</span>
+  <h3 class="project__title">Connectivity and clustering of harmful algal blooms</h3>
+  <p class="project__summary">Connections and clustering of Paralytic Shellfish Toxin events among coastal embayments in an archipelago, partly mediated by advection.</p>
+  <ul class="project__links">
+    <li><a href="https://doi.org/10.1016/j.hal.2021.102147">Harmful Algae (2022)</a></li>
+  </ul>
+</div>

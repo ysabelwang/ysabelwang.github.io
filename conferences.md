@@ -27,9 +27,3 @@ title: Upcoming and Recent Conferences
     </details>
   </div> -->
 </div>
-
-
-
-
-
-
