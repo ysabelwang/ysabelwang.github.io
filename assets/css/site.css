@@ -276,16 +276,45 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
   font-size: 2.1rem;
   margin: 0 0 0.3rem;
 }
-.hero__bio { color: var(--text-muted); font-size: 0.92rem; line-height: 1.5; margin: 0 0 0.9rem; }
-/* same amber-to-orange rule as under page titles; centered on phones, left-aligned beside the photo on wider screens */
+
+/* Subtitle, rule and icons share one column whose width is set by the icon row.
+   The subtitle and rule are inset so they run exactly from the left edge of the
+   first icon to the right edge of the last one (the icons sit centred in 2.75rem
+   touch targets: icomoon glyphs are 1.5rem wide, academicons about 1.29rem). */
+.hero__meta {
+  --icon-inset-left: 0.625rem;   /* (2.75rem - 1.5rem) / 2, first icon (mail) */
+  --icon-inset-right: 0.73rem;   /* (2.75rem - 1.29rem) / 2, last icon (CV)   */
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  margin: 0 auto;
+}
+.hero__meta .social-links { flex-wrap: nowrap; }
+.hero__bio {
+  width: 0;                      /* don't let the text widen the column */
+  min-width: calc(100% - var(--icon-inset-left) - var(--icon-inset-right));
+  margin: 0 var(--icon-inset-right) 0.9rem var(--icon-inset-left);
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  text-align: justify;
+  text-align-last: justify;      /* stretch the single line to the full width */
+}
+/* same amber-to-orange rule as under page titles, as wide as the icon row */
 .hero__bio::after {
   content: "";
   display: block;
-  width: 3.5rem;
+  width: 100%;
   height: 4px;
-  margin: 0.7rem auto 0;
+  margin-top: 0.7rem;
   border-radius: 2px;
   background: linear-gradient(90deg, var(--amber), var(--orange));
+}
+/* very narrow phones (320px): slightly smaller icons and subtitle so everything fits on one line */
+@media (max-width: 22rem) {
+  .hero__meta { --icon-inset-left: 0.5rem; --icon-inset-right: 0.605rem; }
+  .hero__meta .social-links a { width: 2.5rem; height: 2.5rem; }
+  .hero__bio { font-size: 0.8rem; }
 }
 
 @media (min-width: 40rem) {
@@ -296,7 +325,8 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
     gap: 2rem;
   }
   .hero__photo { width: 11rem; height: 11rem; flex-shrink: 0; }
-  .hero__bio::after { margin-left: 0; }
+  /* shift left so the first icon lines up with the name */
+  .hero__meta { margin: 0 0 0 calc(-1 * var(--icon-inset-left)); }
 }
 
 .social-links {
@@ -308,7 +338,6 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
   margin: 0;
   padding: 0;
 }
-@media (min-width: 40rem) { .social-links { justify-content: flex-start; margin-left: -0.6rem; } }
 .social-links a {
   display: inline-flex;
   align-items: center;

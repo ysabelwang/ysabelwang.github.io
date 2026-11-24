@@ -9,6 +9,7 @@ owner:
   name: Ysabel<br>Wang
   avatar: avatar.png
   bio: PhD candidate in Physical Oceanography, MIT-WHOI Joint Program
+  subtitle: PhD candidate in Physical Oceanography   # shown under the name on the home page
   email: ysabel@mit.edu
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   linkedin: ysabelwang
