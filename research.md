@@ -6,11 +6,11 @@ title: Research
 
 <p class="lede">Cross-scale ocean processes in the Northwestern Atlantic, from in situ measurements, satellite imagery and model output.</p>
 
-<h2 id="current">Current</h2>
+<h2 class="section-divider" id="current">Current</h2>
 
 <div class="project" id="swot">
-  <span class="tag tag--ongoing">Ongoing</span>
   <h3 class="project__title">Internal tides at Cape Hatteras and SWOT verification</h3>
+  <span class="tag tag--ongoing">Ongoing</span>
   <p class="project__summary">Correcting SWOT altimetry for internal tides using CPIES observations from the 2023 cal/val period, then using the corrected product to study submesoscale processes.</p>
   <ul class="project__links">
     <li><a href="/conferences/poecr2026.html">PO ECR 2026 poster</a></li>
@@ -27,38 +27,33 @@ title: Research
   </details>
 </div>
 
-<div class="project project--with-figure" id="wcr">
-  <div>
-    <span class="tag tag--prep">Paper in prep</span>
-    <h3 class="project__title">Recent impact of warm core rings in the Northwestern Atlantic</h3>
-    <p class="project__summary">How Gulf Stream warm core rings draw shelf water off the shelf as streamers, and how that export varied from daily to interannual scales in 2021–2025.</p>
-    <ul class="project__links">
-      <li><a href="/conferences/osm2026.html">OSM 2026 poster</a></li>
-    </ul>
-    <details class="project__more">
-      <summary>More about this project</summary>
-      <div class="project__more-body">
-        <p>Our paper entitled "The impact of Gulf Stream warm core rings on shelf water export in the Northwestern Atlantic" is currently being prepared for submission. This paper investigates the multi-scale temporal variability (daily, annual, and interannual) of shelf water streamer export by WCRs and the relationship between streamer transport volumes and interactions involving the WCR and circulation features in the Slope Sea associated with the Gulf Stream.</p>
-        <p>We estimate the likelihood for a WCR that is present in the western Slope Sea to entrain a streamer in 2021-2025 using satellite imagery (sea surface height, sea surface temperature, and sea surface chlorophyll). We also follow the evolution and streamer export impact of single WCR from April to September 2023 that underwent almost all possible interactions with the Gulf Stream system that all WCRs experience. Many of these interactions occurred at the same time as the ring entrained shelf water streamers.</p>
-      </div>
-    </details>
-  </div>
-  <figure class="project__figure">
-    <a href="/conferences/osm2026.html#wcr_cyclone"><img src="/images/research-wcr-thumb.jpg" alt="Satellite maps showing a warm core ring deforming as it interacts with a cyclone, March to April 2021" width="900" height="487" loading="lazy"></a>
-  </figure>
+<div class="project" id="wcr">
+  <h3 class="project__title">Recent impact of warm core rings in the Northwestern Atlantic</h3>
+  <span class="tag tag--prep">Paper in prep</span>
+  <p class="project__summary">How Gulf Stream warm core rings draw shelf water off the shelf as streamers, and how that export varied from daily to interannual scales in 2021–2025.</p>
+  <ul class="project__links">
+    <li><a href="/conferences/osm2026.html">OSM 2026 poster</a></li>
+  </ul>
+  <details class="project__more">
+    <summary>More about this project</summary>
+    <div class="project__more-body">
+      <p>Our paper entitled "The impact of Gulf Stream warm core rings on shelf water export in the Northwestern Atlantic" is currently being prepared for submission. This paper investigates the multi-scale temporal variability (daily, annual, and interannual) of shelf water streamer export by WCRs and the relationship between streamer transport volumes and interactions involving the WCR and circulation features in the Slope Sea associated with the Gulf Stream.</p>
+      <p>We estimate the likelihood for a WCR that is present in the western Slope Sea to entrain a streamer in 2021-2025 using satellite imagery (sea surface height, sea surface temperature, and sea surface chlorophyll). We also follow the evolution and streamer export impact of single WCR from April to September 2023 that underwent almost all possible interactions with the Gulf Stream system that all WCRs experience. Many of these interactions occurred at the same time as the ring entrained shelf water streamers.</p>
+    </div>
+  </details>
 </div>
 
-<h2 id="earlier">Earlier work</h2>
+<h2 class="section-divider" id="earlier">Earlier work</h2>
 
 <div class="project project--earlier" id="dense-water-mass">
-  <span class="tag tag--prep">Paper in prep</span>
   <h3 class="project__title">The formation and fate of a dense water mass</h3>
+  <span class="tag tag--prep">Paper in prep</span>
   <p class="project__summary">Evidence of a coastal dense water mass formed during the 2021 Texas winter storms, and how hydrography responded.</p>
 </div>
 
 <div class="project project--earlier" id="connectivity-clustering">
-  <span class="tag tag--published">Published 2022</span>
   <h3 class="project__title">Connectivity and clustering of harmful algal blooms</h3>
+  <span class="tag tag--published">Published 2022</span>
   <p class="project__summary">Connections and clustering of Paralytic Shellfish Toxin events among coastal embayments in an archipelago, partly mediated by advection.</p>
   <ul class="project__links">
     <li><a href="https://doi.org/10.1016/j.hal.2021.102147">Harmful Algae (2022)</a></li>

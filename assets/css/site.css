@@ -223,11 +223,12 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
   margin: 0 auto;
   padding: 2rem 1.25rem 3rem;
 }
-.page-title { margin-bottom: 0.4rem; }
+/* The title box shrinks to its text, so the rule under it is as long as the title */
+.page-title { margin-bottom: 0.4rem; width: fit-content; max-width: 100%; }
 .page-title::after {
   content: "";
   display: block;
-  width: 3.5rem;
+  width: 100%;
   height: 4px;
   margin-top: 0.6rem;
   border-radius: 2px;
@@ -254,6 +255,24 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
   border-radius: 50%;
   background: var(--teal);
 }
+
+/* Section dividers: "——— Current ———" */
+.page-content h2.section-divider {
+  gap: 1rem;
+  margin: 2.75rem 0 1.4rem;
+  font-size: 1.65rem;          /* between card titles (1.15rem) and page titles (2rem) */
+  text-align: center;
+}
+.page-content h2.section-divider::before,
+.page-content h2.section-divider::after {
+  content: "";
+  flex: 1 1 0;
+  width: auto;
+  height: 2px;
+  border-radius: 1px;
+  background: var(--navy);
+}
+.lede + h2.section-divider { margin-top: 1.5rem; }
 
 /* ---------- Home hero ---------- */
 .hero {
@@ -466,17 +485,15 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
   background: var(--bg);
 }
 .project--earlier { border-left-color: var(--sky); }
-.project--with-figure { display: grid; grid-template-columns: 1fr; gap: 1rem; }
-.project__figure { order: -1; margin: 0; }
-.project__figure img { display: block; width: 100%; border-radius: 6px; border: 1px solid var(--border); margin: 0; }
 .project__title {
   font-family: var(--font-head);
   font-size: 1.15rem;
   line-height: 1.3;
-  margin: 0.4rem 0 0.35rem;
+  margin: 0 0 0.4rem;
   display: block;
 }
 .project__title::before { content: none !important; }
+.project > .tag { margin-bottom: 0.6rem; }
 .project__summary { margin: 0 0 0.6rem; font-size: 0.98rem; }
 .project__links {
   display: flex;
@@ -503,11 +520,6 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
 .project__more summary:hover { color: var(--teal); }
 .project__more summary:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
 .project__more-body { padding-top: 0.6rem; font-size: 0.98rem; }
-
-@media (min-width: 46rem) {
-  .project--with-figure { grid-template-columns: 1fr 13rem; gap: 1.1rem; align-items: start; }
-  .project__figure { order: 0; }
-}
 
 /* ---------- Embedded PDFs / figures ---------- */
 .pdf-link { display: block; text-decoration: none; }
