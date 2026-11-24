@@ -3,62 +3,9 @@ layout: page
 permalink: research/index.html
 title: Research
 ---
----
-##### Current Research
 
-<style>
-  /* ---------- Collapsible blocks ---------- */
-  .collapsible-wrapper {
-    font-family: Quicksand, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+## Current Research
 
-  .collapsible-section {
-    max-width: 800px;
-    margin: 20px auto;
-  }
-
-  .collapsible-section details {
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    background-color: #fafafa;
-    margin-bottom: 16px;
-    overflow: hidden;
-  }
-
-  .collapsible-section summary {
-    padding: 10px 14px;
-    font-size: 20px;
-    font-weight: 300;
-    cursor: pointer;
-    list-style: none;
-  }
-
-  .collapsible-section summary::-webkit-details-marker {
-    display: none;
-  }
-
-  .collapsible-section details[open] summary {
-    border-bottom: 1px solid #ddd;
-  }
-
-  .collapsible-content {
-    padding: 12px 16px 16px 16px;
-    font-size: 14pt;
-  }
-
-  /* Optional: small indicator on the right */
-  .collapsible-section summary::after {
-    content: "▾";
-    float: right;
-    font-size: 0.9em;
-  }
-
-  .collapsible-section details[open] summary::after {
-    content: "▴";
-  }
-</style>
 <div class="collapsible-wrapper">
 
   <!-- BIO SECTION -->
@@ -66,7 +13,7 @@ title: Research
     <details>
       <summary>Verification of SWOT</summary>
       <div class="collapsible-content">
-        <p style="font-size: 14pt">
+        <p>
         link to NOPP, adopt a crossover
         SWOT so high res, can resolve submesoscale
         internal tides in the SSH, need to remove
@@ -78,7 +25,7 @@ title: Research
     <details>
       <summary>Recent impact of warm core rings in the Northwestern Atlantic</summary>
       <div class="collapsible-content">
-        <p style="font-size: 14pt">
+        <p>
         warm core rings draw streamers
         important for heat salt budgets, ecosystem
         lots of changes, regime change
@@ -89,11 +36,11 @@ title: Research
       </div>
     </details>
   </div>
-  <div class="collapsible-section" id="wcr">
+  <div class="collapsible-section" id="dense-water-mass">
     <details>
       <summary>The formation and fate of a dense water mass</summary>
       <div class="collapsible-content">
-        <p style="font-size: 14pt">
+        <p>
         result of the winter storms
         water mass formed
         how did hydrography change in response to this
@@ -102,11 +49,11 @@ title: Research
       </div>
     </details>
   </div>
-  <div class="collapsible-section" id="wcr">
+  <div class="collapsible-section" id="connectivity-clustering">
     <details>
       <summary>connectivity and clustering</summary>
       <div class="collapsible-content">
-        <p style="font-size: 14pt">
+        <p>
         cite paper
         harmful algal bloom dynamics
         </p>
