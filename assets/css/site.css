@@ -5,8 +5,8 @@
    Palette (coolors.co/palette/8ecae6-219ebc-023047-ffb703-fb8500)
      --navy   #023047  main color: header, footer, text, links, headings
      --teal   #219ebc  accents: section bars, link underlines, heading dots
-     --sky    #8ecae6  accents: tints, "Ongoing" tag, earlier-work bars
-     --amber  #ffb703  accents: current nav item, "in progress"/"in prep" tags
+     --sky    #8ecae6  accents: tints, "Paper in prep" tag, earlier-work bars
+     --amber  #ffb703  accents: current nav item, "Ongoing"/"In progress" tags
      --orange #fb8500  accents: current-degree ring, title rule
    Only navy is dark enough to be used for text on white; the other four are
    used for lines, fills and borders (with navy text on top where needed).
@@ -428,8 +428,8 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
   border-radius: 999px;
   color: var(--navy);
 }
-.tag--ongoing   { background: var(--sky); }
-.tag--prep      { background: var(--amber); }
+.tag--ongoing   { background: var(--amber); }
+.tag--prep      { background: var(--sky); }
 .tag--published { background: var(--navy); color: #fff; }
 .timeline__card .tag { margin-top: 0.45rem; }
 
