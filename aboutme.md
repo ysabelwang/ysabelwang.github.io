@@ -38,7 +38,7 @@ title: About me
               <span class="timeline__date">2023 – present</span>
               <div class="timeline__degree">PhD in Physical Oceanography</div>
               <div class="timeline__school">Massachusetts Institute of Technology &amp; Woods Hole Oceanographic Institution</div>
-              <span class="tag tag--prep">In progress</span>
+              <span class="tag tag--ongoing">In progress</span>
             </div>
           </li>
 

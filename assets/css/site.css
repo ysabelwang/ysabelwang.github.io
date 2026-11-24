@@ -5,8 +5,8 @@
    Palette (coolors.co/palette/8ecae6-219ebc-023047-ffb703-fb8500)
      --navy   #023047  main color: header, footer, text, links, headings
      --teal   #219ebc  accents: section bars, link underlines, heading dots
-     --sky    #8ecae6  accents: tints, "Ongoing" tag, earlier-work bars
-     --amber  #ffb703  accents: current nav item, "in progress"/"in prep" tags
+     --sky    #8ecae6  accents: tints, "Paper in prep" tag, earlier-work bars
+     --amber  #ffb703  accents: current nav item, "Ongoing"/"In progress" tags
      --orange #fb8500  accents: current-degree ring, title rule
    Only navy is dark enough to be used for text on white; the other four are
    used for lines, fills and borders (with navy text on top where needed).
@@ -55,8 +55,9 @@
 
   --measure: 46rem;           /* comfortable line length */
   --radius: 10px;
-  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-head: Charter, "Iowan Old Style", "Palatino Linotype", Georgia, "Times New Roman", serif;
+  /* DM Sans everywhere (loaded from Google Fonts in _includes/head.html) */
+  --font-body: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-head: var(--font-body);
 }
 
 /* ---------- Base ---------- */
@@ -88,8 +89,9 @@ a:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-head);
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.25;
+  letter-spacing: -0.01em;
   margin: 2rem 0 0.75rem;
   color: var(--navy);
 }
@@ -190,8 +192,18 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
   border-top: 1px solid #1c4a61;
   border-left: 3px solid transparent;
 }
-.site-nav a:hover, .site-nav a:focus { color: #fff; }
-.site-nav a[aria-current="page"] { color: #fff; font-weight: 600; border-left-color: var(--amber); }
+.site-nav a:hover, .site-nav a:focus { color: #fff; font-weight: 700; }
+.site-nav a[aria-current="page"] { color: #fff; font-weight: 700; border-left-color: var(--amber); }
+/* Reserve the bold width in advance so menu items don't shift when they turn bold */
+.site-nav a::after {
+  content: attr(data-text);
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  font-weight: 700;
+  speak: never;
+}
 
 @media (min-width: 46rem) {
   .nav-toggle { display: none; }
@@ -202,7 +214,7 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
     border-bottom: 3px solid transparent;
     padding: 0.3rem 0;
   }
-  .site-nav a[aria-current="page"] { border-bottom-color: var(--amber); font-weight: 400; }
+  .site-nav a[aria-current="page"] { border-bottom-color: var(--amber); }
 }
 
 /* ---------- Page body ---------- */
@@ -262,9 +274,19 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
 }
 .hero__name {
   font-size: 2.1rem;
-  margin: 0 0 0.25rem;
+  margin: 0 0 0.3rem;
 }
-.hero__bio { color: var(--text-muted); margin: 0 0 0.75rem; }
+.hero__bio { color: var(--text-muted); font-size: 0.92rem; line-height: 1.5; margin: 0 0 0.9rem; }
+/* same amber-to-orange rule as under page titles; centered on phones, left-aligned beside the photo on wider screens */
+.hero__bio::after {
+  content: "";
+  display: block;
+  width: 3.5rem;
+  height: 4px;
+  margin: 0.7rem auto 0;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--amber), var(--orange));
+}
 
 @media (min-width: 40rem) {
   .hero {
@@ -274,6 +296,7 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
     gap: 2rem;
   }
   .hero__photo { width: 11rem; height: 11rem; flex-shrink: 0; }
+  .hero__bio::after { margin-left: 0; }
 }
 
 .social-links {
@@ -428,8 +451,8 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
   border-radius: 999px;
   color: var(--navy);
 }
-.tag--ongoing   { background: var(--sky); }
-.tag--prep      { background: var(--amber); }
+.tag--ongoing   { background: var(--amber); }
+.tag--prep      { background: var(--sky); }
 .tag--published { background: var(--navy); color: #fff; }
 .timeline__card .tag { margin-top: 0.45rem; }
 
