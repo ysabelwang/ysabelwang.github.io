@@ -1,0 +1,14 @@
+<img class="profile__photo" src="/images/{{ site.owner.avatar }}" alt="Portrait of Ysabel Wang" width="160" height="160">
+<div class="profile__text">
+  <p class="profile__name"><a href="/">Ysabel Wang</a></p>
+  <p class="profile__subtitle">{{ site.owner.subtitle | default: site.owner.bio }}</p>
+  {% if site.owner.affiliation %}<p class="profile__affiliation">{{ site.owner.affiliation | replace: '-', '&#8209;' }}</p>{% endif %}
+</div>
+<ul class="profile__links">
+  <li><a href="mailto:{{ site.owner.email }}"><i class="icon-mail" aria-hidden="true"></i><span>Email</span></a></li>
+  <li><a href="https://linkedin.com/in/{{ site.owner.linkedin }}"><i class="icon-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a></li>
+  <li><a href="https://github.com/{{ site.owner.github }}"><i class="icon-github" aria-hidden="true"></i><span>GitHub</span></a></li>
+  <li><a href="{{ site.owner.scholar }}"><i class="ai ai-google-scholar-square" aria-hidden="true"></i><span>Google Scholar</span></a></li>
+  <li><a href="https://orcid.org/{{ site.owner.orcid }}"><i class="ai ai-orcid-square" aria-hidden="true"></i><span>ORCID</span></a></li>
+  <li><a href="/files/ywang_cv.pdf"><i class="ai ai-cv-square" aria-hidden="true"></i><span>CV</span></a></li>
+</ul>

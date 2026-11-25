@@ -8,9 +8,18 @@
 
 {% include navigation.html %}
 
-<main id="main" class="page-main">
+<div class="banner">
+  <img class="banner__img" src="/images/banner-sunset.jpg" alt="" width="1280" height="560">
+</div>
+
+<div class="layout">
+  <aside class="profile" aria-label="About Ysabel Wang">
+    {% include profile.html %}
+  </aside>
+  <main id="main" class="layout__main">
 {{ content }}
-</main>
+  </main>
+</div>
 
 <footer class="site-footer">
   {% include footer.html %}
