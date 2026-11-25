@@ -1,4 +1,4 @@
-{%- comment -%} On the home page the menu links point inside the page (#about), so they scroll instead of reloading. {%- endcomment -%}
+{% comment %} On the home page the menu links point inside the page (#about), so they scroll instead of reloading. {% endcomment %}
 <header class="site-header">
   <div class="site-header__inner">
     <a class="site-title" href="{% if page.home %}#top{% else %}/#top{% endif %}">{{ site.title }}</a>
