@@ -63,9 +63,9 @@
   --header-edge: transparent;  /* bottom border, for light headers */
   --nav-current: #f6a44c;
 
-  --footer-bg: #ffffff;       /* no fill; a thin line separates it from the page */
-  --footer-fg: #5b4b3e;
-  --footer-link: #22324a;
+  --footer-bg: #ffffff;       /* no fill, no line */
+  --footer-fg: #7a756f;       /* faded warm grey; the lightest that still meets 4.5:1 on white */
+  --footer-link: #7a756f;
   --footer-link-hover: #b5501a;
 
   --rule-1: #f6a44c;          /* gradient under page titles */
@@ -642,7 +642,6 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
 /* ---------- Footer ---------- */
 .site-footer {
   background: var(--footer-bg);
-  border-top: 1px solid var(--border);
   color: var(--footer-fg);
   font-size: 0.875rem;
   text-align: center;
@@ -650,7 +649,7 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
 }
 .site-footer p { margin: 0 0 0.35rem; }
 .site-footer small { display: block; font-size: 0.78rem; }
-.site-footer a { color: var(--footer-link); text-decoration-color: var(--footer-link); text-decoration-thickness: 1px; }
+.site-footer a { color: var(--footer-link); text-decoration-color: currentColor; text-decoration-thickness: 1px; }
 .site-footer a:hover, .site-footer a:focus { color: var(--footer-link-hover); }
 
 /* ---------- Print ---------- */
