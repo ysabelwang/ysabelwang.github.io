@@ -2,13 +2,51 @@
   (function () {
     var toggle = document.querySelector('.nav-toggle');
     var nav = document.getElementById('site-nav');
-    if (!toggle || !nav) return;
+    var header = document.querySelector('.site-header');
+
     function setOpen(open) {
+      if (!nav || !toggle) return;
       nav.classList.toggle('is-open', open);
       toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     }
-    toggle.addEventListener('click', function () { setOpen(!nav.classList.contains('is-open')); });
-    // on phones, close the dropdown once a section is chosen
-    nav.addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
+    if (toggle && nav) {
+      toggle.addEventListener('click', function () { setOpen(!nav.classList.contains('is-open')); });
+    }
+
+    // Quick scroll to a section (about half a second), stopping just below the menu bar.
+    // Visitors whose device asks for reduced motion jump straight there instead.
+    var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    function scrollToSection(target, hash) {
+      var offset = header ? header.offsetHeight : 0;
+      var start = window.pageYOffset;
+      var end = Math.max(0, target.getBoundingClientRect().top + start - offset);
+      if (hash === '#top') end = 0;
+      if (history.pushState) history.pushState(null, '', hash);
+      if (reduceMotion.matches || Math.abs(end - start) < 2) {
+        window.scrollTo({ top: end, behavior: 'instant' });
+        return;
+      }
+      var duration = Math.min(700, 300 + Math.abs(end - start) / 8);
+      var t0 = null;
+      function ease(t) { return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; }
+      function step(now) {
+        if (t0 === null) t0 = now;
+        var p = Math.min(1, (now - t0) / duration);
+        window.scrollTo({ top: start + (end - start) * ease(p), behavior: 'instant' });
+        if (p < 1) window.requestAnimationFrame(step);
+      }
+      window.requestAnimationFrame(step);
+    }
+
+    document.addEventListener('click', function (e) {
+      var link = e.target.closest('a[href^="#"]');
+      if (!link || e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey) return;
+      var hash = link.getAttribute('href');
+      var target = hash === '#top' ? document.body : document.getElementById(hash.slice(1));
+      if (!target) return;
+      e.preventDefault();
+      setOpen(false);                      // phones: close the menu once a section is chosen
+      scrollToSection(target, hash);
+    });
   })();
 </script>
