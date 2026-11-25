@@ -29,21 +29,19 @@ bing_verify: ""
 
 # Links to include in top navigation
 # For external links add external: true
-links:
+links:                       # menu: each one scrolls to a section of the home page
   - title: About
-    url: /aboutme/
+    url: /#about
   - title: Research
-    url: /research/
+    url: /#research
   - title: Publications
-    url: /publications/
-  - title: Datasets
-    url: /datasets/
-  - title: Conferences
-    url: /conferences/
-  - title: CV
-    url: /files/ywang_cv.pdf
-  # - title: Blogs
-  #   url: /blogs/
+    url: /#publications
+  - title: Talks
+    url: /#talks
+  - title: Data
+    url: /#data
+  - title: Contact
+    url: /#contact
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # timezone: China/Beijing

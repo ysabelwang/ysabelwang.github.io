@@ -1,5 +1,14 @@
-<p>&copy; {{ site.time | date: '%Y' }} Ysabel Wang</p>
-<small>
-  Built with <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> and hosted on <a href="https://pages.github.com/" rel="nofollow">GitHub Pages</a>.
-  Originally adapted from a <a href="https://mademistakes.com/" rel="nofollow">Minimal Mistakes</a>-based template.
-</small>
+<footer class="site-footer" id="contact">
+  <div class="site-footer__inner">
+    <p class="site-footer__title">Get in touch</p>
+    <ul class="contact-icons">
+      <li><a href="mailto:{{ site.owner.email }}" aria-label="Email" title="Email"><i class="icon-mail" aria-hidden="true"></i></a></li>
+      <li><a href="{{ site.owner.scholar }}" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a></li>
+      <li><a href="https://orcid.org/{{ site.owner.orcid }}" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a></li>
+      <li><a href="https://github.com/{{ site.owner.github }}" aria-label="GitHub" title="GitHub"><i class="icon-github" aria-hidden="true"></i></a></li>
+      <li><a href="https://linkedin.com/in/{{ site.owner.linkedin }}" aria-label="LinkedIn" title="LinkedIn"><i class="icon-linkedin" aria-hidden="true"></i></a></li>
+      <li><a href="/files/ywang_cv.pdf" aria-label="CV (PDF)" title="CV (PDF)"><i class="ai ai-cv" aria-hidden="true"></i></a></li>
+    </ul>
+    <p class="site-footer__credit">&copy; {{ site.time | date: '%Y' }} Ysabel Wang &middot; Built with <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>, hosted on <a href="https://pages.github.com/" rel="nofollow">GitHub Pages</a></p>
+  </div>
+</footer>

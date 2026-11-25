@@ -2,6 +2,9 @@
 layout: page
 permalink: /conferences/poecr2026.html
 title: 2026 Physical Oceanography Early Career Research Symposium
+back_url: /#talks
+back_label: Back to Talks
+wide: true
 ---
 <div class="collapsible-wrapper">
 
