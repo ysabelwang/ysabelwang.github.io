@@ -1,16 +1,6 @@
 ---
 layout: default
 ---
-<section class="hero">
-  <img class="hero__photo" src="/images/{{ site.owner.avatar }}" alt="Portrait of Ysabel Wang" width="176" height="176">
-  <div>
-    <h1 class="hero__name">Ysabel Wang</h1>
-    <div class="hero__meta">
-      <p class="hero__bio">{{ site.owner.subtitle | default: site.owner.bio }}</p>
-      {% include social-links.html %}
-    </div>
-  </div>
-</section>
-<div class="page-content">
+<div class="page-content page-content--home">
 {{ content }}
 </div>
