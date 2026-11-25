@@ -2,6 +2,9 @@
 layout: page
 permalink: /conferences/osm2026.html
 title: Ocean Sciences Meeting 2026
+back_url: /#talks
+back_label: Back to Talks
+wide: true
 ---
 <div class="collapsible-wrapper">
   

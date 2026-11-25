@@ -1,0 +1,133 @@
+---
+layout: default
+home: true
+---
+<main id="main">
+
+<section class="hero" id="top">
+  <div class="hero__band">
+    <div class="hero__inner">
+      <img class="hero__photo" src="/images/{{ site.owner.avatar }}" alt="Portrait of Ysabel Wang" width="128" height="128">
+      <div class="hero__text">
+        <h1 class="hero__name">Ysabel Wang</h1>
+        <p class="hero__subtitle">{{ site.owner.subtitle }} &middot; {{ site.owner.affiliation | replace: '-', '&#8209;' }}</p>
+      </div>
+      <a class="button" href="/files/ywang_cv.pdf">Download CV</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="wrap about">
+    <div class="about__text">
+      <h2>I study the links between cross-scale ocean processes in the Northwestern Atlantic</h2>
+      <p>I'm a PhD candidate in the MIT-WHOI Joint Program, advised by Magdalena Andres. My work connects well-studied large-scale, long-term, surface-expressed physical processes with the more elusive fine-scale, short-term, often subsurface ones that add up to a significant impact on the environment.</p>
+      <p>I use all available sources of information: in situ measurements, satellite imagery and model output.</p>
+      <p class="about__more"><a href="/aboutme/">More about me, and my full CV</a></p>
+    </div>
+    <div class="about__education">
+      <h3 class="kicker">Education</h3>
+      <ol class="timeline">
+        <li class="timeline__item timeline__item--current">
+          <span class="timeline__rail"><img class="timeline__logo" src="/images/mit-logo.svg" alt="MIT logo" width="52" height="52"><span class="timeline__line" aria-hidden="true"></span></span>
+          <span class="timeline__body">
+            <span class="timeline__date">2023 &ndash; present</span>
+            <strong class="timeline__degree">PhD in Physical Oceanography</strong>
+            <span class="timeline__school">Massachusetts Institute of Technology &amp; Woods Hole Oceanographic Institution</span>
+            <span class="tag tag--ongoing">In progress</span>
+          </span>
+        </li>
+        <li class="timeline__item">
+          <span class="timeline__rail"><img class="timeline__logo" src="/images/tamu-logo.svg" alt="Texas A&amp;M University logo" width="52" height="52"><span class="timeline__line" aria-hidden="true"></span></span>
+          <span class="timeline__body">
+            <span class="timeline__date">2021 &ndash; 2023</span>
+            <strong class="timeline__degree">MS in Oceanography</strong>
+            <span class="timeline__school">Texas A&amp;M University</span>
+          </span>
+        </li>
+        <li class="timeline__item">
+          <span class="timeline__rail"><img class="timeline__logo" src="/images/up-logo.svg" alt="University of the Philippines seal" width="52" height="52"></span>
+          <span class="timeline__body">
+            <span class="timeline__date">2013 &ndash; 2018</span>
+            <strong class="timeline__degree">BS in Physics</strong>
+            <span class="timeline__school">University of the Philippines Diliman</span>
+          </span>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="research">
+  <div class="wrap">
+    <h2 class="section__title">Research</h2>
+    <div class="cards">
+      <article class="card">
+        <span class="tag tag--ongoing">Ongoing</span>
+        <h3 class="card__title"><a href="/research/swot/">Internal tides at Cape Hatteras and SWOT verification</a></h3>
+        <p>Correcting SWOT altimetry for internal tides with CPIES observations, then studying submesoscale processes.</p>
+        <a class="card__link" href="/conferences/poecr2026.html">Poster</a>
+      </article>
+      <article class="card">
+        <span class="tag tag--prep">Paper in prep</span>
+        <h3 class="card__title"><a href="/research/warm-core-rings/">Recent impact of warm core rings</a></h3>
+        <p>How warm core rings draw shelf water off the shelf as streamers, 2021&ndash;2025.</p>
+        <a class="card__link" href="/conferences/osm2026.html">Poster</a>
+      </article>
+      <article class="card">
+        <span class="tag tag--prep">Paper in prep</span>
+        <h3 class="card__title"><a href="/research/dense-water/">Formation and fate of a dense water mass</a></h3>
+        <p>A coastal dense water mass formed during the 2021 Texas winter storms.</p>
+      </article>
+      <article class="card">
+        <span class="tag tag--published">Published 2022</span>
+        <h3 class="card__title"><a href="/research/harmful-algal-blooms/">Connectivity of harmful algal blooms</a></h3>
+        <p>Clustering of Paralytic Shellfish Toxin events among coastal embayments.</p>
+        <a class="card__link" href="https://doi.org/10.1016/j.hal.2021.102147">Paper</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="publications">
+  <div class="wrap">
+    <h2 class="section__title">Publications</h2>
+    <ul class="pubs">
+      <li><strong>Wang, Y.D.</strong>, Andres, M., Gawarkiewicz, G. G., Zhang, W. G. (2026). The recent impact of Gulf Stream warm core rings on shelf water export in the Northwestern Atlantic. <em>Journal of Geophysical Research: Oceans</em> (in prep).</li>
+      <li><strong>Wang, Y.D.</strong>, DiMarco, S.F. (2026). The 2021 Texas winter storms: evidence of the formation and fate of a coastal dense water mass. <em>Geophysical Research Letters</em> (in prep).</li>
+      <li><strong>Wang, Y. D.</strong> &amp; Andres, M. (2024). SWOT Adopt a Crossover Field Campaign&mdash;Cape Hatteras (MAB-SWOT) Current and Pressure Sensor Equipped Inverted Echo Sounder (CPIES) Technical Report (Version 1). Zenodo. <a href="https://doi.org/10.5281/zenodo.12583849">https://doi.org/10.5281/zenodo.12583849</a></li>
+      <li>Punongbayan, A. T., <strong>Wang, Y. D.</strong>, Villanoy, C. L., &amp; Y&ntilde;iguez, A. T. (2022). Connections and clustering of Paralytic Shellfish Toxin events among coastal embayments in an archipelago partly mediated by advection. <em>Harmful Algae</em>, 111, 102147. <a href="https://doi.org/10.1016/j.hal.2021.102147">https://doi.org/10.1016/j.hal.2021.102147</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section section--alt" id="talks">
+  <div class="wrap">
+    <h2 class="section__title">Talks &amp; posters</h2>
+    <ul class="talks">
+      <li class="talk">
+        <span class="talk__meta">2026 &middot; Poster</span><br>
+        <a class="talk__title" href="/conferences/osm2026.html">Ocean Sciences Meeting</a>
+        <p>The impact of warm core rings on shelf water export.</p>
+      </li>
+      <li class="talk">
+        <span class="talk__meta">2026 &middot; Poster</span><br>
+        <a class="talk__title" href="/conferences/poecr2026.html">PO Early Career Researcher Symposium</a>
+        <p>Internal tides at Cape Hatteras and SWOT verification.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="section" id="data">
+  <div class="wrap">
+    <h2 class="section__title">Data</h2>
+    <div class="data-card">
+      <a class="data-card__title" href="https://doi.org/10.5281/zenodo.16852799">MAB-SWOT CPIES L2 Dataset v2</a>
+      <p>Level 2 hourly and low-pass-filtered data from the current- and pressure-sensor equipped inverted echo sounders (CPIESs) deployed as part of the MAB-SWOT program. Processing codes are available on request.</p>
+      <p>Wang, Y. D., &amp; Andres, M. (2025). MAB-SWOT CPIES Level 2 Processed Data (Version 2). Zenodo. Technical report: <a href="https://doi.org/10.5281/zenodo.16851887">https://doi.org/10.5281/zenodo.16851887</a></p>
+    </div>
+  </div>
+</section>
+
+</main>

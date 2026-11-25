@@ -3,27 +3,14 @@
 <head>
 {% include head.html %}
 </head>
-<body>
+<body class="{% if page.home %}is-home{% else %}is-subpage{% endif %}">
 <a class="skip-link" href="#main">Skip to content</a>
 
 {% include navigation.html %}
 
-<div class="banner">
-  <img class="banner__img" src="/images/banner-sunset.jpg" alt="" width="1280" height="560">
-</div>
-
-<div class="layout">
-  <aside class="profile" aria-label="About Ysabel Wang">
-    {% include profile.html %}
-  </aside>
-  <main id="main" class="layout__main">
 {{ content }}
-  </main>
-</div>
 
-<footer class="site-footer">
-  {% include footer.html %}
-</footer>
+{% include footer.html %}
 
 {% include scripts.html %}
 </body>
