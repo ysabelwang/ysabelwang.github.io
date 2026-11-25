@@ -63,7 +63,7 @@
   --header-edge: transparent;  /* bottom border, for light headers */
   --nav-current: #f6a44c;
 
-  --footer-bg: #fbefe3;
+  --footer-bg: #ffffff;       /* no fill; a thin line separates it from the page */
   --footer-fg: #5b4b3e;
   --footer-link: #22324a;
   --footer-link-hover: #b5501a;
@@ -505,10 +505,7 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
   box-shadow: 0 0 0 4px #fff, 0 0 0 7px var(--current-glow);
 }
 .timeline__card {
-  background: var(--bg);          /* unfilled; only the section header is filled */
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 0.7rem 1rem;
+  padding: 0.65rem 0 0;           /* no box: text sits beside the logo */
   min-width: 0;
 }
 .timeline__date { display: block; font-size: 0.85rem; font-weight: 600; color: var(--text-muted); }
@@ -645,6 +642,7 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
 /* ---------- Footer ---------- */
 .site-footer {
   background: var(--footer-bg);
+  border-top: 1px solid var(--border);
   color: var(--footer-fg);
   font-size: 0.875rem;
   text-align: center;
